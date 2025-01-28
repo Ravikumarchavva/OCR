@@ -1,0 +1,25 @@
+{
+    "candidates": [
+        {
+            "content": {
+                "parts": [
+                    {
+                        "text": "This is an invoice from Sliced Invoices (DEMO) to Test Business for web design services.  The invoice number is INV-3337, the order number is 12345, and the invoice date is January 25, 2016, with a due date of January 31, 2016. The total amount due is $93.50.  The invoice details one service: Web Design (1 hour at $85.00), with a tax of $8.50 added.  The bank details for payment (ANZ Bank, ACC and BSB numbers) are provided at the bottom.  Late payment fees of 5% per month apply."
+                    }
+                ],
+                "role": "model"
+            },
+            "finish_reason": 1,
+            "avg_logprobs": -0.13268996539868808,
+            "safety_ratings": [],
+            "token_count": 0,
+            "grounding_attributions": []
+        }
+    ],
+    "usage_metadata": {
+        "prompt_token_count": 574,
+        "candidates_token_count": 152,
+        "total_token_count": 726,
+        "cached_content_token_count": 0
+    }
+}
