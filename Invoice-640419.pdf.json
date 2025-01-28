@@ -1,0 +1,25 @@
+{
+    "candidates": [
+        {
+            "content": {
+                "parts": [
+                    {
+                        "text": "This is an invoice from Clipboard Papers to ACME Systems Inc. for concierge services.  The invoice number is 640419 and the date is June 18, 2017.  One concierge service was provided at a unit price of 187,124 RON, resulting in a subtotal of 187,124 RON.  With tax added (37,424.8 RON), the total due is 224,549 RON. Payment is due seven days from receipt of the invoice."
+                    }
+                ],
+                "role": "model"
+            },
+            "finish_reason": 1,
+            "avg_logprobs": -0.10639843146006266,
+            "safety_ratings": [],
+            "token_count": 0,
+            "grounding_attributions": []
+        }
+    ],
+    "usage_metadata": {
+        "prompt_token_count": 460,
+        "candidates_token_count": 120,
+        "total_token_count": 580,
+        "cached_content_token_count": 0
+    }
+}
