@@ -20,7 +20,7 @@
       "um": "each",
       "net_price": 49.99,
       "net_worth": 249.95,
-      "vat_percent": 10,
+      "vat": 10,
       "gross_worth": 274.95
     },
     {
@@ -30,14 +30,14 @@
       "um": "each",
       "net_price": 177.08,
       "net_worth": 708.32,
-      "vat_percent": 10,
+      "vat": 10,
       "gross_worth": 779.15
     }
   ],
   "summary": {
-    "vat_percent": 10,
+    "vat": 10,
     "net_worth": 958.27,
-    "vat": 95.83,
+    "vat_amount": 95.83,
     "gross_worth": 1054.1
   }
 }

@@ -30,9 +30,9 @@
     "vat": 0.75,
     "gross_worth": 8.25,
     "total": {
-      "net_worth": "$ 7,50",
-      "vat": "$ 0,75",
-      "gross_worth": "$ 8,25"
+      "net_worth": 7.5,
+      "vat": 0.75,
+      "gross_worth": 8.25
     }
   }
 }

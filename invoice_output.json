@@ -1,0 +1,10 @@
+{
+  "invoice_number": "",
+  "date_of_issue": "",
+  "seller": {
+    "name": "Client"
+  },
+  "client": {},
+  "items": [],
+  "summary": {}
+}
