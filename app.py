@@ -36,11 +36,11 @@ if uploaded_file is not None:
     with open(temp_pdf_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
     
-    # Display the PDF using an iframe
-    st.markdown(
-        f'<iframe src="temp_uploaded.pdf" width="100%" height="600px" type="application/pdf"></iframe>',
-        unsafe_allow_html=True,
-    )
+    # Display the PDF using an iframe with base64 encoding
+    with open(temp_pdf_path, "rb") as f:
+        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px"></iframe>'
+    st.markdown(pdf_display, unsafe_allow_html=True)
     
     # Extract invoices
     try:
