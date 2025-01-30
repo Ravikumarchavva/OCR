@@ -42,7 +42,7 @@ if uploaded_file is not None:
         st.subheader("Uploaded PDF")
         # Display PDF using streamlit_pdf_viewer
         binary_data = uploaded_file.getvalue()
-        pdf_viewer(input=binary_data, width="90%")
+        pdf_viewer(input=binary_data, width=700)
     
     with col2:
         with st.spinner("Extracting invoice data..."):
