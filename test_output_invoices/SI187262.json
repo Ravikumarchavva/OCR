@@ -1,6 +1,7 @@
 {
   "line_items": [
     {
+      "product_code": null,
       "description": "AIRLINE HANDLING",
       "quantity": null,
       "price_per_unit": "0.28",
@@ -8,6 +9,7 @@
       "total_price": "393.12"
     },
     {
+      "product_code": null,
       "description": "CUSTOMS ENTRY",
       "quantity": null,
       "price_per_unit": "35.00",
@@ -15,6 +17,7 @@
       "total_price": "35.00"
     },
     {
+      "product_code": null,
       "description": "FUEL SURCHARGE @ 8%",
       "quantity": null,
       "price_per_unit": "8.00",
@@ -22,6 +25,7 @@
       "total_price": "9.12"
     },
     {
+      "product_code": null,
       "description": "DELIVERY",
       "quantity": null,
       "price_per_unit": "25.41",
@@ -29,6 +33,7 @@
       "total_price": "50.82"
     },
     {
+      "product_code": null,
       "description": "SUPPLY OF PALLET CHARGE",
       "quantity": null,
       "price_per_unit": "4.50",
@@ -36,6 +41,7 @@
       "total_price": "9.00"
     },
     {
+      "product_code": null,
       "description": "PULL BACK",
       "quantity": null,
       "price_per_unit": "0.045",
@@ -43,6 +49,7 @@
       "total_price": "63.18"
     },
     {
+      "product_code": null,
       "description": "WAREHOUSE HANDLING CHARGE",
       "quantity": null,
       "price_per_unit": "0.04",
@@ -57,9 +64,9 @@
   },
   "due_date": null,
   "payment_date": null,
-  "invoice_date": "2023-11-15",
+  "invoice_date": "15/11/2023",
   "invoice_number": "SI187262",
-  "purchase_order": null,
+  "purchase_order": "143189",
   "reference_numbers": [
     "LHAIJ337840",
     "125-56290566/"
@@ -73,13 +80,8 @@
     "bic": "NWBKGB2L",
     "account_number": "76738132"
   },
-  "supplier_company_registrations": {
-    "siret": null,
-    "ein": null,
-    "vat_number": "GB823723242"
-  },
+  "vat_number": "GB823723242",
   "supplier_name": "PERISHABLE MOVEMENTS LTD",
-  "total_tax": "0.00",
   "taxes_details": [
     {
       "rate": "0.00",
@@ -92,7 +94,7 @@
   "shipping_address": null,
   "billing_address": null,
   "customer_company_registrations": {
-    "vat_number": null
+    "vat_number": "GB125476511000"
   },
   "customer_name": "DIRECT PRODUCE SUPPLIES PLC",
   "supplier_address": "UNITS 1-6 SKYPORT HEATHROW\nARMADALE ROAD FELTHAM\nMIDDLESEX TW14 0LW\nUNITED KINGDOM"

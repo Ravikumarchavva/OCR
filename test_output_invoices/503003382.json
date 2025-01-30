@@ -1,6 +1,7 @@
 {
   "line_items": [
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "2.340,00",
       "price_per_unit": "32,40",
@@ -8,6 +9,7 @@
       "total_price": "4.211,58"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "5.886,00",
       "price_per_unit": "9,60",
@@ -15,6 +17,7 @@
       "total_price": "3.138,87"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "3.564,00",
       "price_per_unit": "2,47",
@@ -22,6 +25,7 @@
       "total_price": "489,1"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "7.146,00",
       "price_per_unit": "4,44",
@@ -29,6 +33,7 @@
       "total_price": "1.763,53"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "6.120,00",
       "price_per_unit": "6,88",
@@ -36,6 +41,7 @@
       "total_price": "2.339,4"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "10.710,00",
       "price_per_unit": "7,94",
@@ -43,6 +49,7 @@
       "total_price": "4.726,77"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "7.650,00",
       "price_per_unit": "4,25",
@@ -50,6 +57,7 @@
       "total_price": "1.804,37"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "9.180,00",
       "price_per_unit": "2,55",
@@ -57,6 +65,7 @@
       "total_price": "1.299,03"
     },
     {
+      "product_code": "11001533",
       "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
       "quantity": "6.120,00",
       "price_per_unit": "2,49",
@@ -94,16 +103,16 @@
     "bic": null,
     "account_number": null
   },
-  "supplier_company_registrations": {
-    "siret": null,
-    "ein": null,
-    "vat_number": "GB328693957"
-  },
+  "vat_number": "GB328693957",
   "supplier_name": "Surexport UK LTD",
-  "total_tax": "0,00",
-  "taxes_details": [],
+  "taxes_details": [
+    {
+      "rate": "0,00%",
+      "amount": "0,00"
+    }
+  ],
   "total_amount_including_taxes": "20.619,86",
-  "total_net_amount_excluding_taxes": null,
+  "total_net_amount_excluding_taxes": "20.619,86",
   "customer_address": "57-63 CHURCH ROAD\nSW19 5SB WIMBLEDON\nUnited Kingdom",
   "shipping_address": null,
   "billing_address": null,

@@ -1,6 +1,7 @@
 {
   "line_items": [
     {
+      "product_code": null,
       "description": "FRESH MANGOES",
       "quantity": "5,544",
       "price_per_unit": "5.25",
@@ -13,16 +14,16 @@
     "total_tax": null,
     "total_price": "29,106.00"
   },
-  "due_date": "2024-12-31",
+  "due_date": null,
   "payment_date": null,
-  "invoice_date": "2023-08-20",
+  "invoice_date": "20/08/2023",
   "invoice_number": "5424",
   "purchase_order": "PO139090",
   "reference_numbers": [
     "1-3026640-9"
   ],
   "locale": null,
-  "country": "Rep\u00fablica Dominicana",
+  "country": "Dominicana",
   "currency": "US$",
   "payment_details": {
     "iban": null,
@@ -30,13 +31,8 @@
     "bic": null,
     "account_number": null
   },
-  "supplier_company_registrations": {
-    "siret": null,
-    "ein": null,
-    "vat_number": null
-  },
+  "vat_number": null,
   "supplier_name": "Dot Fruits, S.R.L.",
-  "total_tax": null,
   "taxes_details": [],
   "total_amount_including_taxes": null,
   "total_net_amount_excluding_taxes": null,

@@ -1,6 +1,7 @@
 {
   "line_items": [
     {
+      "product_code": "13.0802HK",
       "description": "RHP Legro Blackberry/Raspberry\nOptima PLUS",
       "quantity": "111,80",
       "price_per_unit": "57,75",
@@ -8,13 +9,15 @@
       "total_price": "6.456,45"
     },
     {
+      "product_code": "19.1001N",
       "description": "Pack up in big-bale",
-      "quantity": "76",
+      "quantity": "26",
       "price_per_unit": "18,00",
       "vat_percent": null,
       "total_price": "468,00"
     },
     {
+      "product_code": "48.3000",
       "description": "Pallet 100x120 HT Export",
       "quantity": "26",
       "price_per_unit": "11,00",
@@ -22,6 +25,7 @@
       "total_price": "286,00"
     },
     {
+      "product_code": "19.2002",
       "description": "Customs charges",
       "quantity": "1",
       "price_per_unit": "54,00",
@@ -29,6 +33,7 @@
       "total_price": "54,00"
     },
     {
+      "product_code": "19.2015",
       "description": "Transportcost Pallets FTL",
       "quantity": "1",
       "price_per_unit": "1.973,60",
@@ -54,17 +59,12 @@
   "currency": "EUR",
   "payment_details": {
     "iban": "NL48 INGB 00016905 45",
-    "swift": "INGBNL2A",
+    "swift": null,
     "bic": "INGBNL2A",
     "account_number": null
   },
-  "supplier_company_registrations": {
-    "siret": null,
-    "ein": null,
-    "vat_number": "NL008000542B01"
-  },
+  "vat_number": "GB125476511",
   "supplier_name": "LEGRO",
-  "total_tax": "0,00",
   "taxes_details": [
     {
       "rate": "0,00",
@@ -75,9 +75,9 @@
   "total_net_amount_excluding_taxes": "9.238,05",
   "customer_address": "4 Conqueror Court, Water mark\nME10 5BH Sittingbourne\nUnited Kingdom",
   "shipping_address": "The Glasshouse Wicks Farm Ford Lane\nBN18 ODF ARUNDEL (WEST SUSSEX)\nUnited Kingdom",
-  "billing_address": "4 Conqueror Court, Water mark\nME10 5BH Sittingbourne\nUnited Kingdom",
+  "billing_address": null,
   "customer_company_registrations": {
-    "vat_number": "GB125476511"
+    "vat_number": null
   },
   "customer_name": "Berry Farming Ltd.",
   "supplier_address": "P.O. Box 93\nGerstdijk 20\n5720 AB Asten\n5704 RG Helmond\nThe Netherlands"

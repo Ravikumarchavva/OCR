@@ -40,6 +40,7 @@ class InvoiceExtractor:
                 "{\n"
                 '    "line_items": [\n'
                 '        {\n'
+                '            "product_code": "string",\n'
                 '            "description": "string",\n'
                 '            "quantity": string,\n'
                 '            "price_per_unit": string,\n'
@@ -67,13 +68,8 @@ class InvoiceExtractor:
                 '        "bic": "string",\n'
                 '        "account_number": "string"\n'
                 '    },\n'
-                '    "supplier_company_registrations": {\n'
-                '        "siret": "string",\n'
-                '        "ein": "string",\n'
-                '        "vat_number": "string"\n'
-                '    },\n'
+                '    "vat_number": "string"\n'
                 '    "supplier_name": "string",\n'
-                '    "total_tax": string,\n'
                 '    "taxes_details": [\n'
                 '        {\n'
                 '            "rate": string,\n'
@@ -97,7 +93,7 @@ class InvoiceExtractor:
                 "- If any field is missing, return `null` rather than removing it.\n"
                 "- DO NOT add extra details.\n"
                 "- If items have any charges, also write them in line items—DO NOT skip.\n"
-                # "- If due date is not available, but if number of due days available Then cacluate from the invoice date + no. of days and fill the Date`.\n"
+                "- If the due date is not provided but the number of due days is available, calculate the due date by adding the due days to the invoice date and use the result as the due date.\n"
             )
 
         # prompt = "extract invoice details from this PDF file in JSON format"

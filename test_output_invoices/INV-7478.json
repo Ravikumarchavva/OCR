@@ -1,6 +1,7 @@
 {
   "line_items": [
     {
+      "product_code": null,
       "description": "Orange Strapping Tape 19MMX66M",
       "quantity": "384.00",
       "price_per_unit": "1.06",
@@ -8,6 +9,7 @@
       "total_price": "407.04"
     },
     {
+      "product_code": null,
       "description": "12mm Blue Vinyl Tape",
       "quantity": "240.00",
       "price_per_unit": "1.06",
@@ -29,7 +31,7 @@
     "MP38"
   ],
   "locale": null,
-  "country": "GBR",
+  "country": "UNITED KINGDOM",
   "currency": "GBP",
   "payment_details": {
     "iban": null,
@@ -37,13 +39,8 @@
     "bic": null,
     "account_number": "19745860"
   },
-  "supplier_company_registrations": {
-    "siret": null,
-    "ein": null,
-    "vat_number": "188505042"
-  },
+  "vat_number": "188505042",
   "supplier_name": "New Forest Growers Ltd",
-  "total_tax": "132.29",
   "taxes_details": [
     {
       "rate": "20%",
@@ -59,5 +56,5 @@
     "vat_number": "GB125476511"
   },
   "customer_name": "Berry Farming Ltd",
-  "supplier_address": "New Forest Growers\nPitmore Lane\nSway\nLymington\nHampshire\nSO41 6BX"
+  "supplier_address": "New Forest Growers\nPitmore Lane\nSway\nLymington\nHampshire\nSO41 6BX\nGBR"
 }
