@@ -31,11 +31,16 @@ st.markdown(
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
 
 if uploaded_file is not None:
-    st.pdf(uploaded_file)
     # Save the uploaded PDF to a temporary location
     temp_pdf_path = Path("temp_uploaded.pdf")
     with open(temp_pdf_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
+    
+    # Display the PDF using an iframe
+    st.markdown(
+        f'<iframe src="temp_uploaded.pdf" width="100%" height="600px" type="application/pdf"></iframe>',
+        unsafe_allow_html=True,
+    )
     
     # Extract invoices
     try:
