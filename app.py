@@ -2,8 +2,8 @@ import streamlit as st
 from pathlib import Path
 from main_logic import InvoiceExtractor
 import base64
-
 import google.generativeai as genai
+import os
 
 GCP_KEY = st.secrets["GCP_KEY"]
 
@@ -47,14 +47,16 @@ if uploaded_file is not None:
             
             with col1:
                 st.subheader("Uploaded PDF")
+                # Display PDF using external PDF viewer
                 with open(temp_pdf_path, "rb") as f:
-                    base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-                pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px"></iframe>'
+                    pdf_data = f.read()
+                base64_pdf = base64.b64encode(pdf_data).decode('utf-8')
+                pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px" type="application/pdf" />'
                 st.markdown(pdf_display, unsafe_allow_html=True)
             
-            with col2:
+            with st.spinner("Extracting invoice data..."):
                 st.subheader("Extracted Invoice Data")
-                st.json(invoice.data)
+                st.write(invoice.data)
         else:
             st.error("No invoices found in the uploaded PDF.")
     except Exception as e:
