@@ -42,18 +42,17 @@ if uploaded_file is not None:
         st.subheader("Uploaded PDF")
         # Display PDF using streamlit_pdf_viewer
         binary_data = uploaded_file.getvalue()
-        pdf_viewer(input=binary_data, width=700)
+        pdf_viewer(input=binary_data, width="90%")
     
     with col2:
-        try:
-            invoices = extractor.extract_all(temp_pdf_path.parent, limit=1)
-            if invoices:
-                invoice = invoices[0]
-                
-                with st.spinner("Extracting invoice data..."):
+        with st.spinner("Extracting invoice data..."):
+            try:
+                invoices = extractor.extract_all(temp_pdf_path.parent, limit=1)
+                if invoices:
+                    invoice = invoices[0]
                     st.subheader("Extracted Invoice Data")
                     st.write(invoice.data)
-            else:
-                st.error("No invoices found in the uploaded PDF.")
-        except Exception as e:
-            st.error(f"An error occurred while extracting the invoice: {e}")
+                else:
+                    st.error("No invoices found in the uploaded PDF.")
+            except Exception as e:
+                st.error(f"An error occurred while extracting the invoice: {e}")
