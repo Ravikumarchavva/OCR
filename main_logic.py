@@ -93,7 +93,7 @@ class InvoiceExtractor:
                 "- If any field is missing, return `null` rather than removing it.\n"
                 "- DO NOT add extra details.\n"
                 "- If items have any charges, also write them in line items—DO NOT skip.\n"
-                "- If the due date is not provided but the number of due days is available, calculate the due date by adding the due days to the invoice date and use the result as the due date.\n"
+                # "- If the due date is not provided but the number of due days is available, calculate the due date by adding the due days to the invoice date and use the result as the due date.\n"  # resource exhusting
             )
 
         # prompt = "extract invoice details from this PDF file in JSON format"

@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+tqdm
+IPython
+json2html
