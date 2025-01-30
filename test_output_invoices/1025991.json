@@ -1,0 +1,57 @@
+{
+  "line_items": [
+    {
+      "description": "K37F/40mm Punnets + \"100% PAPER\" Black Soak Pad x 950\npcs w2\nDDT 82303766 - 13/06/23 x 192 ctns\nDDT 82305223 - 02/08/23 x 96 ctns",
+      "quantity": "288.00",
+      "price_per_unit": "45.39",
+      "vat_percent": "20.00",
+      "total_price": "2,614.46"
+    }
+  ],
+  "total_amount": {
+    "total_items": 1,
+    "total_tax": "2,614.46",
+    "total_price": "15,686.78"
+  },
+  "due_date": null,
+  "payment_date": null,
+  "invoice_date": "2023-08-30",
+  "invoice_number": "1025991",
+  "purchase_order": "12183",
+  "reference_numbers": [
+    "MK69",
+    "BERRY004"
+  ],
+  "locale": "en-GB",
+  "country": "GB",
+  "currency": "\u00a3",
+  "payment_details": {
+    "iban": "GB20 BARC 2022 7550 7848 34",
+    "swift": "BARCGB22",
+    "bic": null,
+    "account_number": "50784834"
+  },
+  "supplier_company_registrations": {
+    "siret": null,
+    "ein": null,
+    "vat_number": "700088278"
+  },
+  "supplier_name": "Infia UK Limited",
+  "total_tax": "2,614.46",
+  "taxes_details": [
+    {
+      "rate": "20.00",
+      "amount": "2,614.46"
+    }
+  ],
+  "total_amount_including_taxes": "15,686.78",
+  "total_net_amount_excluding_taxes": "13,072.32",
+  "customer_address": "Unit 4\nConqueror Court\nSittingbourne\nKent\n\u039c\u039510 5BH",
+  "shipping_address": "Triple Ash Nursery\n75A Lockgate Road\nSidlesham Common\nWest Sussex\nPO20 7QQ",
+  "billing_address": null,
+  "customer_company_registrations": {
+    "vat_number": null
+  },
+  "customer_name": "Berry Farming Ltd",
+  "supplier_address": "Beech Gate\nPeterborough Road\nWhittlesey\nCambridgeshire\nPE7 1PD"
+}

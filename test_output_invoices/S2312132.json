@@ -1,0 +1,84 @@
+{
+  "line_items": [
+    {
+      "description": "RHP Legro Blackberry/Raspberry\nOptima PLUS",
+      "quantity": "111,80",
+      "price_per_unit": "57,75",
+      "vat_percent": null,
+      "total_price": "6.456,45"
+    },
+    {
+      "description": "Pack up in big-bale",
+      "quantity": "76",
+      "price_per_unit": "18,00",
+      "vat_percent": null,
+      "total_price": "468,00"
+    },
+    {
+      "description": "Pallet 100x120 HT Export",
+      "quantity": "26",
+      "price_per_unit": "11,00",
+      "vat_percent": null,
+      "total_price": "286,00"
+    },
+    {
+      "description": "Customs charges",
+      "quantity": "1",
+      "price_per_unit": "54,00",
+      "vat_percent": null,
+      "total_price": "54,00"
+    },
+    {
+      "description": "Transportcost Pallets FTL",
+      "quantity": "1",
+      "price_per_unit": "1.973,60",
+      "vat_percent": null,
+      "total_price": "1.973,60"
+    }
+  ],
+  "total_amount": {
+    "total_items": 5,
+    "total_tax": "0,00",
+    "total_price": "9.238,05"
+  },
+  "due_date": null,
+  "payment_date": null,
+  "invoice_date": "2023-11-09",
+  "invoice_number": "S2312132",
+  "purchase_order": "3247",
+  "reference_numbers": [
+    "MK 7006"
+  ],
+  "locale": null,
+  "country": "United Kingdom",
+  "currency": "EUR",
+  "payment_details": {
+    "iban": "NL48 INGB 00016905 45",
+    "swift": "INGBNL2A",
+    "bic": "INGBNL2A",
+    "account_number": null
+  },
+  "supplier_company_registrations": {
+    "siret": null,
+    "ein": null,
+    "vat_number": "NL008000542B01"
+  },
+  "supplier_name": "LEGRO",
+  "total_tax": "0,00",
+  "taxes_details": [
+    {
+      "rate": "0,00",
+      "amount": "0,00"
+    }
+  ],
+  "total_amount_including_taxes": "9.238,05",
+  "total_net_amount_excluding_taxes": "9.238,05",
+  "customer_address": "4 Conqueror Court, Water mark\nME10 5BH Sittingbourne\nUnited Kingdom",
+  "shipping_address": "The Glasshouse Wicks Farm Ford Lane\nBN18 ODF ARUNDEL (WEST SUSSEX)\nUnited Kingdom",
+  "billing_address": "4 Conqueror Court, Water mark\nME10 5BH Sittingbourne\nUnited Kingdom",
+  "customer_company_registrations": {
+    "vat_number": "GB125476511"
+  },
+  "customer_name": "Berry Farming Ltd.",
+  "supplier_address": "P.O. Box 93\nGerstdijk 20\n5720 AB Asten\n5704 RG Helmond\nThe Netherlands"
+}

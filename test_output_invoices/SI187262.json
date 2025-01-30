@@ -1,0 +1,99 @@
+{
+  "line_items": [
+    {
+      "description": "AIRLINE HANDLING",
+      "quantity": null,
+      "price_per_unit": "0.28",
+      "vat_percent": "0.00",
+      "total_price": "393.12"
+    },
+    {
+      "description": "CUSTOMS ENTRY",
+      "quantity": null,
+      "price_per_unit": "35.00",
+      "vat_percent": "0.00",
+      "total_price": "35.00"
+    },
+    {
+      "description": "FUEL SURCHARGE @ 8%",
+      "quantity": null,
+      "price_per_unit": "8.00",
+      "vat_percent": "0.00",
+      "total_price": "9.12"
+    },
+    {
+      "description": "DELIVERY",
+      "quantity": null,
+      "price_per_unit": "25.41",
+      "vat_percent": "0.00",
+      "total_price": "50.82"
+    },
+    {
+      "description": "SUPPLY OF PALLET CHARGE",
+      "quantity": null,
+      "price_per_unit": "4.50",
+      "vat_percent": "0.00",
+      "total_price": "9.00"
+    },
+    {
+      "description": "PULL BACK",
+      "quantity": null,
+      "price_per_unit": "0.045",
+      "vat_percent": "0.00",
+      "total_price": "63.18"
+    },
+    {
+      "description": "WAREHOUSE HANDLING CHARGE",
+      "quantity": null,
+      "price_per_unit": "0.04",
+      "vat_percent": "0.00",
+      "total_price": "56.16"
+    }
+  ],
+  "total_amount": {
+    "total_items": 7,
+    "total_tax": "0.00",
+    "total_price": "616.40"
+  },
+  "due_date": null,
+  "payment_date": null,
+  "invoice_date": "2023-11-15",
+  "invoice_number": "SI187262",
+  "purchase_order": null,
+  "reference_numbers": [
+    "LHAIJ337840",
+    "125-56290566/"
+  ],
+  "locale": null,
+  "country": "UNITED KINGDOM",
+  "currency": "GBP",
+  "payment_details": {
+    "iban": "GB30NWBK60084676738132",
+    "swift": null,
+    "bic": "NWBKGB2L",
+    "account_number": "76738132"
+  },
+  "supplier_company_registrations": {
+    "siret": null,
+    "ein": null,
+    "vat_number": "GB823723242"
+  },
+  "supplier_name": "PERISHABLE MOVEMENTS LTD",
+  "total_tax": "0.00",
+  "taxes_details": [
+    {
+      "rate": "0.00",
+      "amount": "0.00"
+    }
+  ],
+  "total_amount_including_taxes": "616.40",
+  "total_net_amount_excluding_taxes": "616.40",
+  "customer_address": "FOA: DPS LOGISTICS TEAM 4 CONQUEROR COURT\nSTAPLEHURST ROAD SITTINGBOURNE\nKENT\n\u039c\u039510 5BH",
+  "shipping_address": null,
+  "billing_address": null,
+  "customer_company_registrations": {
+    "vat_number": null
+  },
+  "customer_name": "DIRECT PRODUCE SUPPLIES PLC",
+  "supplier_address": "UNITS 1-6 SKYPORT HEATHROW\nARMADALE ROAD FELTHAM\nMIDDLESEX TW14 0LW\nUNITED KINGDOM"
+}

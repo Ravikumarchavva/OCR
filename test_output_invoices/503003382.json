@@ -1,0 +1,115 @@
+{
+  "line_items": [
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "2.340,00",
+      "price_per_unit": "32,40",
+      "vat_percent": null,
+      "total_price": "4.211,58"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "5.886,00",
+      "price_per_unit": "9,60",
+      "vat_percent": null,
+      "total_price": "3.138,87"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "3.564,00",
+      "price_per_unit": "2,47",
+      "vat_percent": null,
+      "total_price": "489,1"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "7.146,00",
+      "price_per_unit": "4,44",
+      "vat_percent": null,
+      "total_price": "1.763,53"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "6.120,00",
+      "price_per_unit": "6,88",
+      "vat_percent": null,
+      "total_price": "2.339,4"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "10.710,00",
+      "price_per_unit": "7,94",
+      "vat_percent": null,
+      "total_price": "4.726,77"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "7.650,00",
+      "price_per_unit": "4,25",
+      "vat_percent": null,
+      "total_price": "1.804,37"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "9.180,00",
+      "price_per_unit": "2,55",
+      "vat_percent": null,
+      "total_price": "1.299,03"
+    },
+    {
+      "description": "FRA CAR 18X250 GEN VD DES K62H40 NG PAP",
+      "quantity": "6.120,00",
+      "price_per_unit": "2,49",
+      "vat_percent": null,
+      "total_price": "847,25"
+    }
+  ],
+  "total_amount": {
+    "total_items": 9,
+    "total_tax": null,
+    "total_price": "20.619,90"
+  },
+  "due_date": null,
+  "payment_date": null,
+  "invoice_date": "09/11/2023",
+  "invoice_number": "503003382",
+  "purchase_order": null,
+  "reference_numbers": [
+    "141800",
+    "141801",
+    "141802",
+    "141803",
+    "141804",
+    "141805",
+    "141799",
+    "142010",
+    "142097"
+  ],
+  "locale": null,
+  "country": "United Kingdom",
+  "currency": "EUR",
+  "payment_details": {
+    "iban": "GB68EBUR23122876803326",
+    "swift": "EBURGBA1XXX",
+    "bic": null,
+    "account_number": null
+  },
+  "supplier_company_registrations": {
+    "siret": null,
+    "ein": null,
+    "vat_number": "GB328693957"
+  },
+  "supplier_name": "Surexport UK LTD",
+  "total_tax": "0,00",
+  "taxes_details": [],
+  "total_amount_including_taxes": "20.619,86",
+  "total_net_amount_excluding_taxes": null,
+  "customer_address": "57-63 CHURCH ROAD\nSW19 5SB WIMBLEDON\nUnited Kingdom",
+  "shipping_address": null,
+  "billing_address": null,
+  "customer_company_registrations": {
+    "vat_number": "GB125476511"
+  },
+  "customer_name": "DPS LTD",
+  "supplier_address": "Great Queen Street 16\nWC2B 5AH London"
+}

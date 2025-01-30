@@ -97,6 +97,7 @@ class InvoiceExtractor:
                 "- If any field is missing, return `null` rather than removing it.\n"
                 "- DO NOT add extra details.\n"
                 "- If items have any charges, also write them in line items—DO NOT skip.\n"
+                # "- If due date is not available, but if number of due days available Then cacluate from the invoice date + no. of days and fill the Date`.\n"
             )
 
         # prompt = "extract invoice details from this PDF file in JSON format"
@@ -138,7 +139,7 @@ class InvoiceExtractor:
     @staticmethod
     def save(invoice, output_dir):
         output_dir.mkdir(parents=True, exist_ok=True)
-        output_path = output_dir / f"{invoice['invoice_no']}.json"
+        output_path = output_dir / f"{invoice['invoice_number']}.json"
         with open(output_path, "w") as output_file:
             json.dump(invoice.data, output_file, indent=2)
 

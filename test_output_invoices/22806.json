@@ -1,0 +1,68 @@
+{
+  "line_items": [
+    {
+      "description": "ISS SP - Picking: 12/11/2023 - 18/11/2023 Teynham",
+      "quantity": "178,082",
+      "price_per_unit": "0.090",
+      "vat_percent": null,
+      "total_price": "10,641.96"
+    },
+    {
+      "description": "ISS SP - Picking: 12/11/2023 - 18/11/2023 Linton",
+      "quantity": "105,084",
+      "price_per_unit": "0.090",
+      "vat_percent": null,
+      "total_price": "2,856.15"
+    },
+    {
+      "description": "ISS SP - Picking: 12/11/2023 - 18/11/2023 Sittingbourne",
+      "quantity": "36,065",
+      "price_per_unit": "0.090",
+      "vat_percent": null,
+      "total_price": "1,762.74"
+    }
+  ],
+  "total_amount": {
+    "total_items": 3,
+    "total_tax": "3,052.17",
+    "total_price": "18,313.02"
+  },
+  "due_date": null,
+  "payment_date": null,
+  "invoice_date": "2023-11-22",
+  "invoice_number": "22806",
+  "purchase_order": null,
+  "reference_numbers": [],
+  "locale": null,
+  "country": null,
+  "currency": "\u00a3",
+  "payment_details": {
+    "iban": null,
+    "swift": null,
+    "bic": null,
+    "account_number": "2236 6789"
+  },
+  "supplier_company_registrations": {
+    "siret": null,
+    "ein": null,
+    "vat_number": "184 6959 49"
+  },
+  "supplier_name": "INTEGRATED SERVICE SOLUTIONS",
+  "total_tax": "3,052.17",
+  "taxes_details": [
+    {
+      "rate": null,
+      "amount": "3,052.17"
+    }
+  ],
+  "total_amount_including_taxes": "18,313.02",
+  "total_net_amount_excluding_taxes": "15,260.85",
+  "customer_address": "57-63 Church Street\nWimbledon\nSW19 5DQ",
+  "shipping_address": null,
+  "billing_address": null,
+  "customer_company_registrations": {
+    "vat_number": null
+  },
+  "customer_name": "Direct Produce Supplies LTD",
+  "supplier_address": "C/O Fowler Welch, London Road, Teynham, Sittingbourne, ME9 9PR"
+}
