@@ -4,11 +4,8 @@ from main_logic import InvoiceExtractor
 import base64
 
 import google.generativeai as genai
-import os
-from dotenv import load_dotenv
-load_dotenv()
 
-GCP_KEY = os.getenv("GCP_KEY")
+GCP_KEY = st.secrets["GCP_KEY"]
 
 genai.configure(api_key=GCP_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash-exp")
