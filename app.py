@@ -28,19 +28,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
+uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
 
 if uploaded_file is not None:
     # Save the uploaded PDF to a temporary location
     temp_pdf_path = Path("temp_uploaded.pdf")
     with open(temp_pdf_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
-    
-    # Display the PDF using an iframe with base64 encoding
-    with open(temp_pdf_path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
     
     # Extract invoices
     try:
@@ -53,6 +47,10 @@ if uploaded_file is not None:
             
             with col1:
                 st.subheader("Uploaded PDF")
+                with open(temp_pdf_path, "rb") as f:
+                    base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+                pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px"></iframe>'
+                st.markdown(pdf_display, unsafe_allow_html=True)
             
             with col2:
                 st.subheader("Extracted Invoice Data")
