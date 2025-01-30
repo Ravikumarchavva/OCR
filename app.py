@@ -4,6 +4,7 @@ from main_logic import InvoiceExtractor
 import base64
 import google.generativeai as genai
 import os
+from streamlit_pdf_viewer import pdf_viewer
 
 GCP_KEY = st.secrets["GCP_KEY"]
 
@@ -28,36 +29,36 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
+container_pdf, container_chat = st.columns([50, 50])
 
-if uploaded_file is not None:
-    # Save the uploaded PDF to a temporary location
-    temp_pdf_path = Path("temp_uploaded.pdf")
-    with open(temp_pdf_path, "wb") as f:
-        f.write(uploaded_file.getbuffer())
-    
-    # Extract invoices
-    try:
-        invoices = extractor.extract_all(temp_pdf_path.parent, limit=1)
-        if invoices:
-            invoice = invoices[0]
-            
-            # Display PDF and extracted data side by side
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                st.subheader("Uploaded PDF")
-                # Display PDF using external PDF viewer
-                with open(temp_pdf_path, "rb") as f:
-                    pdf_data = f.read()
-                base64_pdf = base64.b64encode(pdf_data).decode('utf-8')
-                pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px" type="application/pdf" />'
-                st.markdown(pdf_display, unsafe_allow_html=True)
-            
-            with st.spinner("Extracting invoice data..."):
-                st.subheader("Extracted Invoice Data")
-                st.write(invoice.data)
-        else:
-            st.error("No invoices found in the uploaded PDF.")
-    except Exception as e:
-        st.error(f"An error occurred while extracting the invoice: {e}")
+with container_pdf:
+    uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
+
+    if uploaded_file is not None:
+        # Save the uploaded PDF to a temporary location
+        temp_pdf_path = Path("temp_uploaded.pdf")
+        with open(temp_pdf_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+        
+        # Display PDF using streamlit_pdf_viewer
+        binary_data = uploaded_file.getvalue()
+        pdf_viewer(input=binary_data, width=700)
+        
+        # Extract invoices
+        try:
+            invoices = extractor.extract_all(temp_pdf_path.parent, limit=1)
+            if invoices:
+                invoice = invoices[0]
+                
+                with st.spinner("Extracting invoice data..."):
+                    st.subheader("Extracted Invoice Data")
+                    st.write(invoice.data)
+            else:
+                st.error("No invoices found in the uploaded PDF.")
+        except Exception as e:
+            st.error(f"An error occurred while extracting the invoice: {e}")
+
+with container_chat:
+    # Placeholder for chat functionality
+    st.subheader("Chat")
+    st.write("Chat functionality will be here.")
