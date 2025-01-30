@@ -2,6 +2,7 @@ import streamlit as st
 from pathlib import Path
 from main_logic import InvoiceExtractor
 import base64
+import streamlit.components.v1 as components
 
 import google.generativeai as genai
 
@@ -47,10 +48,14 @@ if uploaded_file is not None:
             
             with col1:
                 st.subheader("Uploaded PDF")
-                with open(temp_pdf_path, "rb") as f:
-                    base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-                pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600px"></iframe>'
-                st.markdown(pdf_display, unsafe_allow_html=True)
+                # Use st.components to embed the locally-served PDF
+                components.html(
+                    f"""
+                    <embed src="temp_uploaded.pdf" width="100%" height="600px" type="application/pdf" />
+                    """,
+                    height=600,
+                    scrolling=True,
+                )
             
             with col2:
                 st.subheader("Extracted Invoice Data")
