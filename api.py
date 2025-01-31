@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, UploadFile, HTTPException, Response
 from fastapi.responses import JSONResponse
 from pathlib import Path
 
@@ -9,18 +9,24 @@ app = FastAPI()
 
 @app.post("/extract-invoice/")
 async def extract_invoice(filename: UploadFile = File(...)):
+
+    # Check the file type
+    if not (filename.filename.endswith(".pdf") or filename.filename.endswith(".tiff")):
+        raise HTTPException(status_code=400, detail="Invalid file type. Only PDF and TIFF files are allowed.")
+    
+    print(filename)
     try:
-        # Save the uploaded PDF to a temporary location
-        temp_pdf_path = Path("temp_uploaded.pdf")
-        with open(temp_pdf_path, "wb") as f:
+        # Save the uploaded file to a temporary location
+        temp_file_path = Path(f"temp_uploaded{Path(filename.filename).suffix}")
+        with open(temp_file_path, "wb") as f:
             f.write(await filename.read())
         
         # Initialize DataIngestion and OCR_Model
         data_ingestion = DataIngestion()
         ocr_model = OCR_Model(model="gemini-2.0-flash-exp")
 
-        # Convert the uploaded PDF to base64 using DataIngestion
-        pdf_data = data_ingestion.transform(temp_pdf_path)
+        # Convert the uploaded file to base64 using DataIngestion
+        pdf_data = data_ingestion.transform(temp_file_path)
         
         # Extract invoice data
         invoice = ocr_model.extract(pdf_data)
