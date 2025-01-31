@@ -11,5 +11,6 @@ class InvoiceExtractor:
         match = re.search(r"\{.*\}", response_text, re.DOTALL)
         if match:
             extracted_data = json.loads(match.group(0))
-            return Invoice(extracted_data)  # Return an Invoice instance
+            return Invoice(extracted_data)
         raise ValueError("No valid JSON found in response")
+
