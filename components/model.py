@@ -17,18 +17,21 @@ class OCR_Model:
         genai.configure(api_key=GCP_KEY)
         self.model = genai.GenerativeModel(model)
 
-    def predict(self, data):
+    def _predict(self, data):
+        '''Generates response using the model.'''
         response = self.model.generate_content(
             [{"mime_type": "application/pdf", "data": data}, PROMPT]
         )
         return response.text
 
     def extract(self, data):
-        response_text = self.predict(data)
+        '''Extracts invoice data from the response.'''
+        response_text = self._predict(data)
         extractor = InvoiceExtractor()
         return extractor.extract(response_text)
 
     def display(self, invoice, html=False):
+        '''Displays the extracted invoice data.'''
         if html:
             html_table = json2html.convert(json=invoice.data)
             display(HTML(html_table))

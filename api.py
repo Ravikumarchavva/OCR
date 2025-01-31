@@ -5,9 +5,6 @@ from pathlib import Path
 from components.data_ingestion import DataIngestion
 from components.model import OCR_Model
 
-data_ingestion = DataIngestion()
-ocr_model = OCR_Model(model="gemini-2.0-flash-exp")
-
 app = FastAPI()
 
 @app.post("/extract-invoice/")
@@ -23,6 +20,10 @@ async def extract_invoice(filename: UploadFile = File(...)):
         with open(temp_pdf_path, "wb") as f:
             f.write(await filename.read())
         
+        # Initialize DataIngestion and OCR_Model
+        data_ingestion = DataIngestion()
+        ocr_model = OCR_Model(model="gemini-2.0-flash-exp")
+
         # Convert the uploaded PDF to base64 using DataIngestion
         pdf_data = data_ingestion.transform(temp_pdf_path)
         
