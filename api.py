@@ -9,11 +9,6 @@ app = FastAPI()
 
 @app.post("/extract-invoice/")
 async def extract_invoice(filename: UploadFile = File(...)):
-    if filename.content_type != "application/pdf":
-        raise HTTPException(
-            status_code=400, 
-            detail="Invalid file format. Only PDF files are accepted."
-        )
     try:
         # Save the uploaded PDF to a temporary location
         temp_pdf_path = Path("temp_uploaded.pdf")
