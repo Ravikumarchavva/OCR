@@ -6,9 +6,8 @@ load_dotenv()
 SERVER_IP = os.getenv("SERVER_IP")
 OWN_IP = '127.0.0.1'
 
-def send_invoice(file_path):
-    # url = f"http://{SERVER_IP}:8000/extract-invoice/"
-    url = f"http://{OWN_IP}:8000/extract-invoice/"
+def send_invoice(file_path, IP):
+    url = f"http://{IP}:8000/extract-invoice/"
     timeout = 300
     response = None
     with open(file_path, 'rb') as f:
@@ -25,5 +24,11 @@ def send_invoice(file_path):
 
 # Example usage
 if __name__ == "__main__":
-    file_path = "data/invoices/SKonica Sit23110914050.pdf"
-    send_invoice(file_path)
+    file_path = "data/invoices/Invoice.pdf"
+    SERVER = input("Select IP : server or localhost: ")
+    if SERVER == 'server':
+        send_invoice(file_path, SERVER_IP)
+    elif SERVER == 'localhost':
+        send_invoice(file_path, OWN_IP)
+    else:
+        print("Invalid input")
