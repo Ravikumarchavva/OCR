@@ -9,11 +9,11 @@ load_dotenv()
 GCP_KEY = os.getenv("GCP_KEY")
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from configs import PROMPT
+from configs import PROMPT, MODEL
 from components.extractor import InvoiceExtractor
 
 class OCR_Model:
-    def __init__(self, model="gemini-2.0-flash-exp"):
+    def __init__(self, model=MODEL):
         genai.configure(api_key=GCP_KEY)
         self.model = genai.GenerativeModel(model)
 
