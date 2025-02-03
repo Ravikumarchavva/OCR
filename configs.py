@@ -64,4 +64,4 @@ ROOT_DIR = Path(__file__).parent
 #     # "- If the due date is not provided but the number of due days is available, calculate the due date by adding the due days to the invoice date and use the result as the due date.\n"  # resource exhusting
 # )
 
-PROMPT = "extract details from this PDF file in JSON format"
+PROMPT = "extract the report details from all pages in this PDF file in JSON format"
