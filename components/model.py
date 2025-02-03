@@ -9,18 +9,19 @@ load_dotenv()
 GCP_KEY = os.getenv("GCP_KEY")
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from configs import PROMPT, MODEL
+from configs import PROMPT, MODEL, MODEL_CONFIG
 from components.extractor import InvoiceExtractor
 
 class OCR_Model:
     def __init__(self, model=MODEL):
         genai.configure(api_key=GCP_KEY)
         self.model = genai.GenerativeModel(model)
+        genai.GenerationConfig(MODEL_CONFIG)
 
     def _predict(self, data):
         '''Generates response using the model.'''
         response = self.model.generate_content(
-            [{"mime_type": "application/pdf", "data": data}, PROMPT]
+            [{"mime_type": "application/pdf", "data": data}, PROMPT],
         )
         return response.text
 

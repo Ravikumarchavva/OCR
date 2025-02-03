@@ -83,8 +83,23 @@ PROMPT = (
     "   - For any field that is not found, return a `null` value rather than omitting the field.\n"
 )
 
+# MODEL = "gemini-1.5-flash"
+
 # MODEL = 'gemini-1.5-pro'
 
 # MODEL = "gemini-2.0-flash-exp"
 
+# MODEL = "gemini-2.0-flash-thinking-exp-1219"
+
 MODEL = "gemini-2.0-flash-thinking-exp-01-21"
+
+MODEL_CONFIG = {
+    "stopSequences": ["### End of Invoice ###"],
+    "responseMimeType": "application/json",
+    "temperature": 0.3,
+    "topP": 0.8,
+    "topK": 40,
+    "candidateCount": 1,
+    "maxOutputTokens": 30000,
+    "seed": 42,
+}
