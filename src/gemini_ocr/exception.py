@@ -1,7 +1,5 @@
 import traceback
-from src.logger import AppLogger  # Assumes AppLogger is defined in logger.py
-import sys
-
+from src.gemini_ocr.logger import ApiLogger
 
 class OcrException(Exception):
     """
@@ -34,14 +32,8 @@ class OcrException(Exception):
             "original_exception": str(self.original_exception) if self.original_exception else "None",
             "stack_trace": traceback.format_exc()
         }
-        # Log error details with file, line, and error type
-        AppLogger.log_exception(
-            (
-                type(self.original_exception) if self.original_exception else type(self),
-                self,
-                sys.exc_info()[2],
-            )
-        )
+        # Log error details directly using the error_details dictionary
+        ApiLogger.log_exception(error_details)
 
 
 if __name__ == "__main__":

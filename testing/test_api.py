@@ -2,7 +2,7 @@ import requests
 import os
 import sys
 from dotenv import load_dotenv
-from src.logger import AppLogger
+from src.gemini_ocr.logger import AppLogger
 load_dotenv()
 
 SERVER_IP = os.getenv("SERVER_IP")

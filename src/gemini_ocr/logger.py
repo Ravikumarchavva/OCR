@@ -1,12 +1,13 @@
 import logging
 import sys
-sys.path.append("..")
+sys.path.append("../..")
 from config.configs import ROOT_DIR
+from datetime import datetime
 
 # Path to the log file
 LOG_DIR = ROOT_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
-LOG_FILE = LOG_DIR / "gemini_ocr.log"
+LOG_FILE = LOG_DIR / f"gemini_ocr_{datetime.today().date()}.log"
 
 
 logging.basicConfig(
@@ -16,7 +17,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 
-class AppLogger:
+class ApiLogger:
     """
     App-wide logger providing standardized logging.
     """
@@ -40,11 +41,12 @@ class AppLogger:
             error_details
         )
 
+
 # Example usage in a project
 if __name__ == "__main__":
     try:
         # Intentionally raise an exception
         1 / 0
     except Exception:
-        AppLogger.log_exception(sys.exc_info())
+        ApiLogger.log_exception(sys.exc_info())
         print("An error occurred. Check the log file for details.")
