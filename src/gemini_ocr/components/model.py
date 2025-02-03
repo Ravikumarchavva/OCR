@@ -9,7 +9,7 @@ load_dotenv()
 GCP_KEY = os.getenv("GCP_KEY")
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from configs import PROMPT, MODEL, MODEL_CONFIG
+from config.configs import PROMPT, MODEL, MODEL_CONFIG
 from components.extractor import InvoiceExtractor
 
 class OCR_Model:

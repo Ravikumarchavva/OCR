@@ -1,6 +1,6 @@
 from pathlib import Path
 
-ROOT_DIR = Path(__file__).parent
+ROOT_DIR = Path(__file__).parent.parent
 
 PROMPT = (
     "Extract structured invoice details from this PDF. Return all fields exactly as they appear in the document. "

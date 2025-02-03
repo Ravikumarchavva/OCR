@@ -5,7 +5,7 @@ from pathlib import Path
 from components.data_ingestion import DataIngestion
 from components.model import OCR_Model
 
-from configs import MODEL
+from config.configs import MODEL
 
 app = FastAPI()
 

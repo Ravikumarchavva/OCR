@@ -1,6 +1,8 @@
 import requests
 import os
+import sys
 from dotenv import load_dotenv
+from src.logger import AppLogger
 load_dotenv()
 
 SERVER_IP = os.getenv("SERVER_IP")
@@ -17,7 +19,7 @@ def send_invoice(file_path, IP):
             response.raise_for_status()
             print(response.text)
         except requests.exceptions.RequestException as e:
-            print(f"Error while calling API: {e}")
+            AppLogger.log_exception(sys.exc_info())
             if response is not None:
                 print(f"Status Code: {response.status_code}")
                 print(f"Response Body: {response.text}")
