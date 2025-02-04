@@ -100,6 +100,5 @@ MODEL_CONFIG = {
     "topP": 0.8,
     "topK": 40,
     "candidateCount": 1,
-    "maxOutputTokens": 30000,
     "seed": 42,
 }
