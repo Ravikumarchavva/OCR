@@ -1,37 +1,50 @@
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 import os
 import sys
 from IPython.display import display, HTML
 from json2html import json2html
 
 from dotenv import load_dotenv
+
 load_dotenv()
-GCP_KEY = os.getenv("GCP_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from configs import PROMPT
+from configs import PROMPT, RESPONSE_SCHEMA
 from components.extractor import InvoiceExtractor
 
+
 class OCR_Model:
-    def __init__(self, model="gemini-2.0-flash-exp"):
-        genai.configure(api_key=GCP_KEY)
-        self.model = genai.GenerativeModel(model)
+    def __init__(self, model="gemini-2.0-flash"):
+        self.client = genai.Client(api_key=GEMINI_API_KEY)
+
+        self.model = model
 
     def _predict(self, data):
-        '''Generates response using the model.'''
-        response = self.model.generate_content(
-            [{"mime_type": "application/pdf", "data": data}, PROMPT]
+        """Generates response using the model."""
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=[
+                PROMPT,
+                types.Part.from_bytes(data=data, mime_type="application/pdf"),
+            ],
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=RESPONSE_SCHEMA,
+                temperature=0.01,
+            ),
         )
         return response.text
 
     def extract(self, data):
-        '''Extracts invoice data from the response.'''
+        """Extracts invoice data from the response."""
         response_text = self._predict(data)
         extractor = InvoiceExtractor()
         return extractor.extract(response_text)
 
     def display(self, invoice, html=False):
-        '''Displays the extracted invoice data.'''
+        """Displays the extracted invoice data."""
         if html:
             html_table = json2html.convert(json=invoice.data)
             display(HTML(html_table))

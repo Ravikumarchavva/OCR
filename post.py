@@ -7,8 +7,8 @@ SERVER_IP = os.getenv("SERVER_IP")
 OWN_IP = '127.0.0.1'
 
 def send_invoice(file_path):
-    url = f"http://{SERVER_IP}:8000/extract-invoice/"
-    # url = f"http://{OWN_IP}:8000/extract-invoice/"
+    # url = f"http://{SERVER_IP}:8000/extract-invoice/"
+    url = f"http://{OWN_IP}:8000/extract-invoice/"
     timeout = 300
     response = None
     with open(file_path, 'rb') as f:

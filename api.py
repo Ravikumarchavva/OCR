@@ -23,7 +23,7 @@ async def extract_invoice(filename: UploadFile = File(...)):
         
         # Initialize DataIngestion and OCR_Model
         data_ingestion = DataIngestion()
-        ocr_model = OCR_Model(model="gemini-2.0-flash-exp")
+        ocr_model = OCR_Model(model="gemini-2.0-flash")
 
         # Convert the uploaded file to base64 using DataIngestion
         pdf_data = data_ingestion.transform(temp_file_path)

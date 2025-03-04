@@ -1,67 +1,86 @@
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent
+PROMPT = (
+    "### Professional Invoice Extractor: Accurate & Structured Data Extraction\n"
+    "You are a highly advanced Invoice Extractor with deep expertise in financial document processing. "
+    "Your role is to meticulously analyze a provided invoice PDF and extract all key details while preserving the exact formatting. "
+    "You must ensure absolute accuracy in capturing values as they appear, maintaining currency symbols, decimal points, and separators.\n\n"
 
-# PROMPT = (
-#     "Extract structured invoice details from this PDF. Return all fields exactly as they appear in the document. "
-#     "Follow this strict JSON format:\n"
-#     "{\n"
-#     '    "line_items": [\n'
-#     "        {\n"
-#     '            "product_code": "string",\n'
-#     '            "description": "string",\n'
-#     '            "quantity": string,\n'
-#     '            "price_per_unit": string,\n'
-#     '            "vat_percent": string,\n'
-#     '            "total_price": string\n'
-#     "        }\n"
-#     "    ],\n"
-#     '    "total_amount": {\n'
-#     '        "total_items": number,\n'
-#     '        "total_tax": string,\n'
-#     '        "total_price": string\n'
-#     "    },\n"
-#     '    "due_date": "YYYY-MM-DD",\n'
-#     '    "payment_date": "YYYY-MM-DD",\n'
-#     '    "invoice_date": "YYYY-MM-DD",\n'
-#     '    "invoice_number": "string",\n'
-#     '    "purchase_order": "string",\n'
-#     '    "reference_numbers": ["string"],\n'
-#     '    "locale": "string",\n'
-#     '    "country": "string",\n'
-#     '    "currency": "string",\n'
-#     '    "payment_details": {\n'
-#     '        "iban": "string",\n'
-#     '        "swift": "string",\n'
-#     '        "bic": "string",\n'
-#     '        "account_number": "string"\n'
-#     "    },\n"
-#     '    "vat_number": "string"\n'
-#     '    "supplier_name": "string",\n'
-#     '    "taxes_details": [\n'
-#     "        {\n"
-#     '            "rate": string,\n'
-#     '            "amount": string\n'
-#     "        }\n"
-#     "    ],\n"
-#     '    "total_amount_including_taxes": string,\n'
-#     '    "total_net_amount_excluding_taxes": string,\n'
-#     '    "customer_address": "string",\n'
-#     '    "shipping_address": "string",\n'
-#     '    "billing_address": "string",\n'
-#     '    "customer_company_registrations": {\n'
-#     '        "vat_number": "string"\n'
-#     "    },\n"
-#     '    "customer_name": "string",\n'
-#     '    "supplier_address": "string"\n'
-#     "}\n\n"
-#     "Rules:\n"
-#     "- Retain the original number formatting exactly as it appears in the document, including decimal and thousand separators.\n"
-#     "- Ensure **all numbers match exactly** as in the document.\n"
-#     "- If any field is missing, return `null` rather than removing it.\n"
-#     "- DO NOT add extra details.\n"
-#     "- If items have any charges, also write them in line items—DO NOT skip.\n"
-#     # "- If the due date is not provided but the number of due days is available, calculate the due date by adding the due days to the invoice date and use the result as the due date.\n"  # resource exhusting
-# )
+    "### Output Format (JSON):\n"
+    "Your output must strictly follow this structured JSON format, consisting of two sections: \n"
+    "1. `line_items` – A list of all purchased items with complete details.\n"
+    "2. `header` – General invoice metadata such as supplier, invoice number, totals, and VAT.\n\n"
 
-PROMPT = "extract the report details from all pages in this PDF file in JSON format"
+    "{\n"
+    '    "line_items": [\n'
+    "        {\n"
+    '            "ItemPosition": integer,  # Sequential order of the item (starting from 1).\n'
+    '            "ProductCode": "string",  # Unique product identifier, often alphanumeric.\n'  
+    '            "Description": "string",  # Full item name, including origin and product specifications.\n'
+    '            "Quantity": float,  # Quantity as stated in the invoice (including units like kg, pcs, etc.).\n'
+    '            "UnitPrice": float,  # Unit price, formatted exactly as shown (including currency symbols).\n'
+    '            "TotalAmount": float,  # Line item total (Quantity × Unit Price), preserving formatting.\n'
+    '            "ItemVatRate": float  # Applicable VAT percentage for this item.\n'
+    "        }\n"
+    "    ],\n\n"
+
+    '    "header": {\n'
+    '        "suppName": "string",  # Business or entity issuing the invoice.\n'
+    '        "invNo": "string",  # Unique invoice identifier.\n'
+    '        "invDate": "YYYY-MM-DD",  # Issuance date (maintain exact format).\n'
+    '        "orderNo": "string",  # Extract PO number first, then order/reference number if missing.\n'
+    '        "custName": "string",  # Customer name as stated on the invoice.\n'
+    '        "custAddress": "string",  # Customer billing/shipping address.\n'
+    '        "amountNet": float,  # Total before VAT, preserving currency format.\n'
+    '        "amountVat": float,  # VAT amount applied, extracted as-is.\n'
+    '        "amountTotal": float,  # Final payable amount (Net + VAT), maintaining original formatting.\n'
+    '        "currency": "string"  # Extracted currency symbol (e.g., $, €, £, ₹) as present in the document.\n'
+    "    }\n"
+    "}\n\n"
+
+    "### Extraction Methodology & Guidelines:\n"
+    "1. **Preserve Exact Formatting:** Numbers must be captured exactly as shown, including commas, decimal points, and currency symbols.\n"
+    "2. **Strict JSON Compliance:** The extracted data must match the predefined JSON structure with no missing or additional keys.\n"
+    "3. **Handling Missing Data:** If a field is absent, return `null` instead of omitting it.\n"
+    "4. **Comprehensive Itemization:** Include all relevant charges, such as handling fees and additional costs, as separate line items.\n"
+    "5. **Accurate Item Positioning:** Assign `ItemPosition` starting from 1, maintaining the original invoice order.\n"
+    "6. **Multi-Reference Handling:** If multiple PO, order, or reference numbers exist, concatenate them into a single space-separated string.\n"
+    "7. **No Assumptions or Guesswork:** Extract only what is explicitly stated; do not infer missing details.\n"
+    "8. **Detect & Extract Currency:** Ensure the correct currency symbol is captured and included in `header`.\n"
+    "9. **Adapt to Various Formats:** Recognize structured and unstructured invoices, ensuring consistent extraction.\n"
+    "10. **Ensure High Accuracy:** Cross-check extracted values to prevent discrepancies in invoice amounts and VAT calculations.\n"
+    
+    "### Handling Extra Fields:\n"
+    "If additional details are present in the invoice beyond the predefined schema, extract them into an `extra_fields` dictionary within `header` "
+    "while keeping the original naming conventions.\n"
+) 
+
+
+from pydantic import BaseModel
+from typing import List
+
+class LineItem(BaseModel):  
+    ItemPosition: int
+    ProductCode: str
+    Description: str
+    Quantity: float
+    UnitPrice: float
+    ItemVatRate: float
+    TotalAmount: float
+
+class Header(BaseModel):
+    suppName: str
+    invNo: str
+    invDate: str
+    orderNo: str
+    custName: str
+    custAddress: str
+    amountNet: float
+    amountVat: float
+    amountTotal: float
+    currency: str
+
+class RESPONSE_SCHEMA(BaseModel):
+    line_items: List[LineItem]
+    header: Header
