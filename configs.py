@@ -83,4 +83,4 @@ class Header(BaseModel):
 
 class RESPONSE_SCHEMA(BaseModel):
     line_items: List[LineItem]
-    header: Header
+    headers: Header

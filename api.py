@@ -31,8 +31,8 @@ async def extract_invoice(filename: UploadFile = File(...)):
         # Extract invoice data
         invoice = ocr_model.extract(pdf_data)
         invoice_data = invoice.data
-        line_items = invoice_data.pop("line_items", [])
-        headers = invoice_data
+        line_items = invoice_data["line_items"]
+        headers = invoice_data['headers']
         headers["filename"] = filename.filename
         return JSONResponse(content={
             "data": {
