@@ -16,7 +16,7 @@ from components.extractor import InvoiceExtractor
 
 
 class OCR_Model:
-    def __init__(self, model="gemini-2.0-flash"):
+    def __init__(self, model="gemini-2.0-flash-exp"):
         self.client = genai.Client(api_key=GEMINI_API_KEY)
 
         self.model = model
@@ -29,10 +29,11 @@ class OCR_Model:
                 PROMPT,
                 types.Part.from_bytes(data=data, mime_type="application/pdf"),
             ],
+                # response_mime_type="application/json",
+                # response_schema=RESPONSE_SCHEMA,
             config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=RESPONSE_SCHEMA,
-                temperature=0.01,
+                temperature=0.001,
+                max_output_tokens=50000,
             ),
         )
         return response.text

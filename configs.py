@@ -16,7 +16,7 @@ PROMPT = (
     '    "line_items": [\n'
     "        {\n"
     '            "ItemPosition": integer,  # Sequential order of the item (starting from 1).\n'
-    '            "ProductCode": "string",  # Unique product identifier, often alphanumeric.\n'  
+    '            "ProductCode": "string",  # Unique product identifier, often alphanumeric with some pattern or some invoices do not have them\n'  
     '            "Description": "string",  # Full item name, including origin and product specifications.\n'
     '            "Quantity": float,  # Quantity as stated in the invoice (including units like kg, pcs, etc.).\n'
     '            "UnitPrice": float,  # Unit price, formatted exactly as shown (including currency symbols).\n'
@@ -29,13 +29,14 @@ PROMPT = (
     '        "suppName": "string",  # Business or entity issuing the invoice.\n'
     '        "invNo": "string",  # Unique invoice identifier.\n'
     '        "invDate": "YYYY-MM-DD",  # Issuance date (maintain exact format).\n'
+    '        "due_date": "YYYY-MM-DD",  # Payment due date (maintain exact format). if you see x days from invoice date then calculate maually\n'
     '        "orderNo": "string",  # Extract PO number first, then order/reference number if missing.\n'
     '        "custName": "string",  # Customer name as stated on the invoice.\n'
     '        "custAddress": "string",  # Customer billing/shipping address.\n'
     '        "amountNet": float,  # Total before VAT, preserving currency format.\n'
     '        "amountVat": float,  # VAT amount applied, extracted as-is.\n'
     '        "amountTotal": float,  # Final payable amount (Net + VAT), maintaining original formatting.\n'
-    '        "currency": "string"  # Extracted currency symbol (e.g., $, €, £, ₹) as present in the document.\n'
+    '        "currency": "string"  # Extracted currency symbol (e.g., $, €, £, ₹ etc) if not possible extract as name (e.g., USD, EUR, INR etc) as present in the document do not mentionif its not present.\n'
     "    }\n"
     "}\n\n"
 
@@ -50,6 +51,7 @@ PROMPT = (
     "8. **Detect & Extract Currency:** Ensure the correct currency symbol is captured and included in `header`.\n"
     "9. **Adapt to Various Formats:** Recognize structured and unstructured invoices, ensuring consistent extraction.\n"
     "10. **Ensure High Accuracy:** Cross-check extracted values to prevent discrepancies in invoice amounts and VAT calculations.\n"
+    "11. For multi-page invoices, extract data from all pages and consolidate into a single response. Try to ignore headers if same present\n\n"
     
     "### Handling Extra Fields:\n"
     "If additional details are present in the invoice beyond the predefined schema, extract them into an `extra_fields` dictionary within `header` "
@@ -73,6 +75,7 @@ class Header(BaseModel):
     suppName: str
     invNo: str
     invDate: str
+    dueDate: str
     orderNo: str
     custName: str
     custAddress: str
