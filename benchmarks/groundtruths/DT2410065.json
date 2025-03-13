@@ -1,0 +1,239 @@
+{
+    "headers": {
+        "filename": "DT2410065.pdf",
+        "invNo": "369331",
+        "amountNet": "8468.11",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 8468.11,
+        "suppName": "CLAYTON PARK   **** JAM001 PIE",
+        "orderNo": 19676
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P CUMBERLAND S/ROLL   SGL    1",
+            "ProductCode": 214270,
+            "TotalAmount": 195.84,
+            "Quantity": 288.0,
+            "UnitPrice": 0.68,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE BUTTER  265G    1",
+            "ProductCode": 237140,
+            "TotalAmount": 552.0,
+            "Quantity": 600.0,
+            "UnitPrice": 0.92,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE STEAK  200G    1",
+            "ProductCode": 237141,
+            "TotalAmount": 712.8,
+            "Quantity": 720.0,
+            "UnitPrice": 0.99,
+            "ItemPosition": 11
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE POTATO/MEAT  265G    1",
+            "ProductCode": 237142,
+            "TotalAmount": 1135.25,
+            "Quantity": 1195.0,
+            "UnitPrice": 0.95,
+            "ItemPosition": 12
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P SAUSAGE ROLL LARGE  135G    1",
+            "ProductCode": 237144,
+            "TotalAmount": 1022.4,
+            "Quantity": 1440.0,
+            "UnitPrice": 0.71,
+            "ItemPosition": 13
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE STEAK/KIDNEY  205G    1",
+            "ProductCode": 237174,
+            "TotalAmount": 237.6,
+            "Quantity": 240.0,
+            "UnitPrice": 0.99,
+            "ItemPosition": 14
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE STEAK/PEPPER  205G    1",
+            "ProductCode": 237175,
+            "TotalAmount": 237.6,
+            "Quantity": 240.0,
+            "UnitPrice": 0.99,
+            "ItemPosition": 15
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P SLICE CHICKEN/MUSH   SGL    1",
+            "ProductCode": 237176,
+            "TotalAmount": 151.2,
+            "Quantity": 180.0,
+            "UnitPrice": 0.84,
+            "ItemPosition": 16
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P SLICE CHEESE/ONION   SGL    1",
+            "ProductCode": 237177,
+            "TotalAmount": 336.0,
+            "Quantity": 400.0,
+            "UnitPrice": 0.84,
+            "ItemPosition": 17
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P SLICE STEAK   SGL    1",
+            "ProductCode": 237178,
+            "TotalAmount": 429.66,
+            "Quantity": 434.0,
+            "UnitPrice": 0.99,
+            "ItemPosition": 18
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P SAUSAGE ROLL 2PK 2PACK    1",
+            "ProductCode": 237180,
+            "TotalAmount": 168.0,
+            "Quantity": 168.0,
+            "UnitPrice": 1.0,
+            "ItemPosition": 19
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FAMILY STEAK PIE  550G    1",
+            "ProductCode": 221580,
+            "TotalAmount": 90.0,
+            "Quantity": 30.0,
+            "UnitPrice": 3.0,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P SNACK PORK PIE  145G    1",
+            "ProductCode": 237181,
+            "TotalAmount": 249.0,
+            "Quantity": 300.0,
+            "UnitPrice": 0.83,
+            "ItemPosition": 20
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4PK MINI PORK PIE 4PACK    1",
+            "ProductCode": 237209,
+            "TotalAmount": 272.0,
+            "Quantity": 160.0,
+            "UnitPrice": 1.7,
+            "ItemPosition": 21
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P  COTTAGE PIE LARGE  460G    1",
+            "ProductCode": 237211,
+            "TotalAmount": 240.0,
+            "Quantity": 160.0,
+            "UnitPrice": 1.5,
+            "ItemPosition": 22
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P HOT POT LARGE  360G    1",
+            "ProductCode": 237212,
+            "TotalAmount": 100.8,
+            "Quantity": 80.0,
+            "UnitPrice": 1.26,
+            "ItemPosition": 23
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P MINI SAUSAGE ROLL 12PCK    1",
+            "ProductCode": 237213,
+            "TotalAmount": 163.28,
+            "Quantity": 104.0,
+            "UnitPrice": 1.57,
+            "ItemPosition": 24
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE MEAT  135G    1",
+            "ProductCode": 237214,
+            "TotalAmount": 166.0,
+            "Quantity": 200.0,
+            "UnitPrice": 0.83,
+            "ItemPosition": 25
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P CHEESE/ONION ROLL  125G    1",
+            "ProductCode": 827757,
+            "TotalAmount": 201.04,
+            "Quantity": 359.0,
+            "UnitPrice": 0.56,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FAM POTATO/MEAT PIE  550G    1",
+            "ProductCode": 221617,
+            "TotalAmount": 30.84,
+            "Quantity": 12.0,
+            "UnitPrice": 2.57,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PASTY MEAT/VEGETABLE  280G    1",
+            "ProductCode": 237134,
+            "TotalAmount": 392.0,
+            "Quantity": 392.0,
+            "UnitPrice": 1.0,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE BEEF/ONION  200G    1",
+            "ProductCode": 237135,
+            "TotalAmount": 436.8,
+            "Quantity": 480.0,
+            "UnitPrice": 0.91,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 2PK MINI PORK PIE 2PACK    1",
+            "ProductCode": 237136,
+            "TotalAmount": 451.2,
+            "Quantity": 480.0,
+            "UnitPrice": 0.94,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE CHICKEN GRAVY  200G    1",
+            "ProductCode": 237138,
+            "TotalAmount": 276.0,
+            "Quantity": 300.0,
+            "UnitPrice": 0.92,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PIE CHEESE/ONION  200G    1",
+            "ProductCode": 237139,
+            "TotalAmount": 220.8,
+            "Quantity": 240.0,
+            "UnitPrice": 0.92,
+            "ItemPosition": 9
+        }
+    ]
+}

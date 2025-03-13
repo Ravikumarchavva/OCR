@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2410067.pdf",
+        "invNo": "362250",
+        "amountNet": "6552",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 6552.0,
+        "suppName": "CLAYTON PARK-FROZEN JAM002 ***",
+        "orderNo": 18736
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FRZ POTATO AND BUTTER PIE  265G   24",
+            "ProductCode": 488481,
+            "TotalAmount": 1638.0,
+            "Quantity": 70.0,
+            "UnitPrice": 23.4,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FRZ POTATO AND MEAT PIE  265G   24",
+            "ProductCode": 808187,
+            "TotalAmount": 4914.0,
+            "Quantity": 210.0,
+            "UnitPrice": 23.4,
+            "ItemPosition": 2
+        }
+    ]
+}

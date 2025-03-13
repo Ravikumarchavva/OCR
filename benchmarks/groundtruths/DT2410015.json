@@ -1,0 +1,23 @@
+{
+    "headers": {
+        "filename": "DT2410015.pdf",
+        "invNo": "253779",
+        "amountNet": "2008.24",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 2008.24,
+        "suppName": "CHESTERFIELD POULTRY LTD",
+        "orderNo": 18362
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "IQ FRESH UNCAL CHKN FILLE    1KG    1",
+            "ProductCode": 251889,
+            "TotalAmount": 2008.24,
+            "Quantity": 502.06,
+            "UnitPrice": 4.0,
+            "ItemPosition": 1
+        }
+    ]
+}

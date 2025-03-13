@@ -1,0 +1,41 @@
+{
+    "headers": {
+        "filename": "DT241002.pdf",
+        "invNo": "164030",
+        "amountNet": "7332.96",
+        "amountVat": 1466.59,
+        "invDate": "2024-03-14",
+        "amountTotal": 8799.55,
+        "suppName": "FREIXNET COPESTICK t/a JASCOT",
+        "orderNo": 929
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 20.0,
+            "Description": "WHISPERING ANGEL ROSE   75CL    6",
+            "ProductCode": 236835,
+            "TotalAmount": 1159.2,
+            "Quantity": 14.0,
+            "UnitPrice": 82.8,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "FREIXENET PROSECCO   75CL    6",
+            "ProductCode": 243427,
+            "TotalAmount": 644.16,
+            "Quantity": 16.0,
+            "UnitPrice": 40.26,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "CORDON NEGRO CAVA   75CL    6",
+            "ProductCode": 243429,
+            "TotalAmount": 5529.6,
+            "Quantity": 160.0,
+            "UnitPrice": 34.56,
+            "ItemPosition": 3
+        }
+    ]
+}

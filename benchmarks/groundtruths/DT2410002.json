@@ -1,0 +1,59 @@
+{
+    "headers": {
+        "filename": "DT2410002.pdf",
+        "invNo": "416695",
+        "amountNet": "138.01",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 138.01,
+        "suppName": "TANPOPO JAPANESE FOODS LTD",
+        "orderNo": 19957
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPICY TOFU SUSHI  150G    1",
+            "ProductCode": 242629,
+            "TotalAmount": 33.9,
+            "Quantity": 15.0,
+            "UnitPrice": 2.26,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SMOKED SALMON SUSHI SET  130G    1",
+            "ProductCode": 242630,
+            "TotalAmount": 28.8,
+            "Quantity": 10.0,
+            "UnitPrice": 2.88,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICKEN KATSU RICE BOX  275G    1",
+            "ProductCode": 265824,
+            "TotalAmount": 28.56,
+            "Quantity": 8.0,
+            "UnitPrice": 3.57,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "KOREAN CHICKEN DIPPER  122G    1",
+            "ProductCode": 265825,
+            "TotalAmount": 16.92,
+            "Quantity": 9.0,
+            "UnitPrice": 1.88,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICKEN KATSU DIPPER  140G    1",
+            "ProductCode": 727975,
+            "TotalAmount": 29.83,
+            "Quantity": 19.0,
+            "UnitPrice": 1.57,
+            "ItemPosition": 5
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2410085.pdf",
+        "invNo": "376184",
+        "amountNet": "369.25",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 369.25,
+        "suppName": "CLAYTON PARK HMR",
+        "orderNo": 19412
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "COTTAGE PIE FILLING    1KG    1",
+            "ProductCode": 248117,
+            "TotalAmount": 146.51,
+            "Quantity": 49.0,
+            "UnitPrice": 2.99,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "BOLOGNESE SAUCE LASAGNE    1KG    1",
+            "ProductCode": 248123,
+            "TotalAmount": 222.74,
+            "Quantity": 74.0,
+            "UnitPrice": 3.01,
+            "ItemPosition": 8
+        }
+    ]
+}

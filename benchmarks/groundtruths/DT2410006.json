@@ -1,0 +1,86 @@
+{
+    "headers": {
+        "filename": "DT2410006.pdf",
+        "invNo": "P51083935",
+        "amountNet": "2068.32",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 2068.32,
+        "suppName": "NOMADIC FOODS LIMITED",
+        "orderNo": 19055
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC BTG VANILLA 169P  330ML    6",
+            "ProductCode": 267394,
+            "TotalAmount": 142.56,
+            "Quantity": 24.0,
+            "UnitPrice": 5.94,
+            "ItemPosition": null
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC GTG RASP&B/BERRY   150G    6",
+            "ProductCode": 267391,
+            "TotalAmount": 46.24,
+            "Quantity": 8.0,
+            "UnitPrice": 6.8,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC GTG HONEY&BANANA   150G    6",
+            "ProductCode": 267392,
+            "TotalAmount": 92.48,
+            "Quantity": 16.0,
+            "UnitPrice": 6.8,
+            "ItemPosition": 11
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC STRAWBERRY   187G    6",
+            "ProductCode": 144760,
+            "TotalAmount": 1044.48,
+            "Quantity": 256.0,
+            "UnitPrice": 4.98,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC B/CURRANT/B/BERRY   169G    6",
+            "ProductCode": 749526,
+            "TotalAmount": 326.4,
+            "Quantity": 80.0,
+            "UnitPrice": 4.98,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC CLUSTER OAT   169G    6",
+            "ProductCode": 243781,
+            "TotalAmount": 269.28,
+            "Quantity": 66.0,
+            "UnitPrice": 4.98,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC PROTEIN GRAN NAT   170G    6",
+            "ProductCode": 246324,
+            "TotalAmount": 48.96,
+            "Quantity": 8.0,
+            "UnitPrice": 6.12,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC PROTEIN GRAN VAN   170G    6",
+            "ProductCode": 246323,
+            "TotalAmount": 97.92,
+            "Quantity": 16.0,
+            "UnitPrice": 6.12,
+            "ItemPosition": 7
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "headers": {
+        "filename": "DT2410017.pdf",
+        "invNo": "27SI00528046",
+        "amountNet": "84.87",
+        "amountVat": 0.0,
+        "invDate": "2024-05-21",
+        "amountTotal": 84.87,
+        "suppName": "GINSTERS",
+        "orderNo": 18908
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS PASTY CORNISH  227G    6",
+            "ProductCode": 475928,
+            "TotalAmount": 25.02,
+            "Quantity": 3.0,
+            "UnitPrice": 8.34,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS SLICE PEPP/STEAK   SGL    6",
+            "ProductCode": 152217,
+            "TotalAmount": 17.1,
+            "Quantity": 2.0,
+            "UnitPrice": 8.55,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS SLICE CHICK/MUSH   SGL    6",
+            "ProductCode": 150474,
+            "TotalAmount": 42.75,
+            "Quantity": 5.0,
+            "UnitPrice": 8.55,
+            "ItemPosition": 3
+        }
+    ]
+}

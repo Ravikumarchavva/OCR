@@ -1,0 +1,104 @@
+{
+    "headers": {
+        "filename": "DT2410028.pdf",
+        "invNo": "CRANS562533",
+        "amountNet": "1981.1",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 1981.1,
+        "suppName": "SPAR UK - CRANSWICK/CONTINENTA",
+        "orderNo": 19194
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR ANTIPASTI 170G  170G    8",
+            "ProductCode": 243229,
+            "TotalAmount": 132.0,
+            "Quantity": 8.0,
+            "UnitPrice": 16.5,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR FARMHOUSE PATE  170G   24",
+            "ProductCode": 623570,
+            "TotalAmount": 213.5,
+            "Quantity": 7.0,
+            "UnitPrice": 30.5,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SLICED MILANO SALAMI  100G   36",
+            "ProductCode": 401924,
+            "TotalAmount": 330.0,
+            "Quantity": 6.0,
+            "UnitPrice": 55.0,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CONTINENTAL MEAT  120G   36",
+            "ProductCode": 401930,
+            "TotalAmount": 74.0,
+            "Quantity": 1.0,
+            "UnitPrice": 74.0,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SLICED PEPPERONI  100G   36",
+            "ProductCode": 401926,
+            "TotalAmount": 172.0,
+            "Quantity": 4.0,
+            "UnitPrice": 43.0,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SLICED CHORIZO  100G   36",
+            "ProductCode": 401928,
+            "TotalAmount": 225.0,
+            "Quantity": 5.0,
+            "UnitPrice": 45.0,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR GER/SAL & SMOKED CHS  100G   30",
+            "ProductCode": 236267,
+            "TotalAmount": 230.0,
+            "Quantity": 5.0,
+            "UnitPrice": 46.0,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PROSCIUTTO   75G   30",
+            "ProductCode": 480556,
+            "TotalAmount": 154.5,
+            "Quantity": 3.0,
+            "UnitPrice": 51.5,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHORIZO RING  200G   24",
+            "ProductCode": 728733,
+            "TotalAmount": 297.6,
+            "Quantity": 6.0,
+            "UnitPrice": 49.6,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BRUSSELS PATE  170G   24",
+            "ProductCode": 217812,
+            "TotalAmount": 152.5,
+            "Quantity": 5.0,
+            "UnitPrice": 30.5,
+            "ItemPosition": 9
+        }
+    ]
+}

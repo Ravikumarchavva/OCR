@@ -1,0 +1,122 @@
+{
+    "headers": {
+        "filename": "DT2410011.pdf",
+        "invNo": "1504887",
+        "amountNet": "4065.28",
+        "amountVat": 0.0,
+        "invDate": "2024-05-24",
+        "amountTotal": 4065.28,
+        "suppName": "DIRECT POULTRY SUPPLIES",
+        "orderNo": 19890
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES CHICKEN LEGS   5KG    1",
+            "ProductCode": 246180,
+            "TotalAmount": 374.4,
+            "Quantity": 40.0,
+            "UnitPrice": 9.36,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR S/CHILLI CHK MINI FL  340G    1",
+            "ProductCode": 243403,
+            "TotalAmount": 92.16,
+            "Quantity": 48.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIRI D/STICKS  700G    1",
+            "ProductCode": 243402,
+            "TotalAmount": 44.88,
+            "Quantity": 24.0,
+            "UnitPrice": 1.87,
+            "ItemPosition": 11
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SALT/PEPP THIGHS  700G    1",
+            "ProductCode": 243404,
+            "TotalAmount": 199.68,
+            "Quantity": 96.0,
+            "UnitPrice": 2.08,
+            "ItemPosition": 12
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES CHICK B/IN THIGHS   5KG    1",
+            "ProductCode": 246183,
+            "TotalAmount": 336.96,
+            "Quantity": 27.0,
+            "UnitPrice": 12.48,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES CHICKEN WINGS 2.5KG    1",
+            "ProductCode": 246185,
+            "TotalAmount": 218.4,
+            "Quantity": 42.0,
+            "UnitPrice": 5.2,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR Chick Thigh Fillets  500G    1",
+            "ProductCode": 243400,
+            "TotalAmount": 382.4,
+            "Quantity": 160.0,
+            "UnitPrice": 2.39,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR Chick Frsh Flt 349P  340G    1",
+            "ProductCode": 244740,
+            "TotalAmount": 1792.0,
+            "Quantity": 800.0,
+            "UnitPrice": 2.24,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHICK FRSH FLT 500G  500G    1",
+            "ProductCode": 243399,
+            "TotalAmount": 357.28,
+            "Quantity": 112.0,
+            "UnitPrice": 3.19,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHICK FRESH DRUMS  500G    1",
+            "ProductCode": 243396,
+            "TotalAmount": 109.44,
+            "Quantity": 96.0,
+            "UnitPrice": 1.14,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHICKEN MINI FILLETS  340G    1",
+            "ProductCode": 243398,
+            "TotalAmount": 65.52,
+            "Quantity": 36.0,
+            "UnitPrice": 1.82,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHINESE/CHK MINI FLT  340G    1",
+            "ProductCode": 243401,
+            "TotalAmount": 92.16,
+            "Quantity": 48.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 9
+        }
+    ]
+}

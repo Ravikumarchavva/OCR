@@ -1,0 +1,131 @@
+{
+    "headers": {
+        "filename": "DT2410012.pdf",
+        "invNo": "3247",
+        "amountNet": "6848.76",
+        "amountVat": 0.0,
+        "invDate": "2024-05-21",
+        "amountTotal": 6848.76,
+        "suppName": "ZAFRON FOODS LTD",
+        "orderNo": 18526
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "PRAWN MAYONNAISE S/FILLER   1KG    1",
+            "ProductCode": 238028,
+            "TotalAmount": 1029.0,
+            "Quantity": 84.0,
+            "UnitPrice": 12.25,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S SPCY BF MEATBLL S/FIL   1KG    1",
+            "ProductCode": 238011,
+            "TotalAmount": 243.0,
+            "Quantity": 36.0,
+            "UnitPrice": 6.75,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "TUNA MAYONNAISE S/FILLER   1KG    1",
+            "ProductCode": 238009,
+            "TotalAmount": 1341.0,
+            "Quantity": 180.0,
+            "UnitPrice": 7.45,
+            "ItemPosition": 11
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S TERIYAKI CHCKN S/FILL   1KG    1",
+            "ProductCode": 238018,
+            "TotalAmount": 88.2,
+            "Quantity": 12.0,
+            "UnitPrice": 7.35,
+            "ItemPosition": 12
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S MEXICAN CHICKEN S/FIL   1KG    1",
+            "ProductCode": 238056,
+            "TotalAmount": 343.2,
+            "Quantity": 48.0,
+            "UnitPrice": 7.15,
+            "ItemPosition": 13
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S SWT CHILI CHCK S/FIL   1KG    1",
+            "ProductCode": 238023,
+            "TotalAmount": 261.72,
+            "Quantity": 36.0,
+            "UnitPrice": 7.27,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S CHIPOLTE CHCKEN S/FIL   1KG    1",
+            "ProductCode": 238031,
+            "TotalAmount": 504.0,
+            "Quantity": 72.0,
+            "UnitPrice": 7.0,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S CHEESE & ONION S/FILL   1KG    1",
+            "ProductCode": 238095,
+            "TotalAmount": 324.0,
+            "Quantity": 48.0,
+            "UnitPrice": 6.75,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICK/BACON MAYO S/FILLER   1KG    1",
+            "ProductCode": 238015,
+            "TotalAmount": 804.0,
+            "Quantity": 120.0,
+            "UnitPrice": 6.7,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICKEN MAYO S/FILLER   1KG    1",
+            "ProductCode": 238016,
+            "TotalAmount": 561.12,
+            "Quantity": 84.0,
+            "UnitPrice": 6.68,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICK TIKKA MAYO S/FILLER   1KG    1",
+            "ProductCode": 238014,
+            "TotalAmount": 468.0,
+            "Quantity": 72.0,
+            "UnitPrice": 6.5,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "EGG MAYO F/RANGE S/FILLER   1KG    1",
+            "ProductCode": 238013,
+            "TotalAmount": 468.72,
+            "Quantity": 84.0,
+            "UnitPrice": 5.58,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S PULL PORK/BBQ S/FILL   1KG    1",
+            "ProductCode": 238012,
+            "TotalAmount": 412.8,
+            "Quantity": 48.0,
+            "UnitPrice": 8.6,
+            "ItemPosition": 9
+        }
+    ]
+}

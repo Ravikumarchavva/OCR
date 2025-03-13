@@ -1,0 +1,23 @@
+{
+    "headers": {
+        "filename": "DT2410024.pdf",
+        "invNo": "AGRI780185",
+        "amountNet": "259.2",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 259.2,
+        "suppName": "SPAR UK - AGRIAL FRESH",
+        "orderNo": 20114
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SWT/CRNCHY SALAD BAG  240G    8",
+            "ProductCode": 260168,
+            "TotalAmount": 259.2,
+            "Quantity": 45.0,
+            "UnitPrice": 5.76,
+            "ItemPosition": 2
+        }
+    ]
+}

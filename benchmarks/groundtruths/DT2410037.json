@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2410037.pdf",
+        "invNo": "RECT207441",
+        "amountNet": "7989.2",
+        "amountVat": 1597.84,
+        "invDate": "2024-05-23",
+        "amountTotal": 9587.04,
+        "suppName": "SPAR UK - RECTELLA",
+        "orderNo": 18317
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SIZZLER LUMPWOOD FSC    4KG    4",
+            "ProductCode": 481700,
+            "TotalAmount": 7711.2,
+            "Quantity": 540.0,
+            "UnitPrice": 14.28,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR BRIQUETTES FSC    4KG    4",
+            "ProductCode": 236367,
+            "TotalAmount": 278.0,
+            "Quantity": 25.0,
+            "UnitPrice": 11.12,
+            "ItemPosition": 5
+        }
+    ]
+}

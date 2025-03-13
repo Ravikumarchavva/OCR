@@ -1,0 +1,68 @@
+{
+    "headers": {
+        "filename": "DT2410062.pdf",
+        "invNo": "369294",
+        "amountNet": "175.12",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 175.12,
+        "suppName": "CLAYTON PARK BAKERY",
+        "orderNo": null
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI PIE PORK/APPLE",
+            "ProductCode": 2238327,
+            "TotalAmount": 28.38,
+            "Quantity": 11.0,
+            "UnitPrice": 2.58,
+            "ItemPosition": null
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI PIE PORK/BLK PUD",
+            "ProductCode": 3238328,
+            "TotalAmount": 30.96,
+            "Quantity": 12.0,
+            "UnitPrice": 2.58,
+            "ItemPosition": null
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI PIE PORK/STILTON",
+            "ProductCode": 6238365,
+            "TotalAmount": 21.5,
+            "Quantity": 5.0,
+            "UnitPrice": 4.3,
+            "ItemPosition": null
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI CUMBRLND S/ROLL",
+            "ProductCode": 5246386,
+            "TotalAmount": 36.04,
+            "Quantity": 17.0,
+            "UnitPrice": 2.12,
+            "ItemPosition": null
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI OGGY PASTY",
+            "ProductCode": 1238326,
+            "TotalAmount": 24.64,
+            "Quantity": 16.0,
+            "UnitPrice": 1.54,
+            "ItemPosition": null
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI PIE PORK",
+            "ProductCode": 4238329,
+            "TotalAmount": 33.6,
+            "Quantity": 10.0,
+            "UnitPrice": 3.36,
+            "ItemPosition": null
+        }
+    ]
+}

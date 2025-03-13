@@ -1,0 +1,95 @@
+{
+    "headers": {
+        "filename": "DT2410042.pdf",
+        "invNo": "K+GM74761",
+        "amountNet": "1429.62",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 1429.62,
+        "suppName": "SPAR UK - K & G MCATAMANEY LTD",
+        "orderNo": 20196
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHK CHIPOTLE SIZZLER  340G    4",
+            "ProductCode": 268831,
+            "TotalAmount": 79.8,
+            "Quantity": 7.0,
+            "UnitPrice": 11.4,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHICKEN HUNTERS  430G    4",
+            "ProductCode": 236192,
+            "TotalAmount": 48.0,
+            "Quantity": 4.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHK TANDOORI KEBABS  300G    4",
+            "ProductCode": 268833,
+            "TotalAmount": 360.0,
+            "Quantity": 30.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CHK CHORIZO KEBABS  300G    4",
+            "ProductCode": 268836,
+            "TotalAmount": 612.0,
+            "Quantity": 51.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIRI PIRI CHICKEN  326G    4",
+            "ProductCode": 236194,
+            "TotalAmount": 72.0,
+            "Quantity": 6.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BRD MINI CHK FLT  300G    4",
+            "ProductCode": 234754,
+            "TotalAmount": 36.0,
+            "Quantity": 3.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BRD CHK NUGGETS  300G    4",
+            "ProductCode": 234756,
+            "TotalAmount": 36.0,
+            "Quantity": 3.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BRD CHK G/HERB KIEVS  330G    4",
+            "ProductCode": 234761,
+            "TotalAmount": 125.82,
+            "Quantity": 9.0,
+            "UnitPrice": 13.98,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR S/F CHK M/FILLETS  300G    4",
+            "ProductCode": 234758,
+            "TotalAmount": 60.0,
+            "Quantity": 5.0,
+            "UnitPrice": 12.0,
+            "ItemPosition": 9
+        }
+    ]
+}

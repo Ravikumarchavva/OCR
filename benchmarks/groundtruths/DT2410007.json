@@ -1,0 +1,95 @@
+{
+    "headers": {
+        "filename": "DT2410007.pdf",
+        "invNo": "P51084086",
+        "amountNet": "2160.14",
+        "amountVat": 0.0,
+        "invDate": "2024-05-24",
+        "amountTotal": 2160.14,
+        "suppName": "NOMADIC FOODS LIMITED",
+        "orderNo": 19925
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC GTG RASP&B/BERRY   150G    6",
+            "ProductCode": 267391,
+            "TotalAmount": 46.24,
+            "Quantity": 8.0,
+            "UnitPrice": 6.8,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC GTG HONEY&BANANA   150G    6",
+            "ProductCode": 267392,
+            "TotalAmount": 46.24,
+            "Quantity": 8.0,
+            "UnitPrice": 6.8,
+            "ItemPosition": 11
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC BTG S/BERRY 169P  330ML    6",
+            "ProductCode": 267396,
+            "TotalAmount": 279.18,
+            "Quantity": 47.0,
+            "UnitPrice": 5.94,
+            "ItemPosition": 15
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC DBL BELGIAN CHOC   187G    6",
+            "ProductCode": 144753,
+            "TotalAmount": 1044.48,
+            "Quantity": 256.0,
+            "UnitPrice": 4.98,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC B/CURRANT/B/BERRY   169G    6",
+            "ProductCode": 749526,
+            "TotalAmount": 195.84,
+            "Quantity": 48.0,
+            "UnitPrice": 4.98,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC CLUSTER OAT   169G    6",
+            "ProductCode": 243781,
+            "TotalAmount": 269.28,
+            "Quantity": 66.0,
+            "UnitPrice": 4.98,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC PROTEIN GRAN NAT   170G    6",
+            "ProductCode": 246324,
+            "TotalAmount": 41.76,
+            "Quantity": 8.0,
+            "UnitPrice": 6.12,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC PROTEIN GRAN VAN   170G    6",
+            "ProductCode": 246323,
+            "TotalAmount": 83.52,
+            "Quantity": 16.0,
+            "UnitPrice": 6.12,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NOMADIC P/PUDDING CHOC   200G   10",
+            "ProductCode": 246867,
+            "TotalAmount": 153.6,
+            "Quantity": 16.0,
+            "UnitPrice": 9.6,
+            "ItemPosition": 8
+        }
+    ]
+}

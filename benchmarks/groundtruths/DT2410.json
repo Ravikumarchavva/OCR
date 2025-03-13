@@ -1,0 +1,23 @@
+{
+    "headers": {
+        "filename": "DT2410.pdf",
+        "invNo": "90633842",
+        "amountNet": "375",
+        "amountVat": 0.0,
+        "invDate": "2024-03-02",
+        "amountTotal": 375.0,
+        "suppName": "PORK FARMS QUEENS DRIVE",
+        "orderNo": 996991
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "P/FARMS CRISPY BACON   50G    8",
+            "ProductCode": 268843,
+            "TotalAmount": 375.0,
+            "Quantity": 30.0,
+            "UnitPrice": 12.5,
+            "ItemPosition": 1
+        }
+    ]
+}

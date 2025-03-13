@@ -1,0 +1,50 @@
+{
+    "headers": {
+        "filename": "DT2410054.pdf",
+        "invNo": "376541",
+        "amountNet": "677.6",
+        "amountVat": 0.0,
+        "invDate": "2024-05-24",
+        "amountTotal": 677.6,
+        "suppName": "FAZILA FOODS",
+        "orderNo": 20122
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA CHICK MADRAS  300G    1",
+            "ProductCode": 220303,
+            "TotalAmount": 221.4,
+            "Quantity": 90.0,
+            "UnitPrice": 2.46,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA CHICK TIKKA  300G    1",
+            "ProductCode": 220305,
+            "TotalAmount": 295.2,
+            "Quantity": 120.0,
+            "UnitPrice": 2.46,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA VEG CURRY  300G    1",
+            "ProductCode": 220310,
+            "TotalAmount": 46.0,
+            "Quantity": 20.0,
+            "UnitPrice": 2.3,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA CHICKPEA/POTATO  300G    1",
+            "ProductCode": 220312,
+            "TotalAmount": 115.0,
+            "Quantity": 50.0,
+            "UnitPrice": 2.3,
+            "ItemPosition": 4
+        }
+    ]
+}

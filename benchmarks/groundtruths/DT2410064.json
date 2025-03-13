@@ -1,0 +1,77 @@
+{
+    "headers": {
+        "filename": "DT2410064.pdf",
+        "invNo": "369278",
+        "amountNet": "903",
+        "amountVat": 0.0,
+        "invDate": "2024-05-22",
+        "amountTotal": 903.0,
+        "suppName": "CLAYTON PARK CREAM DELI TWIN",
+        "orderNo": 19618
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI COFFEE REN TWIN  TWIN    1",
+            "ProductCode": 212501,
+            "TotalAmount": 115.24,
+            "Quantity": 43.0,
+            "UnitPrice": 2.68,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CLAYTON DELI CREAM SCONE  TWIN    1",
+            "ProductCode": 239012,
+            "TotalAmount": 99.16,
+            "Quantity": 37.0,
+            "UnitPrice": 2.68,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI CHOC ECLAIR TWIN  TWIN    1",
+            "ProductCode": 212502,
+            "TotalAmount": 120.6,
+            "Quantity": 45.0,
+            "UnitPrice": 2.68,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI BANOFFE PIE TWIN  TWIN    1",
+            "ProductCode": 212507,
+            "TotalAmount": 129.56,
+            "Quantity": 41.0,
+            "UnitPrice": 3.16,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI STRAW MER TWIN  TWIN    1",
+            "ProductCode": 212508,
+            "TotalAmount": 151.8,
+            "Quantity": 46.0,
+            "UnitPrice": 3.3,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI MANC TART TWIN  TWIN    1",
+            "ProductCode": 212509,
+            "TotalAmount": 158.0,
+            "Quantity": 50.0,
+            "UnitPrice": 3.16,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DELI VAN SLICE TWIN  TWIN    1",
+            "ProductCode": 212511,
+            "TotalAmount": 128.64,
+            "Quantity": 48.0,
+            "UnitPrice": 2.68,
+            "ItemPosition": 7
+        }
+    ]
+}

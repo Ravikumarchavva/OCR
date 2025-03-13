@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2410066.pdf",
+        "invNo": "369329",
+        "amountNet": "594.9",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 594.9,
+        "suppName": "CLAYTON PARK - PIE/MASH",
+        "orderNo": 19671
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CPK CAULI CHEESE  400G    1",
+            "ProductCode": 222215,
+            "TotalAmount": 265.72,
+            "Quantity": 146.0,
+            "UnitPrice": 1.82,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CPK MASHED POTATO  400G    1",
+            "ProductCode": 237179,
+            "TotalAmount": 329.18,
+            "Quantity": 302.0,
+            "UnitPrice": 1.09,
+            "ItemPosition": 2
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "headers": {
+        "filename": "DT2410051.pdf",
+        "invNo": "374237",
+        "amountNet": "1151.5",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 1151.5,
+        "suppName": "FAZILA",
+        "orderNo": 20483
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR LEMON/CORR OLIVES   145G    1",
+            "ProductCode": 236300,
+            "TotalAmount": 175.0,
+            "Quantity": 100.0,
+            "UnitPrice": 1.75,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SLOW ROASTED TOMATO   120G    1",
+            "ProductCode": 236301,
+            "TotalAmount": 155.75,
+            "Quantity": 89.0,
+            "UnitPrice": 1.75,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR STUFFED PEPPERS CHS   115G    1",
+            "ProductCode": 236302,
+            "TotalAmount": 290.5,
+            "Quantity": 166.0,
+            "UnitPrice": 1.75,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR MIX OLIVES/FETA   150G    1",
+            "ProductCode": 236303,
+            "TotalAmount": 530.25,
+            "Quantity": 303.0,
+            "UnitPrice": 1.75,
+            "ItemPosition": 5
+        }
+    ]
+}

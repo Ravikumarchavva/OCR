@@ -25,7 +25,7 @@ class OCR_Model:
 
     def _predict(self, data):
         """Generates response using the model."""
-        response = self.client.models.generate_content(
+        self.response = self.client.models.generate_content(
             model=self.model,
             contents=[
                 self.prompt,
@@ -35,10 +35,10 @@ class OCR_Model:
                 response_mime_type="application/json",
                 response_schema=RESPONSE_SCHEMA,
                 temperature=0.1,
-                max_output_tokens=8000,
+                # max_output_tokens=8000,
             ),
         )
-        return response.text
+        return self.response.text
 
     def extract(self, data):
         """Extracts invoice data from the response."""

@@ -1,0 +1,59 @@
+{
+    "headers": {
+        "filename": "DT241001.pdf",
+        "invNo": "1397824",
+        "amountNet": "505.92",
+        "amountVat": 0.0,
+        "invDate": "2024-03-14",
+        "amountTotal": 505.92,
+        "suppName": "LACTALIS NESTLE DAIRY CO LTD",
+        "orderNo": 1616
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "LINDAHLS PRO YOG W/CHOC  150G    8",
+            "ProductCode": 250798,
+            "TotalAmount": 28.32,
+            "Quantity": 6.0,
+            "UnitPrice": 4.72,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "LINDAHLS PRO YOG RASPBRY  150G    8",
+            "ProductCode": 250799,
+            "TotalAmount": 28.32,
+            "Quantity": 6.0,
+            "UnitPrice": 4.72,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NESTLE SMARTIES SPLIT POT   SGL    8",
+            "ProductCode": 247978,
+            "TotalAmount": 63.0,
+            "Quantity": 18.0,
+            "UnitPrice": 3.5,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "MILKYBAR DESSERT 2PACK    8",
+            "ProductCode": 242487,
+            "TotalAmount": 179.4,
+            "Quantity": 20.0,
+            "UnitPrice": 8.97,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "NESTLE MILKYBAR SLICE 4PACK   10",
+            "ProductCode": 238458,
+            "TotalAmount": 206.88,
+            "Quantity": 24.0,
+            "UnitPrice": 8.62,
+            "ItemPosition": 5
+        }
+    ]
+}

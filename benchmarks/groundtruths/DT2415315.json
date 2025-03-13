@@ -1,0 +1,86 @@
+{
+    "headers": {
+        "filename": "DT2415315.pdf",
+        "invNo": "4393",
+        "amountNet": "10329.32",
+        "amountVat": 0.0,
+        "invDate": "2024-07-04",
+        "amountTotal": 10329.32,
+        "suppName": "ZAFRON FOODS LTD",
+        "orderNo": 30174
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S SWT CHILI CHCK S/FIL   1KG    1",
+            "ProductCode": 238023,
+            "TotalAmount": 523.44,
+            "Quantity": 72.0,
+            "UnitPrice": 7.27,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S CHIPOLTE CHCKEN S/FIL   1KG    1",
+            "ProductCode": 238031,
+            "TotalAmount": 546.0,
+            "Quantity": 78.0,
+            "UnitPrice": 7.0,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S CHEESE & ONION S/FILL   1KG    1",
+            "ProductCode": 238095,
+            "TotalAmount": 850.5,
+            "Quantity": 126.0,
+            "UnitPrice": 6.75,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICK/BACON MAYO S/FILLER   1KG    1",
+            "ProductCode": 238015,
+            "TotalAmount": 924.6,
+            "Quantity": 138.0,
+            "UnitPrice": 6.7,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICKEN MAYO S/FILLER   1KG    1",
+            "ProductCode": 238016,
+            "TotalAmount": 561.12,
+            "Quantity": 84.0,
+            "UnitPrice": 6.68,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CHICK TIKKA MAYO S/FILLER   1KG    1",
+            "ProductCode": 238014,
+            "TotalAmount": 1092.0,
+            "Quantity": 168.0,
+            "UnitPrice": 6.5,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "EGG MAYO F/RANGE S/FILLER   1KG    1",
+            "ProductCode": 238013,
+            "TotalAmount": 937.44,
+            "Quantity": 168.0,
+            "UnitPrice": 5.58,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "H/S PULL PORK/BBQ S/FILL   1KG    1",
+            "ProductCode": 238012,
+            "TotalAmount": 412.8,
+            "Quantity": 48.0,
+            "UnitPrice": 8.6,
+            "ItemPosition": 9
+        }
+    ]
+}

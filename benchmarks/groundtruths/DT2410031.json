@@ -1,0 +1,50 @@
+{
+    "headers": {
+        "filename": "DT2410031.pdf",
+        "invNo": "D+AS00035618",
+        "amountNet": "404.2",
+        "amountVat": 0.0,
+        "invDate": "2024-05-17",
+        "amountTotal": 404.2,
+        "suppName": "SPAR UK - D & A SEAFOOD",
+        "orderNo": 18913
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "MAWGAN KING PRAWNS  150G    4",
+            "ProductCode": 243091,
+            "TotalAmount": 118.0,
+            "Quantity": 10.0,
+            "UnitPrice": 11.8,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "RAMUS SALMON FISHCAKES  270G    4",
+            "ProductCode": 243116,
+            "TotalAmount": 5.2,
+            "Quantity": 1.0,
+            "UnitPrice": 5.2,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "MAWGAN SALMON FILLETS  200G    4",
+            "ProductCode": 243140,
+            "TotalAmount": 248.0,
+            "Quantity": 20.0,
+            "UnitPrice": 12.4,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "MAWGAN BAY COD FILLET  220G    4",
+            "ProductCode": 308639,
+            "TotalAmount": 33.0,
+            "Quantity": 3.0,
+            "UnitPrice": 11.0,
+            "ItemPosition": 4
+        }
+    ]
+}

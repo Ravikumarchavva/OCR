@@ -1,0 +1,95 @@
+{
+    "headers": {
+        "filename": "DT2410038.pdf",
+        "invNo": "MONT126343",
+        "amountNet": "5510.86",
+        "amountVat": 1102.17,
+        "invDate": "2024-05-21",
+        "amountTotal": 6613.03,
+        "suppName": "SPAR UK - MONTGOMERSHI",
+        "orderNo": 18100
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR SILVERBROOK STILL  500ML   24",
+            "ProductCode": 792404,
+            "TotalAmount": 573.3,
+            "Quantity": 234.0,
+            "UnitPrice": 2.45,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR STL LEM/LIME2FOR110P  500ML   12",
+            "ProductCode": 242323,
+            "TotalAmount": 289.5,
+            "Quantity": 150.0,
+            "UnitPrice": 1.93,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR STL APP/RASP2FOR110P  500ML   12",
+            "ProductCode": 242322,
+            "TotalAmount": 868.5,
+            "Quantity": 450.0,
+            "UnitPrice": 1.93,
+            "ItemPosition": 12
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR SPARK AP/RAS2FOR110P  500ML   12",
+            "ProductCode": 242681,
+            "TotalAmount": 573.12,
+            "Quantity": 288.0,
+            "UnitPrice": 1.99,
+            "ItemPosition": 16
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR SPARK APPLE/RASP   37   1LT   12",
+            "ProductCode": 423443,
+            "TotalAmount": 218.4,
+            "Quantity": 80.0,
+            "UnitPrice": 2.73,
+            "ItemPosition": 18
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR SILVERBROOK SPORT  750ML   12",
+            "ProductCode": 792410,
+            "TotalAmount": 1155.6,
+            "Quantity": 540.0,
+            "UnitPrice": 2.14,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR SODA WATER2FOR110P    1LT   12",
+            "ProductCode": 242686,
+            "TotalAmount": 222.4,
+            "Quantity": 80.0,
+            "UnitPrice": 2.78,
+            "ItemPosition": 24
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR SILVERBROOK STILL    5LT    3",
+            "ProductCode": 792440,
+            "TotalAmount": 1031.04,
+            "Quantity": 576.0,
+            "UnitPrice": 1.79,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "SPAR STL STW/KIWI2FOR110P  500ML   12",
+            "ProductCode": 242321,
+            "TotalAmount": 579.0,
+            "Quantity": 300.0,
+            "UnitPrice": 1.93,
+            "ItemPosition": 8
+        }
+    ]
+}

@@ -1,0 +1,329 @@
+{
+    "headers": {
+        "filename": "DT2410081.pdf",
+        "invNo": "373906",
+        "amountNet": "13134.54",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 13134.54,
+        "suppName": "CLAYTON PARK JAM003**** BREAD",
+        "orderNo": 20349
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 12 SOFT WHITE ROLLS 12PCK    1",
+            "ProductCode": 104621,
+            "TotalAmount": 279.0,
+            "Quantity": 180.0,
+            "UnitPrice": 1.55,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 6 LRG WHITE ROLLS 6PACK    1",
+            "ProductCode": 625126,
+            "TotalAmount": 936.84,
+            "Quantity": 844.0,
+            "UnitPrice": 1.11,
+            "ItemPosition": 10
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FARMHOUSE WHITE  800G    1",
+            "ProductCode": 624998,
+            "TotalAmount": 182.07,
+            "Quantity": 153.0,
+            "UnitPrice": 1.19,
+            "ItemPosition": 11
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FARMHOUSE MALT  800G    1",
+            "ProductCode": 625030,
+            "TotalAmount": 282.48,
+            "Quantity": 214.0,
+            "UnitPrice": 1.32,
+            "ItemPosition": 12
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P ICED FRUIT BUNS 4PACK    1",
+            "ProductCode": 236961,
+            "TotalAmount": 256.5,
+            "Quantity": 225.0,
+            "UnitPrice": 1.14,
+            "ItemPosition": 13
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P MEDIUM SLICED WHITE  400G    1",
+            "ProductCode": 236968,
+            "TotalAmount": 107.3,
+            "Quantity": 185.0,
+            "UnitPrice": 0.58,
+            "ItemPosition": 14
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P TOASTIE WHITE  400G    1",
+            "ProductCode": 236969,
+            "TotalAmount": 113.1,
+            "Quantity": 195.0,
+            "UnitPrice": 0.58,
+            "ItemPosition": 15
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P MEDIUM SLICED WHITE  800G    1",
+            "ProductCode": 236971,
+            "TotalAmount": 228.0,
+            "Quantity": 300.0,
+            "UnitPrice": 0.76,
+            "ItemPosition": 16
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P TOASTIE WHITE  800G    1",
+            "ProductCode": 236973,
+            "TotalAmount": 305.52,
+            "Quantity": 402.0,
+            "UnitPrice": 0.76,
+            "ItemPosition": 17
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P MEDIUM SLICED BROWN  800G    1",
+            "ProductCode": 236975,
+            "TotalAmount": 109.6,
+            "Quantity": 137.0,
+            "UnitPrice": 0.8,
+            "ItemPosition": 18
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P BLEND OF TWO  800G    1",
+            "ProductCode": 236977,
+            "TotalAmount": 173.01,
+            "Quantity": 219.0,
+            "UnitPrice": 0.79,
+            "ItemPosition": 19
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 SEEDED ROLLS 4PACK    1",
+            "ProductCode": 273621,
+            "TotalAmount": 308.7,
+            "Quantity": 294.0,
+            "UnitPrice": 1.05,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FARMHOUSE WHOLEMEAL  400G    1",
+            "ProductCode": 236979,
+            "TotalAmount": 97.17,
+            "Quantity": 123.0,
+            "UnitPrice": 0.79,
+            "ItemPosition": 20
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FARMHOUSE WHOLEMEAL  800G    1",
+            "ProductCode": 236980,
+            "TotalAmount": 174.93,
+            "Quantity": 147.0,
+            "UnitPrice": 1.19,
+            "ItemPosition": 21
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P BATCH LOAF MULTISEED  800G    1",
+            "ProductCode": 236981,
+            "TotalAmount": 341.21,
+            "Quantity": 229.0,
+            "UnitPrice": 1.49,
+            "ItemPosition": 22
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P BATCH LOAF WHITE  800G    1",
+            "ProductCode": 236982,
+            "TotalAmount": 176.8,
+            "Quantity": 130.0,
+            "UnitPrice": 1.36,
+            "ItemPosition": 23
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P BATCH LOAF WHOLEMEAL  800G    1",
+            "ProductCode": 236983,
+            "TotalAmount": 163.2,
+            "Quantity": 120.0,
+            "UnitPrice": 1.36,
+            "ItemPosition": 24
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P DANISH WHITE  400G    1",
+            "ProductCode": 236985,
+            "TotalAmount": 88.2,
+            "Quantity": 140.0,
+            "UnitPrice": 0.63,
+            "ItemPosition": 25
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 ICED LEMON BUNS 4PACK    1",
+            "ProductCode": 239363,
+            "TotalAmount": 176.12,
+            "Quantity": 119.0,
+            "UnitPrice": 1.48,
+            "ItemPosition": 26
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FARMHOUSE WHITE  400G    1",
+            "ProductCode": 625001,
+            "TotalAmount": 217.91,
+            "Quantity": 283.0,
+            "UnitPrice": 0.77,
+            "ItemPosition": 27
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 3 BROWN SUB ROLLS 3PACK    1",
+            "ProductCode": 273520,
+            "TotalAmount": 312.9,
+            "Quantity": 298.0,
+            "UnitPrice": 1.05,
+            "ItemPosition": 28
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 3 CHSE TOP SUB ROLLS 3PACK    1",
+            "ProductCode": 273565,
+            "TotalAmount": 363.3,
+            "Quantity": 346.0,
+            "UnitPrice": 1.05,
+            "ItemPosition": 29
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 SOFT WHITE ROLLS 4PACK    1",
+            "ProductCode": 284979,
+            "TotalAmount": 784.53,
+            "Quantity": 1137.0,
+            "UnitPrice": 0.69,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 3 WHITE SUB ROLLS 3PACK    1",
+            "ProductCode": 273609,
+            "TotalAmount": 756.0,
+            "Quantity": 720.0,
+            "UnitPrice": 1.05,
+            "ItemPosition": 30
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 6 SFT LRG WMEAL ROLLS 6PACK    1",
+            "ProductCode": 625103,
+            "TotalAmount": 311.22,
+            "Quantity": 273.0,
+            "UnitPrice": 1.14,
+            "ItemPosition": 31
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 6 FINGER ROLLS 6PACK    1",
+            "ProductCode": 625082,
+            "TotalAmount": 401.32,
+            "Quantity": 508.0,
+            "UnitPrice": 0.79,
+            "ItemPosition": 32
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 CHERRY SCONES 4PACK    1",
+            "ProductCode": 304975,
+            "TotalAmount": 207.08,
+            "Quantity": 167.0,
+            "UnitPrice": 1.24,
+            "ItemPosition": 33
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 FRUIT TEACAKES 4PACK    1",
+            "ProductCode": 624981,
+            "TotalAmount": 292.34,
+            "Quantity": 311.0,
+            "UnitPrice": 0.94,
+            "ItemPosition": 34
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 SULTANA SCONES 4PACK    1",
+            "ProductCode": 625132,
+            "TotalAmount": 246.4,
+            "Quantity": 220.0,
+            "UnitPrice": 1.12,
+            "ItemPosition": 35
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PREM WHITE ROLLS 4PACK    1",
+            "ProductCode": 278880,
+            "TotalAmount": 2617.56,
+            "Quantity": 2644.0,
+            "UnitPrice": 0.99,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 6 SMALL WHITE ROLLS 6PACK    1",
+            "ProductCode": 625076,
+            "TotalAmount": 570.49,
+            "Quantity": 641.0,
+            "UnitPrice": 0.89,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P PREM WHEATGERM ROLLS 4PACK    1",
+            "ProductCode": 278896,
+            "TotalAmount": 429.66,
+            "Quantity": 434.0,
+            "UnitPrice": 0.99,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 4 SOFT BROWN ROLLS 4PACK    1",
+            "ProductCode": 273730,
+            "TotalAmount": 538.45,
+            "Quantity": 605.0,
+            "UnitPrice": 0.89,
+            "ItemPosition": 7
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P 6 SML WHOLEMEAL ROLLS 6PACK    1",
+            "ProductCode": 625060,
+            "TotalAmount": 311.5,
+            "Quantity": 350.0,
+            "UnitPrice": 0.89,
+            "ItemPosition": 8
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P FARMHOUSE MALT  400G    1",
+            "ProductCode": 625024,
+            "TotalAmount": 274.13,
+            "Quantity": 347.0,
+            "UnitPrice": 0.79,
+            "ItemPosition": 9
+        }
+    ]
+}

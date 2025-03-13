@@ -1,0 +1,68 @@
+{
+    "headers": {
+        "filename": "DT2410000.pdf",
+        "invNo": "1370219",
+        "amountNet": "329.12",
+        "amountVat": 0.0,
+        "invDate": "2024-05-20",
+        "amountTotal": 329.12,
+        "suppName": "BURY BLACK PUDDING",
+        "orderNo": 18776
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES BURY WHITE CHUB  220G   12",
+            "ProductCode": 249249,
+            "TotalAmount": 63.36,
+            "Quantity": 4.0,
+            "UnitPrice": 15.84,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES BURY BLACK CHUB   220G   12",
+            "ProductCode": 249250,
+            "TotalAmount": 76.8,
+            "Quantity": 10.0,
+            "UnitPrice": 7.68,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES BURY BLK PUD STICK 1.36KG   10",
+            "ProductCode": 249251,
+            "TotalAmount": 46.0,
+            "Quantity": 2.0,
+            "UnitPrice": 23.0,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "G/EYES BURY BLK PUD RING  190G    6",
+            "ProductCode": 249253,
+            "TotalAmount": 30.96,
+            "Quantity": 6.0,
+            "UnitPrice": 5.16,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "BURY BLACK PUDDING SLICES  230G    1",
+            "ProductCode": 311171,
+            "TotalAmount": 80.0,
+            "Quantity": 100.0,
+            "UnitPrice": 0.8,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "BURY BLACK PUDDING ROLL  220G    1",
+            "ProductCode": 389909,
+            "TotalAmount": 32.0,
+            "Quantity": 50.0,
+            "UnitPrice": 0.64,
+            "ItemPosition": 6
+        }
+    ]
+}

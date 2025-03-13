@@ -1,0 +1,41 @@
+{
+    "headers": {
+        "filename": "DT2410014.pdf",
+        "invNo": "11548",
+        "amountNet": "3656.74",
+        "amountVat": 731.35,
+        "invDate": "2024-05-23",
+        "amountTotal": 4388.09,
+        "suppName": "BEER BRITANNIA LTD",
+        "orderNo": 18472
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 20.0,
+            "Description": "THEAKSTONS OLD PECULIER  500ML    8",
+            "ProductCode": 426684,
+            "TotalAmount": 1507.8,
+            "Quantity": 140.0,
+            "UnitPrice": 10.77,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "THEAKSTON PALE ALE  500ML    8",
+            "ProductCode": 220702,
+            "TotalAmount": 1451.8,
+            "Quantity": 140.0,
+            "UnitPrice": 10.37,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "TINY REBEL CLWB TROP 4PK  4PACK    6",
+            "ProductCode": 243189,
+            "TotalAmount": 697.14,
+            "Quantity": 27.0,
+            "UnitPrice": 25.82,
+            "ItemPosition": 3
+        }
+    ]
+}

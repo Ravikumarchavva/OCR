@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2442766.pdf",
+        "invNo": "12973",
+        "amountNet": "4820.32",
+        "amountVat": 964.06,
+        "invDate": "2025-01-30",
+        "amountTotal": 5784.38,
+        "suppName": "J CHANDLER & CO BUCKFAST LTD",
+        "orderNo": 88416
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 20.0,
+            "Description": "BUCKFAST TONIC WINE   75CL   12",
+            "ProductCode": 303990,
+            "TotalAmount": 4338.88,
+            "Quantity": 56.0,
+            "UnitPrice": 77.48,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 20.0,
+            "Description": "BUCKFAST TONIC WINE   35CL   12",
+            "ProductCode": 487944,
+            "TotalAmount": 481.44,
+            "Quantity": 12.0,
+            "UnitPrice": 40.12,
+            "ItemPosition": 2
+        }
+    ]
+}

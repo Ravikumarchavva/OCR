@@ -1,0 +1,59 @@
+{
+    "headers": {
+        "filename": "DT2410056.pdf",
+        "invNo": "376546",
+        "amountNet": "3987.84",
+        "amountVat": 0.0,
+        "invDate": "2024-05-24",
+        "amountTotal": 3987.84,
+        "suppName": "FAZILA FOODS - SANDWICHES",
+        "orderNo": 20702
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA KERLAN CH WRP 369P  EACH    1",
+            "ProductCode": 217199,
+            "TotalAmount": 898.56,
+            "Quantity": 468.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA CHLI CHSE WRP 369P  EACH    1",
+            "ProductCode": 401837,
+            "TotalAmount": 568.32,
+            "Quantity": 296.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA ONI BHAJI WRAP369P  EACH    1",
+            "ProductCode": 217193,
+            "TotalAmount": 696.96,
+            "Quantity": 363.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA TAND CHICK WRP369P  EACH    1",
+            "ProductCode": 217197,
+            "TotalAmount": 1050.24,
+            "Quantity": 547.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FAZILA CHK TKA WRAP 369P  EACH    1",
+            "ProductCode": 217201,
+            "TotalAmount": 773.76,
+            "Quantity": 403.0,
+            "UnitPrice": 1.92,
+            "ItemPosition": 5
+        }
+    ]
+}

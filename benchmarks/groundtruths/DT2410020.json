@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2410020.pdf",
+        "invNo": "INV-6597",
+        "amountNet": "2970",
+        "amountVat": 0.0,
+        "invDate": "2024-05-27",
+        "amountTotal": 2970.0,
+        "suppName": "JNH VEGETABLES",
+        "orderNo": 20426
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CAULIFLOWER B   SGL   12",
+            "ProductCode": 748042,
+            "TotalAmount": 1368.0,
+            "Quantity": 95.0,
+            "UnitPrice": 14.4,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BROCCOLI   SGL   18",
+            "ProductCode": 211220,
+            "TotalAmount": 1602.0,
+            "Quantity": 100.0,
+            "UnitPrice": 16.02,
+            "ItemPosition": 2
+        }
+    ]
+}

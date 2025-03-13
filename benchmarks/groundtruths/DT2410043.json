@@ -1,0 +1,50 @@
+{
+    "headers": {
+        "filename": "DT2410043.pdf",
+        "invNo": "27SI00528049",
+        "amountNet": "162.88",
+        "amountVat": 0.0,
+        "invDate": "2024-05-24",
+        "amountTotal": 162.88,
+        "suppName": "GINSTERS",
+        "orderNo": 20164
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS PASTY CORNISH  227G    6",
+            "ProductCode": 475928,
+            "TotalAmount": 66.72,
+            "Quantity": 8.0,
+            "UnitPrice": 8.34,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS LGE SAUSAGE ROLL  130G    6",
+            "ProductCode": 414606,
+            "TotalAmount": 27.76,
+            "Quantity": 4.0,
+            "UnitPrice": 6.94,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS SLICE PEPP/STEAK   SGL    6",
+            "ProductCode": 152217,
+            "TotalAmount": 51.3,
+            "Quantity": 6.0,
+            "UnitPrice": 8.55,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "GINSTERS SLICE CHICK/MUSH   SGL    6",
+            "ProductCode": 150474,
+            "TotalAmount": 17.1,
+            "Quantity": 2.0,
+            "UnitPrice": 8.55,
+            "ItemPosition": 4
+        }
+    ]
+}

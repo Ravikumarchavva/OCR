@@ -1,0 +1,59 @@
+{
+    "headers": {
+        "filename": "DT24100.pdf",
+        "invNo": "ID1987562",
+        "amountNet": "151.9",
+        "amountVat": 0.0,
+        "invDate": "2024-01-13",
+        "amountTotal": 151.9,
+        "suppName": "RIBBLE FARM FARE - HMR",
+        "orderNo": 986880
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SLICED WHITE ONION 3MM (65)    KG    1",
+            "ProductCode": 248095,
+            "TotalAmount": 4.2,
+            "Quantity": 3.0,
+            "UnitPrice": 1.4,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "DICED WHITE ONION 10MM (63)    KG    1",
+            "ProductCode": 248096,
+            "TotalAmount": 5.6,
+            "Quantity": 4.0,
+            "UnitPrice": 1.4,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "CARROT - BATON (2430)     KG    1",
+            "ProductCode": 248111,
+            "TotalAmount": 12.3,
+            "Quantity": 6.0,
+            "UnitPrice": 2.05,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SLICED CARROT 5MM (25E)    KG    1",
+            "ProductCode": 248130,
+            "TotalAmount": 21.0,
+            "Quantity": 14.0,
+            "UnitPrice": 1.5,
+            "ItemPosition": 6
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "ROAST POTATOES- QUARTERED (2620)    KG    1",
+            "ProductCode": 248154,
+            "TotalAmount": 108.8,
+            "Quantity": 68.0,
+            "UnitPrice": 1.6,
+            "ItemPosition": 7
+        }
+    ]
+}

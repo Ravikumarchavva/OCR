@@ -1,0 +1,23 @@
+{
+    "headers": {
+        "filename": "DT2410033.pdf",
+        "invNo": "JDS409836",
+        "amountNet": "2432",
+        "amountVat": 0.0,
+        "invDate": "2024-05-20",
+        "amountTotal": 2432.0,
+        "suppName": "SPAR UK - JDS FOODS",
+        "orderNo": 17390
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BUTTERSMOOTH   450G    8",
+            "ProductCode": 242739,
+            "TotalAmount": 2432.0,
+            "Quantity": 200.0,
+            "UnitPrice": 12.16,
+            "ItemPosition": 2
+        }
+    ]
+}

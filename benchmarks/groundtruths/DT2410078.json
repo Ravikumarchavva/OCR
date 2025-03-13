@@ -1,0 +1,59 @@
+{
+    "headers": {
+        "filename": "DT2410078.pdf",
+        "invNo": "374292",
+        "amountNet": "5522.6",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 5522.6,
+        "suppName": "CLAYTON CAKES 2",
+        "orderNo": 20500
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P CHERRY BAKEWELL    SGL    5",
+            "ProductCode": 230133,
+            "TotalAmount": 646.76,
+            "Quantity": 148.0,
+            "UnitPrice": 4.37,
+            "ItemPosition": 13
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P GOLDEN MADEIRA CAKE C/P CAKE  MADEIRA CAKES   SGL    1",
+            "ProductCode": 454461,
+            "TotalAmount": 905.96,
+            "Quantity": 638.0,
+            "UnitPrice": 1.42,
+            "ItemPosition": 20
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P CHOC ORANGE CAKE    SGL    1",
+            "ProductCode": 236063,
+            "TotalAmount": 323.76,
+            "Quantity": 228.0,
+            "UnitPrice": 1.42,
+            "ItemPosition": 21
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P RICH FRUIT CAKE    SGL    1",
+            "ProductCode": 454478,
+            "TotalAmount": 360.64,
+            "Quantity": 224.0,
+            "UnitPrice": 1.61,
+            "ItemPosition": 26
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P BAKEWELL SLICE    SGL    6",
+            "ProductCode": 229871,
+            "TotalAmount": 3285.48,
+            "Quantity": 627.0,
+            "UnitPrice": 5.24,
+            "ItemPosition": 4
+        }
+    ]
+}

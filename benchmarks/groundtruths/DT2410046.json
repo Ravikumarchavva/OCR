@@ -1,0 +1,23 @@
+{
+    "headers": {
+        "filename": "DT2410046.pdf",
+        "invNo": "SI0859369",
+        "amountNet": "448.54",
+        "amountVat": 0.0,
+        "invDate": "2024-05-27",
+        "amountTotal": 448.54,
+        "suppName": "GOLDEN ACRE  FOODS",
+        "orderNo": 20797
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "BILLY BEAR SLICED SAUSAGE    90G   14",
+            "ProductCode": 246504,
+            "TotalAmount": 448.54,
+            "Quantity": 41.0,
+            "UnitPrice": 10.94,
+            "ItemPosition": 1
+        }
+    ]
+}

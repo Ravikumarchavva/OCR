@@ -1,0 +1,68 @@
+{
+    "headers": {
+        "filename": "DT2410039.pdf",
+        "invNo": "CONV11064",
+        "amountNet": "2572.6",
+        "amountVat": 0.0,
+        "invDate": "2024-05-18",
+        "amountTotal": 2572.6,
+        "suppName": "SPAR UK - CONVENI FOOD LTD",
+        "orderNo": 18548
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIZZA MARGHERITA  305G    6",
+            "ProductCode": 227912,
+            "TotalAmount": 634.2,
+            "Quantity": 60.0,
+            "UnitPrice": 10.57,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIZZA MEAT FEAST  325G    6",
+            "ProductCode": 227917,
+            "TotalAmount": 634.2,
+            "Quantity": 60.0,
+            "UnitPrice": 10.57,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIZZA PEPPERONI  310G    6",
+            "ProductCode": 227921,
+            "TotalAmount": 1057.0,
+            "Quantity": 100.0,
+            "UnitPrice": 10.57,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIZZA LOAD BBQ MEAT  571G    6",
+            "ProductCode": 229582,
+            "TotalAmount": 73.4,
+            "Quantity": 5.0,
+            "UnitPrice": 14.68,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR PIZZA LOAD CHEESE  551G    6",
+            "ProductCode": 229578,
+            "TotalAmount": 73.4,
+            "Quantity": 5.0,
+            "UnitPrice": 14.68,
+            "ItemPosition": 5
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR STONEBAKED VENTRICIN  510G    6",
+            "ProductCode": 268513,
+            "TotalAmount": 100.4,
+            "Quantity": 5.0,
+            "UnitPrice": 20.08,
+            "ItemPosition": 6
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "headers": {
+        "filename": "DT2410082.pdf",
+        "invNo": "373928",
+        "amountNet": "2133.2",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 2133.2,
+        "suppName": "CLAYTON PARK COOKIES",
+        "orderNo": 20353
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P COOKIES DOUBLE CHOC 4PACK    1",
+            "ProductCode": 500155,
+            "TotalAmount": 674.02,
+            "Quantity": 503.0,
+            "UnitPrice": 1.34,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P COOKIES CHOC CHUNK 4PACK    1",
+            "ProductCode": 500234,
+            "TotalAmount": 987.5,
+            "Quantity": 790.0,
+            "UnitPrice": 1.25,
+            "ItemPosition": 2
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "C/P COOKIES RASP&WHT CHOC 4PACK    1",
+            "ProductCode": 500263,
+            "TotalAmount": 471.68,
+            "Quantity": 352.0,
+            "UnitPrice": 1.34,
+            "ItemPosition": 3
+        }
+    ]
+}

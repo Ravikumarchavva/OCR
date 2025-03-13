@@ -1,0 +1,32 @@
+{
+    "headers": {
+        "filename": "DT2410009.pdf",
+        "invNo": "756664601",
+        "amountNet": "4936.14",
+        "amountVat": 0.0,
+        "invDate": "2024-05-24",
+        "amountTotal": 4936.14,
+        "suppName": "MULLER DAIRY (UK) LTD",
+        "orderNo": 20200
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FRIJJ MSHAKE BANANA 130P  330ML   12",
+            "ProductCode": 266687,
+            "TotalAmount": 1645.38,
+            "Quantity": 198.0,
+            "UnitPrice": 8.31,
+            "ItemPosition": 35
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "FRIJJ MSHKE CHC/FDGE 130P  330ML   12",
+            "ProductCode": 267084,
+            "TotalAmount": 3290.76,
+            "Quantity": 396.0,
+            "UnitPrice": 8.31,
+            "ItemPosition": 37
+        }
+    ]
+}

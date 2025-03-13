@@ -1,0 +1,50 @@
+{
+    "headers": {
+        "filename": "DT2410025.pdf",
+        "invNo": "AGRI780186",
+        "amountNet": "871.54",
+        "amountVat": 0.0,
+        "invDate": "2024-05-23",
+        "amountTotal": 871.54,
+        "suppName": "SPAR UK - AGRIAL FRESH",
+        "orderNo": 20114
+    },
+    "line_items": [
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR CRISPY SALAD  120G    8",
+            "ProductCode": 260151,
+            "TotalAmount": 361.2,
+            "Quantity": 70.0,
+            "UnitPrice": 5.16,
+            "ItemPosition": 1
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR BABY LEAF SALAD   90G    8",
+            "ProductCode": 260149,
+            "TotalAmount": 44.48,
+            "Quantity": 8.0,
+            "UnitPrice": 5.56,
+            "ItemPosition": 3
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR SWT/CRNCHY SALAD BWL  145G    6",
+            "ProductCode": 260169,
+            "TotalAmount": 340.26,
+            "Quantity": 53.0,
+            "UnitPrice": 6.42,
+            "ItemPosition": 4
+        },
+        {
+            "ItemVatRate": 0.0,
+            "Description": "SPAR HOUSE SHARING SALAD  340G    4",
+            "ProductCode": 260147,
+            "TotalAmount": 125.6,
+            "Quantity": 20.0,
+            "UnitPrice": 6.28,
+            "ItemPosition": 5
+        }
+    ]
+}
