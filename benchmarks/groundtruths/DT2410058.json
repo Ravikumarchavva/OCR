@@ -2,49 +2,49 @@
     "headers": {
         "filename": "DT2410058.pdf",
         "invNo": "376553",
+        "invDate": "2024-05-24",
+        "orderNo": 20703,
         "amountNet": "5483.4",
         "amountVat": 0.0,
-        "invDate": "2024-05-24",
         "amountTotal": 5483.4,
-        "suppName": "FAZILA WRAPS",
-        "orderNo": 20703
+        "suppName": "FAZILA WRAPS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR ONION BHAJI WRP 359P  EACH    1",
+            "ItemPosition": 1,
             "ProductCode": 246419,
-            "TotalAmount": 458.8,
+            "Description": "SPAR ONION BHAJI WRP 359P  EACH    1",
             "Quantity": 248.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 458.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CAJUN CHICK WRP 359P  EACH    1",
+            "ItemPosition": 2,
             "ProductCode": 246426,
-            "TotalAmount": 925.0,
+            "Description": "SPAR CAJUN CHICK WRP 359P  EACH    1",
             "Quantity": 500.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 925.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CHICK TIKKA WRAP359P  EACH    1",
+            "ItemPosition": 3,
             "ProductCode": 649087,
-            "TotalAmount": 1994.3,
+            "Description": "SPAR CHICK TIKKA WRAP359P  EACH    1",
             "Quantity": 1078.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1994.3
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR SWT CHILLI CHICK359P  EACH    1",
+            "ItemPosition": 4,
             "ProductCode": 649058,
-            "TotalAmount": 2105.3,
+            "Description": "SPAR SWT CHILLI CHICK359P  EACH    1",
             "Quantity": 1138.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 2105.3
         }
     ]
 }

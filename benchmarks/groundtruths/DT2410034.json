@@ -2,31 +2,31 @@
     "headers": {
         "filename": "DT2410034.pdf",
         "invNo": "LOVE172909",
+        "invDate": "2024-05-21",
+        "orderNo": 17827,
         "amountNet": "5913.6",
         "amountVat": 0.0,
-        "invDate": "2024-05-21",
         "amountTotal": 5913.6,
-        "suppName": "SPAR UK - LOVERING FOOD",
-        "orderNo": 17827
+        "suppName": "SPAR UK - LOVERING FOOD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR TUNA STEAKS S/WATER   110G   12",
+            "ItemPosition": 1,
             "ProductCode": 248503,
-            "TotalAmount": 3049.2,
+            "Description": "SPAR TUNA STEAKS S/WATER   110G   12",
             "Quantity": 308.0,
             "UnitPrice": 9.9,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 3049.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR Tuna Chunks In Brine   145G   12",
+            "ItemPosition": 2,
             "ProductCode": 248506,
-            "TotalAmount": 2864.4,
+            "Description": "SPAR Tuna Chunks In Brine   145G   12",
             "Quantity": 308.0,
             "UnitPrice": 9.3,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 2864.4
         }
     ]
 }

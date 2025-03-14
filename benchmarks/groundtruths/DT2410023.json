@@ -2,49 +2,49 @@
     "headers": {
         "filename": "DT2410023.pdf",
         "invNo": "27SI00528048",
+        "invDate": "2024-05-23",
+        "orderNo": 19698,
         "amountNet": "253.5",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 253.5,
-        "suppName": "GINSTERS",
-        "orderNo": 19698
+        "suppName": "GINSTERS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS PASTY CORNISH  227G    6",
+            "ItemPosition": 1,
             "ProductCode": 475928,
-            "TotalAmount": 75.06,
+            "Description": "GINSTERS PASTY CORNISH  227G    6",
             "Quantity": 9.0,
             "UnitPrice": 8.34,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 75.06
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS LGE SAUSAGE ROLL  130G    6",
+            "ItemPosition": 2,
             "ProductCode": 414606,
-            "TotalAmount": 41.64,
+            "Description": "GINSTERS LGE SAUSAGE ROLL  130G    6",
             "Quantity": 6.0,
             "UnitPrice": 6.94,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 41.64
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS SLICE PEPP/STEAK   SGL    6",
+            "ItemPosition": 3,
             "ProductCode": 152217,
-            "TotalAmount": 85.5,
+            "Description": "GINSTERS SLICE PEPP/STEAK   SGL    6",
             "Quantity": 10.0,
             "UnitPrice": 8.55,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 85.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS SLICE CHICK/MUSH   SGL    6",
+            "ItemPosition": 4,
             "ProductCode": 150474,
-            "TotalAmount": 51.3,
+            "Description": "GINSTERS SLICE CHICK/MUSH   SGL    6",
             "Quantity": 6.0,
             "UnitPrice": 8.55,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 51.3
         }
     ]
 }

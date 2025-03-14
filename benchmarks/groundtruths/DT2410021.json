@@ -2,58 +2,58 @@
     "headers": {
         "filename": "DT2410021.pdf",
         "invNo": "942087274",
+        "invDate": "2024-05-24",
+        "orderNo": 19903,
         "amountNet": "3735.66",
         "amountVat": 0.0,
-        "invDate": "2024-05-24",
         "amountTotal": 3735.66,
-        "suppName": "PILGRIMS FOOD MASTERS LTD",
-        "orderNo": 19903
+        "suppName": "PILGRIMS FOOD MASTERS LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "F/RAIDERS RST CHICKEN   45G    6",
+            "ItemPosition": 1,
             "ProductCode": 252993,
-            "TotalAmount": 1862.0,
+            "Description": "F/RAIDERS RST CHICKEN   45G    6",
             "Quantity": 490.0,
             "UnitPrice": 3.8,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1862.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "RICHMOND MINI SAUSAGE   63G    6",
+            "ItemPosition": 2,
             "ProductCode": 253905,
-            "TotalAmount": 42.1,
+            "Description": "RICHMOND MINI SAUSAGE   63G    6",
             "Quantity": 10.0,
             "UnitPrice": 4.21,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 42.1
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "F/RAIDERS BBQ CHICKEN   45G    6",
+            "ItemPosition": 3,
             "ProductCode": 252994,
-            "TotalAmount": 558.6,
+            "Description": "F/RAIDERS BBQ CHICKEN   45G    6",
             "Quantity": 147.0,
             "UnitPrice": 3.8,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 558.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "F/RAIDERS S/F CHICKEN   45G    6",
+            "ItemPosition": 4,
             "ProductCode": 252992,
-            "TotalAmount": 1117.2,
+            "Description": "F/RAIDERS S/F CHICKEN   45G    6",
             "Quantity": 294.0,
             "UnitPrice": 3.8,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1117.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MATT SAUSAGE SMOKED  160G   12",
+            "ItemPosition": 5,
             "ProductCode": 221020,
-            "TotalAmount": 155.76,
+            "Description": "MATT SAUSAGE SMOKED  160G   12",
             "Quantity": 8.0,
             "UnitPrice": 19.47,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 155.76
         }
     ]
 }

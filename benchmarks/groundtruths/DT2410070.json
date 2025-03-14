@@ -2,76 +2,76 @@
     "headers": {
         "filename": "DT2410070.pdf",
         "invNo": "371546",
+        "invDate": "2024-05-23",
+        "orderNo": 19961,
         "amountNet": "865.62",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 865.62,
-        "suppName": "CLAYTON PARK CREAM DELI TWIN",
-        "orderNo": 19961
+        "suppName": "CLAYTON PARK CREAM DELI TWIN"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI COFFEE REN TWIN  TWIN    1",
+            "ItemPosition": 1,
             "ProductCode": 212501,
-            "TotalAmount": 115.24,
+            "Description": "C/P DELI COFFEE REN TWIN  TWIN    1",
             "Quantity": 43.0,
             "UnitPrice": 2.68,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 115.24
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CLAYTON DELI CREAM SCONE  TWIN    1",
+            "ItemPosition": 2,
             "ProductCode": 239012,
-            "TotalAmount": 93.8,
+            "Description": "CLAYTON DELI CREAM SCONE  TWIN    1",
             "Quantity": 35.0,
             "UnitPrice": 2.68,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 93.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI CHOC ECLAIR TWIN  TWIN    1",
+            "ItemPosition": 3,
             "ProductCode": 212502,
-            "TotalAmount": 120.6,
+            "Description": "C/P DELI CHOC ECLAIR TWIN  TWIN    1",
             "Quantity": 45.0,
             "UnitPrice": 2.68,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 120.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI BANOFFE PIE TWIN  TWIN    1",
+            "ItemPosition": 4,
             "ProductCode": 212507,
-            "TotalAmount": 123.24,
+            "Description": "C/P DELI BANOFFE PIE TWIN  TWIN    1",
             "Quantity": 39.0,
             "UnitPrice": 3.16,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 123.24
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI STRAW MER TWIN  TWIN    1",
+            "ItemPosition": 5,
             "ProductCode": 212508,
-            "TotalAmount": 141.9,
+            "Description": "C/P DELI STRAW MER TWIN  TWIN    1",
             "Quantity": 43.0,
             "UnitPrice": 3.3,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 141.9
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI MANC TART TWIN  TWIN    1",
+            "ItemPosition": 6,
             "ProductCode": 212509,
-            "TotalAmount": 142.2,
+            "Description": "C/P DELI MANC TART TWIN  TWIN    1",
             "Quantity": 45.0,
             "UnitPrice": 3.16,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 142.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI VAN SLICE TWIN  TWIN    1",
+            "ItemPosition": 7,
             "ProductCode": 212511,
-            "TotalAmount": 128.64,
+            "Description": "C/P DELI VAN SLICE TWIN  TWIN    1",
             "Quantity": 48.0,
             "UnitPrice": 2.68,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 128.64
         }
     ]
 }

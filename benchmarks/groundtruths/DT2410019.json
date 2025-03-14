@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT2410019.pdf",
         "invNo": "27SI00528045",
+        "invDate": "2024-05-20",
+        "orderNo": 18822,
         "amountNet": "135.69",
         "amountVat": 0.0,
-        "invDate": "2024-05-20",
         "amountTotal": 135.69,
-        "suppName": "GINSTERS",
-        "orderNo": 18822
+        "suppName": "GINSTERS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS LGE SAUSAGE ROLL  130G    6",
+            "ItemPosition": 1,
             "ProductCode": 414606,
-            "TotalAmount": 41.64,
+            "Description": "GINSTERS LGE SAUSAGE ROLL  130G    6",
             "Quantity": 6.0,
             "UnitPrice": 6.94,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 41.64
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS SLICE PEPP/STEAK   SGL    6",
+            "ItemPosition": 2,
             "ProductCode": 152217,
-            "TotalAmount": 34.2,
+            "Description": "GINSTERS SLICE PEPP/STEAK   SGL    6",
             "Quantity": 4.0,
             "UnitPrice": 8.55,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 34.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "GINSTERS SLICE CHICK/MUSH   SGL    6",
+            "ItemPosition": 3,
             "ProductCode": 150474,
-            "TotalAmount": 59.85,
+            "Description": "GINSTERS SLICE CHICK/MUSH   SGL    6",
             "Quantity": 7.0,
             "UnitPrice": 8.55,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 59.85
         }
     ]
 }

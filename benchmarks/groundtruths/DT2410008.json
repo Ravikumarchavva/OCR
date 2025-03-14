@@ -2,58 +2,58 @@
     "headers": {
         "filename": "DT2410008.pdf",
         "invNo": "895750",
+        "invDate": "2024-05-24",
+        "orderNo": 19297,
         "amountNet": "2978.27",
         "amountVat": 595.65,
-        "invDate": "2024-05-24",
         "amountTotal": 3573.92,
-        "suppName": "KIND SNACKS UK",
-        "orderNo": 19297
+        "suppName": "KIND SNACKS UK"
     },
     "line_items": [
         {
-            "ItemVatRate": 20.0,
-            "Description": "KIND BAR CHC/NUT/SALT SGL    40G   72",
+            "ItemPosition": 1,
             "ProductCode": 211647,
-            "TotalAmount": 1148.2,
+            "Description": "KIND BAR CHC/NUT/SALT SGL    40G   72",
             "Quantity": 20.0,
             "UnitPrice": 57.41,
-            "ItemPosition": 1
+            "ItemVatRate": 20.0,
+            "TotalAmount": 1148.2
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "KIND BAR CRML/ALM/SLT SGL    40G   72",
+            "ItemPosition": 2,
             "ProductCode": 211648,
-            "TotalAmount": 1148.2,
+            "Description": "KIND BAR CRML/ALM/SLT SGL    40G   72",
             "Quantity": 20.0,
             "UnitPrice": 57.41,
-            "ItemPosition": 2
+            "ItemVatRate": 20.0,
+            "TotalAmount": 1148.2
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "KIND BAR CHOC CASHEW    40G   72",
+            "ItemPosition": 4,
             "ProductCode": 402750,
-            "TotalAmount": 401.87,
+            "Description": "KIND BAR CHOC CASHEW    40G   72",
             "Quantity": 7.0,
             "UnitPrice": 57.41,
-            "ItemPosition": 4
+            "ItemVatRate": 20.0,
+            "TotalAmount": 401.87
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "KIND PROTEIN CRUNCH P/NUT  3PACK   10",
+            "ItemPosition": 7,
             "ProductCode": 270949,
-            "TotalAmount": 140.0,
+            "Description": "KIND PROTEIN CRUNCH P/NUT  3PACK   10",
             "Quantity": 8.0,
             "UnitPrice": 17.5,
-            "ItemPosition": 7
+            "ItemVatRate": 20.0,
+            "TotalAmount": 140.0
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "KIND PROTEIN DRK CHOC NUT  3PACK   10",
+            "ItemPosition": 8,
             "ProductCode": 270950,
-            "TotalAmount": 140.0,
+            "Description": "KIND PROTEIN DRK CHOC NUT  3PACK   10",
             "Quantity": 8.0,
             "UnitPrice": 17.5,
-            "ItemPosition": 8
+            "ItemVatRate": 20.0,
+            "TotalAmount": 140.0
         }
     ]
 }

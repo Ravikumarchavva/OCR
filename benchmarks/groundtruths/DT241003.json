@@ -2,76 +2,76 @@
     "headers": {
         "filename": "DT241003.pdf",
         "invNo": "1398110",
+        "invDate": "2024-03-15",
+        "orderNo": 2211,
         "amountNet": "1000.82",
         "amountVat": 0.0,
-        "invDate": "2024-03-15",
         "amountTotal": 1000.82,
-        "suppName": "LACTALIS NESTLE DAIRY CO LTD",
-        "orderNo": 2211
+        "suppName": "LACTALIS NESTLE DAIRY CO LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "LINDAHLS PRO YOG W/CHOC  150G    8",
+            "ItemPosition": 1,
             "ProductCode": 250798,
-            "TotalAmount": 28.32,
+            "Description": "LINDAHLS PRO YOG W/CHOC  150G    8",
             "Quantity": 6.0,
             "UnitPrice": 4.72,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 28.32
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "LINDAHLS PRO YOG LEM/CAKE  150G    8",
+            "ItemPosition": 2,
             "ProductCode": 250797,
-            "TotalAmount": 28.32,
+            "Description": "LINDAHLS PRO YOG LEM/CAKE  150G    8",
             "Quantity": 6.0,
             "UnitPrice": 4.72,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 28.32
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "NESTLE SMARTIES SPLIT POT   SGL    8",
+            "ItemPosition": 3,
             "ProductCode": 247978,
-            "TotalAmount": 126.0,
+            "Description": "NESTLE SMARTIES SPLIT POT   SGL    8",
             "Quantity": 36.0,
             "UnitPrice": 3.5,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 126.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUNCH BUNCH MEG DBLE UP 4PACK    6",
+            "ItemPosition": 4,
             "ProductCode": 809683,
-            "TotalAmount": 80.1,
+            "Description": "MUNCH BUNCH MEG DBLE UP 4PACK    6",
             "Quantity": 10.0,
             "UnitPrice": 8.01,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 80.1
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MILKYBAR DESSERT 2PACK    8",
+            "ItemPosition": 5,
             "ProductCode": 242487,
-            "TotalAmount": 358.8,
+            "Description": "MILKYBAR DESSERT 2PACK    8",
             "Quantity": 40.0,
             "UnitPrice": 8.97,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 358.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "NESTLE MILKYBAR SLICE 4PACK   10",
+            "ItemPosition": 6,
             "ProductCode": 238458,
-            "TotalAmount": 206.88,
+            "Description": "NESTLE MILKYBAR SLICE 4PACK   10",
             "Quantity": 24.0,
             "UnitPrice": 8.62,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 206.88
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "NESQUICK MILK CHOC SLICE 4PACK   10",
+            "ItemPosition": 7,
             "ProductCode": 683192,
-            "TotalAmount": 172.4,
+            "Description": "NESQUICK MILK CHOC SLICE 4PACK   10",
             "Quantity": 20.0,
             "UnitPrice": 8.62,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 172.4
         }
     ]
 }

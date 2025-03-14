@@ -2,22 +2,22 @@
     "headers": {
         "filename": "DT2410022.pdf",
         "invNo": "581263",
+        "invDate": "2024-05-24",
+        "orderNo": 19936,
         "amountNet": "2720",
         "amountVat": 0.0,
-        "invDate": "2024-05-24",
         "amountTotal": 2720.0,
-        "suppName": "HUNTAPAC PRODUCE LTD",
-        "orderNo": 19936
+        "suppName": "HUNTAPAC PRODUCE LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CARROTS IMPORT  500G   10",
+            "ItemPosition": 1,
             "ProductCode": 481672,
-            "TotalAmount": 2720.0,
+            "Description": "SPAR CARROTS IMPORT  500G   10",
             "Quantity": 400.0,
             "UnitPrice": 6.8,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 2720.0
         }
     ]
 }

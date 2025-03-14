@@ -2,49 +2,49 @@
     "headers": {
         "filename": "DT2410069.pdf",
         "invNo": "370469",
+        "invDate": "2024-05-22",
+        "orderNo": 19859,
         "amountNet": "6051.64",
         "amountVat": 0.0,
-        "invDate": "2024-05-22",
         "amountTotal": 6051.64,
-        "suppName": "CLAYTON CAKES 2",
-        "orderNo": 19859
+        "suppName": "CLAYTON CAKES 2"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P MUFFIN CHOCOLATE    SGL    6",
+            "ItemPosition": 15,
             "ProductCode": 614733,
-            "TotalAmount": 1637.04,
+            "Description": "C/P MUFFIN CHOCOLATE    SGL    6",
             "Quantity": 228.0,
             "UnitPrice": 7.18,
-            "ItemPosition": 15
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1637.04
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P ROUND VICTORIA SPONGE    SGL    1",
+            "ItemPosition": 28,
             "ProductCode": 597564,
-            "TotalAmount": 1368.5,
+            "Description": "C/P ROUND VICTORIA SPONGE    SGL    1",
             "Quantity": 595.0,
             "UnitPrice": 2.3,
-            "ItemPosition": 28
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1368.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P MINI CARROT CAKE    SGL    5",
+            "ItemPosition": 6,
             "ProductCode": 227068,
-            "TotalAmount": 1223.6,
+            "Description": "C/P MINI CARROT CAKE    SGL    5",
             "Quantity": 280.0,
             "UnitPrice": 4.37,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1223.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P FRUIT CAKE SLICE    SGL   10",
+            "ItemPosition": 8,
             "ProductCode": 240682,
-            "TotalAmount": 1822.5,
+            "Description": "C/P FRUIT CAKE SLICE    SGL   10",
             "Quantity": 225.0,
             "UnitPrice": 8.1,
-            "ItemPosition": 8
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1822.5
         }
     ]
 }

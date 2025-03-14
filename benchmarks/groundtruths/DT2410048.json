@@ -2,49 +2,49 @@
     "headers": {
         "filename": "DT2410048.pdf",
         "invNo": "220045209",
+        "invDate": "2024-05-27",
+        "orderNo": 19779,
         "amountNet": "6382.74",
         "amountVat": 1276.55,
-        "invDate": "2024-05-27",
         "amountTotal": 7659.29,
-        "suppName": "BROWN-FOREMAN",
-        "orderNo": 19779
+        "suppName": "BROWN-FOREMAN"
     },
     "line_items": [
         {
-            "ItemVatRate": 20.0,
-            "Description": "JACK DANIELS    5CL  120",
+            "ItemPosition": 1,
             "ProductCode": 645882,
-            "TotalAmount": 1136.76,
+            "Description": "JACK DANIELS    5CL  120",
             "Quantity": 6.0,
             "UnitPrice": 189.46,
-            "ItemPosition": 1
+            "ItemVatRate": 20.0,
+            "TotalAmount": 1136.76
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "JACK DANIEL HONE/LEM 180P  250ML   12",
+            "ItemPosition": 16,
             "ProductCode": 241584,
-            "TotalAmount": 462.52,
+            "Description": "JACK DANIEL HONE/LEM 180P  250ML   12",
             "Quantity": 31.0,
             "UnitPrice": 14.92,
-            "ItemPosition": 16
+            "ItemVatRate": 20.0,
+            "TotalAmount": 462.52
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "JACK DANIELS   35CL    6",
+            "ItemPosition": 4,
             "ProductCode": 200180,
-            "TotalAmount": 2682.9,
+            "Description": "JACK DANIELS   35CL    6",
             "Quantity": 45.0,
             "UnitPrice": 59.62,
-            "ItemPosition": 4
+            "ItemVatRate": 20.0,
+            "TotalAmount": 2682.9
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "JACK DANIELS 2349P   70CL    6",
+            "ItemPosition": 6,
             "ProductCode": 270808,
-            "TotalAmount": 2100.56,
+            "Description": "JACK DANIELS 2349P   70CL    6",
             "Quantity": 22.0,
             "UnitPrice": 95.48,
-            "ItemPosition": 6
+            "ItemVatRate": 20.0,
+            "TotalAmount": 2100.56
         }
     ]
 }

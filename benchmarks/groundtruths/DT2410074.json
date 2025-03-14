@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT2410074.pdf",
         "invNo": "371582",
+        "invDate": "2024-05-22",
+        "orderNo": 19970,
         "amountNet": "2024.14",
         "amountVat": 0.0,
-        "invDate": "2024-05-22",
         "amountTotal": 2024.14,
-        "suppName": "CLAYTON PARK COOKIES",
-        "orderNo": 19970
+        "suppName": "CLAYTON PARK COOKIES"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P COOKIES DOUBLE CHOC 4PACK    1",
+            "ItemPosition": 1,
             "ProductCode": 500155,
-            "TotalAmount": 605.68,
+            "Description": "C/P COOKIES DOUBLE CHOC 4PACK    1",
             "Quantity": 452.0,
             "UnitPrice": 1.34,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 605.68
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P COOKIES CHOC CHUNK 4PACK    1",
+            "ItemPosition": 2,
             "ProductCode": 500234,
-            "TotalAmount": 957.5,
+            "Description": "C/P COOKIES CHOC CHUNK 4PACK    1",
             "Quantity": 766.0,
             "UnitPrice": 1.25,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 957.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P COOKIES RASP&WHT CHOC 4PACK    1",
+            "ItemPosition": 3,
             "ProductCode": 500263,
-            "TotalAmount": 460.96,
+            "Description": "C/P COOKIES RASP&WHT CHOC 4PACK    1",
             "Quantity": 344.0,
             "UnitPrice": 1.34,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 460.96
         }
     ]
 }

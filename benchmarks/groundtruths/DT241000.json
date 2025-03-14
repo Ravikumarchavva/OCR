@@ -2,22 +2,22 @@
     "headers": {
         "filename": "DT241000.pdf",
         "invNo": "5877",
+        "invDate": "2024-03-14",
+        "orderNo": 2455,
         "amountNet": "377.55",
         "amountVat": 75.51,
-        "invDate": "2024-03-14",
         "amountTotal": 453.06,
-        "suppName": "BRINDLE DISTILLERY LIMITED",
-        "orderNo": 2455
+        "suppName": "BRINDLE DISTILLERY LIMITED"
     },
     "line_items": [
         {
-            "ItemVatRate": 20.0,
-            "Description": "CUCKOO SUNSHINE GIN   70CL    6",
+            "ItemPosition": 2,
             "ProductCode": 266889,
-            "TotalAmount": 377.55,
+            "Description": "CUCKOO SUNSHINE GIN   70CL    6",
             "Quantity": 3.0,
             "UnitPrice": 125.85,
-            "ItemPosition": 2
+            "ItemVatRate": 20.0,
+            "TotalAmount": 377.55
         }
     ]
 }

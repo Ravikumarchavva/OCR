@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT241.pdf",
         "invNo": "8250242225",
+        "invDate": "2024-02-28",
+        "orderNo": 998694,
         "amountNet": "1602.56",
         "amountVat": 271.56,
-        "invDate": "2024-02-28",
         "amountTotal": 1874.12,
-        "suppName": "SPAR UK - AMC NATURAL DRINKS",
-        "orderNo": 998694
+        "suppName": "SPAR UK - AMC NATURAL DRINKS"
     },
     "line_items": [
         {
-            "ItemVatRate": 16.94,
-            "Description": "SPAR JUICE ORANGE  250ML    8",
+            "ItemPosition": 1,
             "ProductCode": null,
-            "TotalAmount": 784.8,
+            "Description": "SPAR JUICE ORANGE  250ML    8",
             "Quantity": 180.0,
             "UnitPrice": 4.36,
-            "ItemPosition": 1
+            "ItemVatRate": 16.94,
+            "TotalAmount": 784.8
         },
         {
-            "ItemVatRate": 16.94,
-            "Description": "SPAR JUICE APPLE  250ML    8",
+            "ItemPosition": 2,
             "ProductCode": null,
-            "TotalAmount": 573.0,
+            "Description": "SPAR JUICE APPLE  250ML    8",
             "Quantity": 150.0,
             "UnitPrice": 3.82,
-            "ItemPosition": 2
+            "ItemVatRate": 16.94,
+            "TotalAmount": 573.0
         },
         {
-            "ItemVatRate": 16.94,
-            "Description": "SPAR CAFFE LATTE  250ML   12",
+            "ItemPosition": 3,
             "ProductCode": null,
-            "TotalAmount": 244.76,
+            "Description": "SPAR CAFFE LATTE  250ML   12",
             "Quantity": 29.0,
             "UnitPrice": 8.44,
-            "ItemPosition": 3
+            "ItemVatRate": 16.94,
+            "TotalAmount": 244.76
         }
     ]
 }

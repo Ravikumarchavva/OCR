@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT241005.pdf",
         "invNo": "805000",
+        "invDate": "2024-03-15",
+        "orderNo": 326,
         "amountNet": "1065.6",
         "amountVat": 0.0,
-        "invDate": "2024-03-15",
         "amountTotal": 1065.6,
-        "suppName": "PRIMULA LTD",
-        "orderNo": 326
+        "suppName": "PRIMULA LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "PRIM CHEESE PLAIN TUBE   140G   12",
+            "ItemPosition": 1,
             "ProductCode": 240343,
-            "TotalAmount": 532.8,
+            "Description": "PRIM CHEESE PLAIN TUBE   140G   12",
             "Quantity": 40.0,
             "UnitPrice": 13.32,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 532.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "PRIM CHEESE CHIVE TUBE   140G   12",
+            "ItemPosition": 2,
             "ProductCode": 240341,
-            "TotalAmount": 213.12,
+            "Description": "PRIM CHEESE CHIVE TUBE   140G   12",
             "Quantity": 16.0,
             "UnitPrice": 13.32,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 213.12
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "PRIM CHEESE HAM TUBE   140G   12",
+            "ItemPosition": 3,
             "ProductCode": 240342,
-            "TotalAmount": 319.68,
+            "Description": "PRIM CHEESE HAM TUBE   140G   12",
             "Quantity": 24.0,
             "UnitPrice": 13.32,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 319.68
         }
     ]
 }

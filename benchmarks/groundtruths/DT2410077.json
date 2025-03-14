@@ -2,31 +2,31 @@
     "headers": {
         "filename": "DT2410077.pdf",
         "invNo": "372083",
+        "invDate": "2024-05-22",
+        "orderNo": 20218,
         "amountNet": "2910.72",
         "amountVat": 0.0,
-        "invDate": "2024-05-22",
         "amountTotal": 2910.72,
-        "suppName": "CLAYTON CAKES 2",
-        "orderNo": 20218
+        "suppName": "CLAYTON CAKES 2"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P 5 BAKEWELL SLICES  5PACK    1",
+            "ItemPosition": 16,
             "ProductCode": 235183,
-            "TotalAmount": 1957.2,
+            "Description": "C/P 5 BAKEWELL SLICES  5PACK    1",
             "Quantity": 1631.0,
             "UnitPrice": 1.2,
-            "ItemPosition": 16
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1957.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P JAM LAYER CAKE    SGL    1",
+            "ItemPosition": 24,
             "ProductCode": 460407,
-            "TotalAmount": 953.52,
+            "Description": "C/P JAM LAYER CAKE    SGL    1",
             "Quantity": 696.0,
             "UnitPrice": 1.37,
-            "ItemPosition": 24
+            "ItemVatRate": 0.0,
+            "TotalAmount": 953.52
         }
     ]
 }

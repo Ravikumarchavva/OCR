@@ -27,15 +27,13 @@ EMPTY_RETURN_PROMPT = (
     "    ],\n\n"
 
     '    "header": {\n'
-    '        "suppName": "string",  # Business or entity issuing the invoice.\n'
     '        "invNo": "string",  # Unique invoice identifier.\n'
     '        "invDate": "YYYY-MM-DD",  # Issuance date (maintain exact format).\n'
     '        "orderNo": "string",  # Extract PO number first, then order/reference number if missing.\n'
-    '        "custName": "string",  # Customer name as stated on the invoice.\n'
-    '        "custAddress": "string",  # Customer billing/shipping address.\n'
     '        "amountNet": float,  # Total before VAT, preserving currency format.\n'
     '        "amountVat": float,  # VAT amount applied, extracted as-is.\n'
     '        "amountTotal": float,  # Final payable amount (Net + VAT), maintaining original formatting.\n'
+    '        "suppName": "string",  # Business or entity issuing the invoice.\n'
     "    }\n"
     "}\n\n"
 
@@ -119,15 +117,13 @@ class LineItem(BaseModel):
     TotalAmount: float
 
 class Header(BaseModel):
-    suppName: str
     invNo: str
     invDate: str
     orderNo: str
-    custName: str
-    custAddress: str
     amountNet: float
     amountVat: float
     amountTotal: float
+    suppName: str
 
 class RESPONSE_SCHEMA(BaseModel):
     line_items: List[LineItem]

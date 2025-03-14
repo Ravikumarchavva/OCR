@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT2410016.pdf",
         "invNo": "293299",
+        "invDate": "2024-05-24",
+        "orderNo": 20616,
         "amountNet": "337.8",
         "amountVat": 0.0,
-        "invDate": "2024-05-24",
         "amountTotal": 337.8,
-        "suppName": "FORRESTER SALES LTD",
-        "orderNo": 20616
+        "suppName": "FORRESTER SALES LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "DEL COOKED WHOLE CHICKEN  800G    4",
+            "ItemPosition": 1,
             "ProductCode": 400652,
-            "TotalAmount": 40.8,
+            "Description": "DEL COOKED WHOLE CHICKEN  800G    4",
             "Quantity": 3.0,
             "UnitPrice": 13.6,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 40.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "DEL HOT/SPICY CHICK SLICE  180G    5",
+            "ItemPosition": 2,
             "ProductCode": 246757,
-            "TotalAmount": 213.0,
+            "Description": "DEL HOT/SPICY CHICK SLICE  180G    5",
             "Quantity": 30.0,
             "UnitPrice": 7.1,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 213.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "DEL H/S CHICKEN WINGS  330G    6",
+            "ItemPosition": 3,
             "ProductCode": 248463,
-            "TotalAmount": 84.0,
+            "Description": "DEL H/S CHICKEN WINGS  330G    6",
             "Quantity": 10.0,
             "UnitPrice": 8.4,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 84.0
         }
     ]
 }

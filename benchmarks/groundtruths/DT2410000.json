@@ -2,67 +2,67 @@
     "headers": {
         "filename": "DT2410000.pdf",
         "invNo": "1370219",
+        "invDate": "2024-05-20",
+        "orderNo": 18776,
         "amountNet": "329.12",
         "amountVat": 0.0,
-        "invDate": "2024-05-20",
         "amountTotal": 329.12,
-        "suppName": "BURY BLACK PUDDING",
-        "orderNo": 18776
+        "suppName": "BURY BLACK PUDDING"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "G/EYES BURY WHITE CHUB  220G   12",
+            "ItemPosition": 1,
             "ProductCode": 249249,
-            "TotalAmount": 63.36,
+            "Description": "G/EYES BURY WHITE CHUB  220G   12",
             "Quantity": 4.0,
             "UnitPrice": 15.84,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 63.36
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "G/EYES BURY BLACK CHUB   220G   12",
+            "ItemPosition": 2,
             "ProductCode": 249250,
-            "TotalAmount": 76.8,
+            "Description": "G/EYES BURY BLACK CHUB   220G   12",
             "Quantity": 10.0,
             "UnitPrice": 7.68,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 76.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "G/EYES BURY BLK PUD STICK 1.36KG   10",
+            "ItemPosition": 3,
             "ProductCode": 249251,
-            "TotalAmount": 46.0,
+            "Description": "G/EYES BURY BLK PUD STICK 1.36KG   10",
             "Quantity": 2.0,
             "UnitPrice": 23.0,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 46.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "G/EYES BURY BLK PUD RING  190G    6",
+            "ItemPosition": 4,
             "ProductCode": 249253,
-            "TotalAmount": 30.96,
+            "Description": "G/EYES BURY BLK PUD RING  190G    6",
             "Quantity": 6.0,
             "UnitPrice": 5.16,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 30.96
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "BURY BLACK PUDDING SLICES  230G    1",
+            "ItemPosition": 5,
             "ProductCode": 311171,
-            "TotalAmount": 80.0,
+            "Description": "BURY BLACK PUDDING SLICES  230G    1",
             "Quantity": 100.0,
             "UnitPrice": 0.8,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 80.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "BURY BLACK PUDDING ROLL  220G    1",
+            "ItemPosition": 6,
             "ProductCode": 389909,
-            "TotalAmount": 32.0,
+            "Description": "BURY BLACK PUDDING ROLL  220G    1",
             "Quantity": 50.0,
             "UnitPrice": 0.64,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 32.0
         }
     ]
 }

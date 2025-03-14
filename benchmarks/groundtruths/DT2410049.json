@@ -2,103 +2,103 @@
     "headers": {
         "filename": "DT2410049.pdf",
         "invNo": "374234",
+        "invDate": "2024-05-23",
+        "orderNo": 19755,
         "amountNet": "4028.41",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 4028.41,
-        "suppName": "FAZILA FOODS CHILLED",
-        "orderNo": 19755
+        "suppName": "FAZILA FOODS CHILLED"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA CHK TIKKA SAMOSA   SGL    1",
+            "ItemPosition": 1,
             "ProductCode": 217972,
-            "TotalAmount": 892.81,
+            "Description": "FAZILA CHK TIKKA SAMOSA   SGL    1",
             "Quantity": 703.0,
             "UnitPrice": 1.27,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 892.81
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA BULK TIKKA SAMOSA   SGL   20",
+            "ItemPosition": 10,
             "ProductCode": 233825,
-            "TotalAmount": 560.0,
+            "Description": "FAZILA BULK TIKKA SAMOSA   SGL   20",
             "Quantity": 40.0,
             "UnitPrice": 14.0,
-            "ItemPosition": 10
+            "ItemVatRate": 0.0,
+            "TotalAmount": 560.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA VEG SAMOSA   SGL    1",
+            "ItemPosition": 2,
             "ProductCode": 217973,
-            "TotalAmount": 698.5,
+            "Description": "FAZILA VEG SAMOSA   SGL    1",
             "Quantity": 550.0,
             "UnitPrice": 1.27,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 698.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA MEAT SAMOSA   SGL    1",
+            "ItemPosition": 3,
             "ProductCode": 217974,
-            "TotalAmount": 508.0,
+            "Description": "FAZILA MEAT SAMOSA   SGL    1",
             "Quantity": 400.0,
             "UnitPrice": 1.27,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 508.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA ONION BHAJI   SGL    1",
+            "ItemPosition": 4,
             "ProductCode": 217975,
-            "TotalAmount": 254.0,
+            "Description": "FAZILA ONION BHAJI   SGL    1",
             "Quantity": 200.0,
             "UnitPrice": 1.27,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 254.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA TIK/SAMOSA DIP  120G    1",
+            "ItemPosition": 5,
             "ProductCode": 217976,
-            "TotalAmount": 208.6,
+            "Description": "FAZILA TIK/SAMOSA DIP  120G    1",
             "Quantity": 149.0,
             "UnitPrice": 1.4,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 208.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA BHAJI DIP  120G    1",
+            "ItemPosition": 6,
             "ProductCode": 217977,
-            "TotalAmount": 42.0,
+            "Description": "FAZILA BHAJI DIP  120G    1",
             "Quantity": 30.0,
             "UnitPrice": 1.4,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 42.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA BULK VEG SAMOSA   SGL   20",
+            "ItemPosition": 7,
             "ProductCode": 217980,
-            "TotalAmount": 381.0,
+            "Description": "FAZILA BULK VEG SAMOSA   SGL   20",
             "Quantity": 30.0,
             "UnitPrice": 12.7,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 381.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA BULK ONION BHAJI   SGL   20",
+            "ItemPosition": 8,
             "ProductCode": 217981,
-            "TotalAmount": 63.5,
+            "Description": "FAZILA BULK ONION BHAJI   SGL   20",
             "Quantity": 5.0,
             "UnitPrice": 12.7,
-            "ItemPosition": 8
+            "ItemVatRate": 0.0,
+            "TotalAmount": 63.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "FAZILA BULK MEAT SAMOSA   SGL   20",
+            "ItemPosition": 9,
             "ProductCode": 233823,
-            "TotalAmount": 420.0,
+            "Description": "FAZILA BULK MEAT SAMOSA   SGL   20",
             "Quantity": 30.0,
             "UnitPrice": 14.0,
-            "ItemPosition": 9
+            "ItemVatRate": 0.0,
+            "TotalAmount": 420.0
         }
     ]
 }

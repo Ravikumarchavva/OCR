@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT2410068.pdf",
         "invNo": "367965",
+        "invDate": "2024-05-24",
+        "orderNo": 19555,
         "amountNet": "2230.12",
         "amountVat": 0.0,
-        "invDate": "2024-05-24",
         "amountTotal": 2230.12,
-        "suppName": "CLAYTON CAKES 2",
-        "orderNo": 19555
+        "suppName": "CLAYTON CAKES 2"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P CARAMEL SHORTBREAD    SGL   10",
+            "ItemPosition": 14,
             "ProductCode": 229765,
-            "TotalAmount": 1234.32,
+            "Description": "C/P CARAMEL SHORTBREAD    SGL   10",
             "Quantity": 139.0,
             "UnitPrice": 8.88,
-            "ItemPosition": 14
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1234.32
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P ROUND LEMON CAKE    SGL    1",
+            "ItemPosition": 27,
             "ProductCode": 590659,
-            "TotalAmount": 969.6,
+            "Description": "C/P ROUND LEMON CAKE    SGL    1",
             "Quantity": 404.0,
             "UnitPrice": 2.4,
-            "ItemPosition": 27
+            "ItemVatRate": 0.0,
+            "TotalAmount": 969.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P LEMON SLICE    SGL    6",
+            "ItemPosition": 7,
             "ProductCode": 237056,
-            "TotalAmount": 26.2,
+            "Description": "C/P LEMON SLICE    SGL    6",
             "Quantity": 5.0,
             "UnitPrice": 5.24,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 26.2
         }
     ]
 }

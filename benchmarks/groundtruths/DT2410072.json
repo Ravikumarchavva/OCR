@@ -2,121 +2,121 @@
     "headers": {
         "filename": "DT2410072.pdf",
         "invNo": "371540",
+        "invDate": "2024-05-22",
+        "orderNo": 19968,
         "amountNet": "5012.92",
         "amountVat": 0.0,
-        "invDate": "2024-05-22",
         "amountTotal": 5012.92,
-        "suppName": "CLAYTON PARK - CREAM CAKE",
-        "orderNo": 19968
+        "suppName": "CLAYTON PARK - CREAM CAKE"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P CHEESECAKE LEMON  135G    1",
+            "ItemPosition": 1,
             "ProductCode": 271060,
-            "TotalAmount": 330.05,
+            "Description": "C/P CHEESECAKE LEMON  135G    1",
             "Quantity": 287.0,
             "UnitPrice": 1.15,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 330.05
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P MANCHESTER TART   SGL    1",
+            "ItemPosition": 10,
             "ProductCode": 435218,
-            "TotalAmount": 322.39,
+            "Description": "C/P MANCHESTER TART   SGL    1",
             "Quantity": 313.0,
             "UnitPrice": 1.03,
-            "ItemPosition": 10
+            "ItemVatRate": 0.0,
+            "TotalAmount": 322.39
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P CUSTARD TART   SGL    1",
+            "ItemPosition": 11,
             "ProductCode": 435230,
-            "TotalAmount": 235.87,
+            "Description": "C/P CUSTARD TART   SGL    1",
             "Quantity": 229.0,
             "UnitPrice": 1.03,
-            "ItemPosition": 11
+            "ItemVatRate": 0.0,
+            "TotalAmount": 235.87
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P TIRAMISU SUMMER  135G    1",
+            "ItemPosition": 12,
             "ProductCode": 481800,
-            "TotalAmount": 306.0,
+            "Description": "C/P TIRAMISU SUMMER  135G    1",
             "Quantity": 180.0,
             "UnitPrice": 1.7,
-            "ItemPosition": 12
+            "ItemVatRate": 0.0,
+            "TotalAmount": 306.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P VANILLA SLICE   SGL    1",
+            "ItemPosition": 2,
             "ProductCode": 435260,
-            "TotalAmount": 390.08,
+            "Description": "C/P VANILLA SLICE   SGL    1",
             "Quantity": 424.0,
             "UnitPrice": 0.92,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 390.08
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P RASPBERRY CHOUX BUN 2PACK    1",
+            "ItemPosition": 3,
             "ProductCode": 247981,
-            "TotalAmount": 388.08,
+            "Description": "C/P RASPBERRY CHOUX BUN 2PACK    1",
             "Quantity": 294.0,
             "UnitPrice": 1.32,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 388.08
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P CHOCOLATE ECLAIRS  TWIN    1",
+            "ItemPosition": 4,
             "ProductCode": 463184,
-            "TotalAmount": 630.0,
+            "Description": "C/P CHOCOLATE ECLAIRS  TWIN    1",
             "Quantity": 504.0,
             "UnitPrice": 1.25,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 630.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P VICTORIA CAKE  TWIN    1",
+            "ItemPosition": 5,
             "ProductCode": 351455,
-            "TotalAmount": 553.9,
+            "Description": "C/P VICTORIA CAKE  TWIN    1",
             "Quantity": 382.0,
             "UnitPrice": 1.45,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 553.9
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P COFFEE RENOIR  TWIN    1",
+            "ItemPosition": 6,
             "ProductCode": 463149,
-            "TotalAmount": 594.5,
+            "Description": "C/P COFFEE RENOIR  TWIN    1",
             "Quantity": 410.0,
             "UnitPrice": 1.45,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 594.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P CREAM SCONES  TWIN    1",
+            "ItemPosition": 7,
             "ProductCode": 463155,
-            "TotalAmount": 420.5,
+            "Description": "C/P CREAM SCONES  TWIN    1",
             "Quantity": 290.0,
             "UnitPrice": 1.45,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 420.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P STRAWBERRY TART  TWIN    1",
+            "ItemPosition": 8,
             "ProductCode": 463178,
-            "TotalAmount": 492.8,
+            "Description": "C/P STRAWBERRY TART  TWIN    1",
             "Quantity": 320.0,
             "UnitPrice": 1.54,
-            "ItemPosition": 8
+            "ItemVatRate": 0.0,
+            "TotalAmount": 492.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P TRIFLE   SGL    1",
+            "ItemPosition": 9,
             "ProductCode": 435253,
-            "TotalAmount": 348.75,
+            "Description": "C/P TRIFLE   SGL    1",
             "Quantity": 279.0,
             "UnitPrice": 1.25,
-            "ItemPosition": 9
+            "ItemVatRate": 0.0,
+            "TotalAmount": 348.75
         }
     ]
 }

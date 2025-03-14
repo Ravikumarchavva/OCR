@@ -2,31 +2,31 @@
     "headers": {
         "filename": "DT2410026.pdf",
         "invNo": "AMCN8250246969",
+        "invDate": "2024-05-23",
+        "orderNo": 19942,
         "amountNet": "1798.8",
         "amountVat": 359.76,
-        "invDate": "2024-05-23",
         "amountTotal": 2158.56,
-        "suppName": "SPAR UK - AMC NATURAL DRINKS",
-        "orderNo": 19942
+        "suppName": "SPAR UK - AMC NATURAL DRINKS"
     },
     "line_items": [
         {
-            "ItemVatRate": 20.0,
-            "Description": "SPAR JUICE ORANGE  250ML    8",
+            "ItemPosition": 1,
             "ProductCode": 246321,
-            "TotalAmount": 1569.6,
+            "Description": "SPAR JUICE ORANGE  250ML    8",
             "Quantity": 360.0,
             "UnitPrice": 4.36,
-            "ItemPosition": 1
+            "ItemVatRate": 20.0,
+            "TotalAmount": 1569.6
         },
         {
-            "ItemVatRate": 20.0,
-            "Description": "SPAR JUICE APPLE  250ML    8",
+            "ItemPosition": 2,
             "ProductCode": 246317,
-            "TotalAmount": 229.2,
+            "Description": "SPAR JUICE APPLE  250ML    8",
             "Quantity": 60.0,
             "UnitPrice": 3.82,
-            "ItemPosition": 2
+            "ItemVatRate": 20.0,
+            "TotalAmount": 229.2
         }
     ]
 }

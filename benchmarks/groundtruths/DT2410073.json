@@ -2,67 +2,67 @@
     "headers": {
         "filename": "DT2410073.pdf",
         "invNo": "371536",
+        "invDate": "2024-05-23",
+        "orderNo": 19958,
         "amountNet": "232.36",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 232.36,
-        "suppName": "CLAYTON PARK 48 HOURS",
-        "orderNo": 19958
+        "suppName": "CLAYTON PARK 48 HOURS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI OGGY PASTY   SGL    1",
+            "ItemPosition": 1,
             "ProductCode": 238326,
-            "TotalAmount": 33.88,
+            "Description": "C/P DELI OGGY PASTY   SGL    1",
             "Quantity": 22.0,
             "UnitPrice": 1.54,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 33.88
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI PIE PORK/APPLE   SGL    3",
+            "ItemPosition": 2,
             "ProductCode": 238327,
-            "TotalAmount": 51.6,
+            "Description": "C/P DELI PIE PORK/APPLE   SGL    3",
             "Quantity": 20.0,
             "UnitPrice": 2.58,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 51.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI PIE PORK/BLK PUD   SGL    3",
+            "ItemPosition": 3,
             "ProductCode": 238328,
-            "TotalAmount": 46.44,
+            "Description": "C/P DELI PIE PORK/BLK PUD   SGL    3",
             "Quantity": 18.0,
             "UnitPrice": 2.58,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 46.44
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI PIE PORK   SGL    7",
+            "ItemPosition": 4,
             "ProductCode": 238329,
-            "TotalAmount": 23.52,
+            "Description": "C/P DELI PIE PORK   SGL    7",
             "Quantity": 7.0,
             "UnitPrice": 3.36,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 23.52
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI CUMBRLND S/ROLL   SGL    2",
+            "ItemPosition": 5,
             "ProductCode": 246386,
-            "TotalAmount": 33.92,
+            "Description": "C/P DELI CUMBRLND S/ROLL   SGL    2",
             "Quantity": 16.0,
             "UnitPrice": 2.12,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 33.92
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P DELI PIE PORK/STILTON   SGL    3",
+            "ItemPosition": 6,
             "ProductCode": 238365,
-            "TotalAmount": 43.0,
+            "Description": "C/P DELI PIE PORK/STILTON   SGL    3",
             "Quantity": 10.0,
             "UnitPrice": 4.3,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 43.0
         }
     ]
 }

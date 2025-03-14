@@ -2,22 +2,22 @@
     "headers": {
         "filename": "DT2440508.pdf",
         "invNo": "37653",
+        "invDate": "2024-12-24",
+        "orderNo": null,
         "amountNet": "494.05",
         "amountVat": 98.81,
-        "invDate": "2024-12-24",
         "amountTotal": 592.86,
-        "suppName": "SPAR (UK)  LTD EXPENSES",
-        "orderNo": null
+        "suppName": "SPAR (UK)  LTD EXPENSES"
     },
     "line_items": [
         {
-            "ItemVatRate": 20.0,
-            "Description": "Logik Meeting Attendance Recharges",
+            "ItemPosition": null,
             "ProductCode": null,
-            "TotalAmount": 494.05,
+            "Description": "Logik Meeting Attendance Recharges",
             "Quantity": 1.0,
             "UnitPrice": 494.05,
-            "ItemPosition": null
+            "ItemVatRate": 20.0,
+            "TotalAmount": 494.05
         }
     ]
 }

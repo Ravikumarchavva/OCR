@@ -2,85 +2,85 @@
     "headers": {
         "filename": "DT2410041.pdf",
         "invNo": "CONV11084",
+        "invDate": "2024-05-23",
+        "orderNo": 19656,
         "amountNet": "5591.89",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 5591.89,
-        "suppName": "SPAR UK - CONVENI FOOD LTD",
-        "orderNo": 19656
+        "suppName": "SPAR UK - CONVENI FOOD LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR PIZZA MARGHERITA  305G    6",
+            "ItemPosition": 1,
             "ProductCode": 227912,
-            "TotalAmount": 1088.71,
+            "Description": "SPAR PIZZA MARGHERITA  305G    6",
             "Quantity": 103.0,
             "UnitPrice": 10.57,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1088.71
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR PIZZA MEAT FEAST  325G    6",
+            "ItemPosition": 2,
             "ProductCode": 227917,
-            "TotalAmount": 940.73,
+            "Description": "SPAR PIZZA MEAT FEAST  325G    6",
             "Quantity": 89.0,
             "UnitPrice": 10.57,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 940.73
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR PIZZA PEPPERONI  310G    6",
+            "ItemPosition": 3,
             "ProductCode": 227921,
-            "TotalAmount": 1405.81,
+            "Description": "SPAR PIZZA PEPPERONI  310G    6",
             "Quantity": 133.0,
             "UnitPrice": 10.57,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1405.81
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR PIZZA LOAD BBQ MEAT  571G    6",
+            "ItemPosition": 4,
             "ProductCode": 229582,
-            "TotalAmount": 557.84,
+            "Description": "SPAR PIZZA LOAD BBQ MEAT  571G    6",
             "Quantity": 38.0,
             "UnitPrice": 14.68,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 557.84
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR PIZZA LOAD CHEESE  551G    6",
+            "ItemPosition": 5,
             "ProductCode": 229578,
-            "TotalAmount": 293.6,
+            "Description": "SPAR PIZZA LOAD CHEESE  551G    6",
             "Quantity": 20.0,
             "UnitPrice": 14.68,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 293.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR STONEBAKED MOZ/PESTO  525G    6",
+            "ItemPosition": 6,
             "ProductCode": 227926,
-            "TotalAmount": 722.88,
+            "Description": "SPAR STONEBAKED MOZ/PESTO  525G    6",
             "Quantity": 36.0,
             "UnitPrice": 20.08,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 722.88
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR STONEBAKED TAPAS  519G    6",
+            "ItemPosition": 7,
             "ProductCode": 268511,
-            "TotalAmount": 180.72,
+            "Description": "SPAR STONEBAKED TAPAS  519G    6",
             "Quantity": 9.0,
             "UnitPrice": 20.08,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 180.72
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR STONEBAKED VENTRICIN  510G    6",
+            "ItemPosition": 8,
             "ProductCode": 268513,
-            "TotalAmount": 401.6,
+            "Description": "SPAR STONEBAKED VENTRICIN  510G    6",
             "Quantity": 20.0,
             "UnitPrice": 20.08,
-            "ItemPosition": 8
+            "ItemVatRate": 0.0,
+            "TotalAmount": 401.6
         }
     ]
 }

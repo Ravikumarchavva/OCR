@@ -2,40 +2,40 @@
     "headers": {
         "filename": "DT2410084.pdf",
         "invNo": "375044",
+        "invDate": "2024-05-20",
+        "orderNo": 19466,
         "amountNet": "3198.87",
         "amountVat": 0.0,
-        "invDate": "2024-05-20",
         "amountTotal": 3198.87,
-        "suppName": "CLAYTON CAKES 2",
-        "orderNo": 19466
+        "suppName": "CLAYTON CAKES 2"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P 5 MILLIONAIRE SLICES  5PACK    1",
+            "ItemPosition": 17,
             "ProductCode": 238675,
-            "TotalAmount": 1589.07,
+            "Description": "C/P 5 MILLIONAIRE SLICES  5PACK    1",
             "Quantity": 987.0,
             "UnitPrice": 1.61,
-            "ItemPosition": 17
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1589.07
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P 5 LEMON SLICES  5PACK    1",
+            "ItemPosition": 19,
             "ProductCode": 243375,
-            "TotalAmount": 772.8,
+            "Description": "C/P 5 LEMON SLICES  5PACK    1",
             "Quantity": 644.0,
             "UnitPrice": 1.2,
-            "ItemPosition": 19
+            "ItemVatRate": 0.0,
+            "TotalAmount": 772.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P GINGER CAKE    SGL    1",
+            "ItemPosition": 23,
             "ProductCode": 454484,
-            "TotalAmount": 837.0,
+            "Description": "C/P GINGER CAKE    SGL    1",
             "Quantity": 540.0,
             "UnitPrice": 1.55,
-            "ItemPosition": 23
+            "ItemVatRate": 0.0,
+            "TotalAmount": 837.0
         }
     ]
 }

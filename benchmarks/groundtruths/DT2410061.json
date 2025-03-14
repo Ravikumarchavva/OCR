@@ -2,31 +2,31 @@
     "headers": {
         "filename": "DT2410061.pdf",
         "invNo": "367049",
+        "invDate": "2024-05-22",
+        "orderNo": 19250,
         "amountNet": "858.06",
         "amountVat": 0.0,
-        "invDate": "2024-05-22",
         "amountTotal": 858.06,
-        "suppName": "CLAYTON PARK - QUICHE",
-        "orderNo": 19250
+        "suppName": "CLAYTON PARK - QUICHE"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P QUICHE CHEESE/ONION   SGL    1",
+            "ItemPosition": 1,
             "ProductCode": 460935,
-            "TotalAmount": 568.89,
+            "Description": "C/P QUICHE CHEESE/ONION   SGL    1",
             "Quantity": 301.0,
             "UnitPrice": 1.89,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 568.89
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "C/P QUICHE CHEESE/HAM   SGL    1",
+            "ItemPosition": 2,
             "ProductCode": 460941,
-            "TotalAmount": 289.17,
+            "Description": "C/P QUICHE CHEESE/HAM   SGL    1",
             "Quantity": 153.0,
             "UnitPrice": 1.89,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 289.17
         }
     ]
 }

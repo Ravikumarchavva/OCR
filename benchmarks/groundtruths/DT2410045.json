@@ -2,211 +2,211 @@
     "headers": {
         "filename": "DT2410045.pdf",
         "invNo": "756683012",
+        "invDate": "2024-05-27",
+        "orderNo": 20197,
         "amountNet": "3410.12",
         "amountVat": 0.0,
-        "invDate": "2024-05-27",
         "amountTotal": 3410.12,
-        "suppName": "MULLER DAIRY (UK) LTD",
-        "orderNo": 20197
+        "suppName": "MULLER DAIRY (UK) LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL LIGHT STRAWBERRY    SGL    6",
+            "ItemPosition": 1,
             "ProductCode": 214100,
-            "TotalAmount": 50.4,
+            "Description": "MUL LIGHT STRAWBERRY    SGL    6",
             "Quantity": 20.0,
             "UnitPrice": 2.52,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 50.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER VANILLA    SGL   12",
+            "ItemPosition": 10,
             "ProductCode": 195783,
-            "TotalAmount": 322.56,
+            "Description": "MUL CORNER VANILLA    SGL   12",
             "Quantity": 64.0,
             "UnitPrice": 5.04,
-            "ItemPosition": 10
+            "ItemVatRate": 0.0,
+            "TotalAmount": 322.56
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER STRAW 150P  2PACK    3",
+            "ItemPosition": 12,
             "ProductCode": 252384,
-            "TotalAmount": 31.5,
+            "Description": "MUL CORNER STRAW 150P  2PACK    3",
             "Quantity": 10.0,
             "UnitPrice": 3.15,
-            "ItemPosition": 12
+            "ItemVatRate": 0.0,
+            "TotalAmount": 31.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER CHOC/VAN 150P  2PACK    3",
+            "ItemPosition": 14,
             "ProductCode": 252386,
-            "TotalAmount": 47.25,
+            "Description": "MUL CORNER CHOC/VAN 150P  2PACK    3",
             "Quantity": 15.0,
             "UnitPrice": 3.15,
-            "ItemPosition": 14
+            "ItemVatRate": 0.0,
+            "TotalAmount": 47.25
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL 4PACK CORNERS FRUIT  4PACK    3",
+            "ItemPosition": 16,
             "ProductCode": 106179,
-            "TotalAmount": 210.72,
+            "Description": "MUL 4PACK CORNERS FRUIT  4PACK    3",
             "Quantity": 48.0,
             "UnitPrice": 4.39,
-            "ItemPosition": 16
+            "ItemVatRate": 0.0,
+            "TotalAmount": 210.72
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL 4PACK CORNERS CRUNCH  4PACK    3",
+            "ItemPosition": 17,
             "ProductCode": 106185,
-            "TotalAmount": 421.44,
+            "Description": "MUL 4PACK CORNERS CRUNCH  4PACK    3",
             "Quantity": 96.0,
             "UnitPrice": 4.39,
-            "ItemPosition": 17
+            "ItemVatRate": 0.0,
+            "TotalAmount": 421.44
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL BLISS STRAWBERRY  4PACK    3",
+            "ItemPosition": 19,
             "ProductCode": 336042,
-            "TotalAmount": 35.12,
+            "Description": "MUL BLISS STRAWBERRY  4PACK    3",
             "Quantity": 8.0,
             "UnitPrice": 4.39,
-            "ItemPosition": 19
+            "ItemVatRate": 0.0,
+            "TotalAmount": 35.12
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL LIGHT TOFFEE    SGL    6",
+            "ItemPosition": 2,
             "ProductCode": 214117,
-            "TotalAmount": 201.6,
+            "Description": "MUL LIGHT TOFFEE    SGL    6",
             "Quantity": 80.0,
             "UnitPrice": 2.52,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 201.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CAD TWINPOT BUTTONS    SGL    6",
+            "ItemPosition": 20,
             "ProductCode": 245021,
-            "TotalAmount": 321.3,
+            "Description": "CAD TWINPOT BUTTONS    SGL    6",
             "Quantity": 90.0,
             "UnitPrice": 3.57,
-            "ItemPosition": 20
+            "ItemVatRate": 0.0,
+            "TotalAmount": 321.3
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CAD TWINPOT FLAKE    SGL    6",
+            "ItemPosition": 21,
             "ProductCode": 245022,
-            "TotalAmount": 214.2,
+            "Description": "CAD TWINPOT FLAKE    SGL    6",
             "Quantity": 60.0,
             "UnitPrice": 3.57,
-            "ItemPosition": 21
+            "ItemVatRate": 0.0,
+            "TotalAmount": 214.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CAD TWINPOT LTD ED    SGL    6",
+            "ItemPosition": 22,
             "ProductCode": 245023,
-            "TotalAmount": 35.7,
+            "Description": "CAD TWINPOT LTD ED    SGL    6",
             "Quantity": 10.0,
             "UnitPrice": 3.57,
-            "ItemPosition": 22
+            "ItemVatRate": 0.0,
+            "TotalAmount": 35.7
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CAD MOUSSE WISPA  4PACK    6",
+            "ItemPosition": 23,
             "ProductCode": 237257,
-            "TotalAmount": 87.36,
+            "Description": "CAD MOUSSE WISPA  4PACK    6",
             "Quantity": 14.0,
             "UnitPrice": 6.24,
-            "ItemPosition": 23
+            "ItemVatRate": 0.0,
+            "TotalAmount": 87.36
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CADBURY LOJ CHOC TRIFLE  TWIN    5",
+            "ItemPosition": 24,
             "ProductCode": 243472,
-            "TotalAmount": 35.1,
+            "Description": "CADBURY LOJ CHOC TRIFLE  TWIN    5",
             "Quantity": 6.0,
             "UnitPrice": 5.85,
-            "ItemPosition": 24
+            "ItemVatRate": 0.0,
+            "TotalAmount": 35.1
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CADBURY LOJ CHOC TRIFLE   550G    4",
+            "ItemPosition": 25,
             "ProductCode": 251052,
-            "TotalAmount": 197.55,
+            "Description": "CADBURY LOJ CHOC TRIFLE   550G    4",
             "Quantity": 15.0,
             "UnitPrice": 13.17,
-            "ItemPosition": 25
+            "ItemVatRate": 0.0,
+            "TotalAmount": 197.55
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CADBURY DRINK C/MEL 169P  250ML    8",
+            "ItemPosition": 29,
             "ProductCode": 401771,
-            "TotalAmount": 351.6,
+            "Description": "CADBURY DRINK C/MEL 169P  250ML    8",
             "Quantity": 40.0,
             "UnitPrice": 8.79,
-            "ItemPosition": 29
+            "ItemVatRate": 0.0,
+            "TotalAmount": 351.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL RICE STRAWBERRY    SGL    6",
+            "ItemPosition": 3,
             "ProductCode": 214073,
-            "TotalAmount": 252.0,
+            "Description": "MUL RICE STRAWBERRY    SGL    6",
             "Quantity": 100.0,
             "UnitPrice": 2.52,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 252.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL RICE APPLE    SGL    6",
+            "ItemPosition": 4,
             "ProductCode": 214067,
-            "TotalAmount": 50.4,
+            "Description": "MUL RICE APPLE    SGL    6",
             "Quantity": 20.0,
             "UnitPrice": 2.52,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 50.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL RICE VANILLA/CUST    SGL    6",
+            "ItemPosition": 5,
             "ProductCode": 214080,
-            "TotalAmount": 50.4,
+            "Description": "MUL RICE VANILLA/CUST    SGL    6",
             "Quantity": 20.0,
             "UnitPrice": 2.52,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 50.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER BAN/CHOC    SGL   12",
+            "ItemPosition": 6,
             "ProductCode": 195669,
-            "TotalAmount": 161.28,
+            "Description": "MUL CORNER BAN/CHOC    SGL   12",
             "Quantity": 32.0,
             "UnitPrice": 5.04,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 161.28
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER CHERRY    SGL   12",
+            "ItemPosition": 7,
             "ProductCode": 195698,
-            "TotalAmount": 50.4,
+            "Description": "MUL CORNER CHERRY    SGL   12",
             "Quantity": 10.0,
             "UnitPrice": 5.04,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 50.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER CHOC BISC    SGL   12",
+            "ItemPosition": 8,
             "ProductCode": 195719,
-            "TotalAmount": 40.32,
+            "Description": "MUL CORNER CHOC BISC    SGL   12",
             "Quantity": 8.0,
             "UnitPrice": 5.04,
-            "ItemPosition": 8
+            "ItemVatRate": 0.0,
+            "TotalAmount": 40.32
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MUL CORNER STRAWBERRY    SGL   12",
+            "ItemPosition": 9,
             "ProductCode": 195731,
-            "TotalAmount": 241.92,
+            "Description": "MUL CORNER STRAWBERRY    SGL   12",
             "Quantity": 48.0,
             "UnitPrice": 5.04,
-            "ItemPosition": 9
+            "ItemVatRate": 0.0,
+            "TotalAmount": 241.92
         }
     ]
 }

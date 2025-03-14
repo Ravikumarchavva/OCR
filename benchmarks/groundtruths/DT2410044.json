@@ -2,58 +2,58 @@
     "headers": {
         "filename": "DT2410044.pdf",
         "invNo": "SIN-10304",
+        "invDate": "2024-05-27",
+        "orderNo": 18375,
         "amountNet": "5230.79",
         "amountVat": 0.0,
-        "invDate": "2024-05-27",
         "amountTotal": 5230.79,
-        "suppName": "GM MARKETING - IRELAND LTD",
-        "orderNo": 18375
+        "suppName": "GM MARKETING - IRELAND LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "NANDO MED PERI PERI SAUCE   125G    6",
+            "ItemPosition": 1,
             "ProductCode": 286308,
-            "TotalAmount": 719.61,
+            "Description": "NANDO MED PERI PERI SAUCE   125G    6",
             "Quantity": 83.0,
             "UnitPrice": 8.67,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 719.61
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "NANDO MED PERI MARINADE   262G    6",
+            "ItemPosition": 2,
             "ProductCode": 579070,
-            "TotalAmount": 534.56,
+            "Description": "NANDO MED PERI MARINADE   262G    6",
             "Quantity": 52.0,
             "UnitPrice": 10.28,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 534.56
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "NANDO SQUEEZY PERINAISE   265G    6",
+            "ItemPosition": 3,
             "ProductCode": 600000,
-            "TotalAmount": 2532.36,
+            "Description": "NANDO SQUEEZY PERINAISE   265G    6",
             "Quantity": 282.0,
             "UnitPrice": 8.98,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 2532.36
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "P/EXPRESS LIGHT DRESSING  235ML    6",
+            "ItemPosition": 4,
             "ProductCode": 486362,
-            "TotalAmount": 500.5,
+            "Description": "P/EXPRESS LIGHT DRESSING  235ML    6",
             "Quantity": 50.0,
             "UnitPrice": 10.01,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 500.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "NANDO SWEET CHILLI JAM   285G    6",
+            "ItemPosition": 5,
             "ProductCode": 246772,
-            "TotalAmount": 943.76,
+            "Description": "NANDO SWEET CHILLI JAM   285G    6",
             "Quantity": 94.0,
             "UnitPrice": 10.04,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 943.76
         }
     ]
 }

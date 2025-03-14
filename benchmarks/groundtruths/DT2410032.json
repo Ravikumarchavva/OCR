@@ -2,67 +2,67 @@
     "headers": {
         "filename": "DT2410032.pdf",
         "invNo": "D+AS35637",
+        "invDate": "2024-05-20",
+        "orderNo": 19298,
         "amountNet": "929.8",
         "amountVat": 0.0,
-        "invDate": "2024-05-20",
         "amountTotal": 929.8,
-        "suppName": "SPAR UK - D & A SEAFOOD",
-        "orderNo": 19298
+        "suppName": "SPAR UK - D & A SEAFOOD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "MAWGAN KING PRAWNS  150G    4",
+            "ItemPosition": 1,
             "ProductCode": 243091,
-            "TotalAmount": 236.0,
+            "Description": "MAWGAN KING PRAWNS  150G    4",
             "Quantity": 20.0,
             "UnitPrice": 11.8,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 236.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "RAMUS SALMON FISHCAKES  270G    4",
+            "ItemPosition": 2,
             "ProductCode": 243116,
-            "TotalAmount": 20.8,
+            "Description": "RAMUS SALMON FISHCAKES  270G    4",
             "Quantity": 4.0,
             "UnitPrice": 5.2,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 20.8
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "RAMUS HADDOCK FISHCAKES  270G    4",
+            "ItemPosition": 3,
             "ProductCode": 243119,
-            "TotalAmount": 10.4,
+            "Description": "RAMUS HADDOCK FISHCAKES  270G    4",
             "Quantity": 2.0,
             "UnitPrice": 5.2,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 10.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MAWGAN SALMON FILLETS  200G    4",
+            "ItemPosition": 4,
             "ProductCode": 243140,
-            "TotalAmount": 620.0,
+            "Description": "MAWGAN SALMON FILLETS  200G    4",
             "Quantity": 50.0,
             "UnitPrice": 12.4,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 620.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MAWGAN BREADED HADDOCK  285G    4",
+            "ItemPosition": 5,
             "ProductCode": 243156,
-            "TotalAmount": 9.6,
+            "Description": "MAWGAN BREADED HADDOCK  285G    4",
             "Quantity": 1.0,
             "UnitPrice": 9.6,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 9.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "MAWGAN BAY COD FILLET  220G    4",
+            "ItemPosition": 6,
             "ProductCode": 308639,
-            "TotalAmount": 33.0,
+            "Description": "MAWGAN BAY COD FILLET  220G    4",
             "Quantity": 3.0,
             "UnitPrice": 11.0,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 33.0
         }
     ]
 }

@@ -2,22 +2,22 @@
     "headers": {
         "filename": "DT2410060.pdf",
         "invNo": "354222",
+        "invDate": "2024-05-21",
+        "orderNo": 17717,
         "amountNet": "924",
         "amountVat": 0.0,
-        "invDate": "2024-05-21",
         "amountTotal": 924.0,
-        "suppName": "CLAYTON PARK-JAM005 BREAD/BACO",
-        "orderNo": 17717
+        "suppName": "CLAYTON PARK-JAM005 BREAD/BACO"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPRING ONIONS FROZEN    10KG    1",
+            "ItemPosition": 6,
             "ProductCode": 642402,
-            "TotalAmount": 924.0,
+            "Description": "SPRING ONIONS FROZEN    10KG    1",
             "Quantity": 56.0,
             "UnitPrice": 16.5,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 924.0
         }
     ]
 }

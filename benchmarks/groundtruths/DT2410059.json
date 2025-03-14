@@ -2,49 +2,49 @@
     "headers": {
         "filename": "DT2410059.pdf",
         "invNo": "374245",
+        "invDate": "2024-05-23",
+        "orderNo": 20346,
         "amountNet": "4475.15",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 4475.15,
-        "suppName": "FAZILA WRAPS",
-        "orderNo": 20346
+        "suppName": "FAZILA WRAPS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR ONION BHAJI WRP 359P  EACH    1",
+            "ItemPosition": 1,
             "ProductCode": 246419,
-            "TotalAmount": 429.2,
+            "Description": "SPAR ONION BHAJI WRP 359P  EACH    1",
             "Quantity": 232.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 429.2
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CAJUN CHICK WRP 359P  EACH    1",
+            "ItemPosition": 2,
             "ProductCode": 246426,
-            "TotalAmount": 860.25,
+            "Description": "SPAR CAJUN CHICK WRP 359P  EACH    1",
             "Quantity": 465.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 860.25
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CHICK TIKKA WRAP359P  EACH    1",
+            "ItemPosition": 3,
             "ProductCode": 649087,
-            "TotalAmount": 1489.25,
+            "Description": "SPAR CHICK TIKKA WRAP359P  EACH    1",
             "Quantity": 805.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1489.25
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR SWT CHILLI CHICK359P  EACH    1",
+            "ItemPosition": 4,
             "ProductCode": 649058,
-            "TotalAmount": 1696.45,
+            "Description": "SPAR SWT CHILLI CHICK359P  EACH    1",
             "Quantity": 917.0,
             "UnitPrice": 1.85,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1696.45
         }
     ]
 }

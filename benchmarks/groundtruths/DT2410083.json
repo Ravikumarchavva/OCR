@@ -2,31 +2,31 @@
     "headers": {
         "filename": "DT2410083.pdf",
         "invNo": "375104",
+        "invDate": "2024-05-21",
+        "orderNo": 19458,
         "amountNet": "388",
         "amountVat": 0.0,
-        "invDate": "2024-05-21",
         "amountTotal": 388.0,
-        "suppName": "CLAYTON PARK-JAM005 BREAD/BACO",
-        "orderNo": 19458
+        "suppName": "CLAYTON PARK-JAM005 BREAD/BACO"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "PREMIUM WHITE FINGER ROLL    SGL    1",
+            "ItemPosition": 2,
             "ProductCode": 248177,
-            "TotalAmount": 256.0,
+            "Description": "PREMIUM WHITE FINGER ROLL    SGL    1",
             "Quantity": 800.0,
             "UnitPrice": 0.32,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 256.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "PREMIUM WHITE ROLL    SGL    1",
+            "ItemPosition": 3,
             "ProductCode": 421830,
-            "TotalAmount": 132.0,
+            "Description": "PREMIUM WHITE ROLL    SGL    1",
             "Quantity": 600.0,
             "UnitPrice": 0.22,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 132.0
         }
     ]
 }

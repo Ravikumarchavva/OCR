@@ -2,22 +2,22 @@
     "headers": {
         "filename": "DT2410053.pdf",
         "invNo": "374241",
+        "invDate": "2024-05-23",
+        "orderNo": 20169,
         "amountNet": "13.58",
         "amountVat": 0.0,
-        "invDate": "2024-05-23",
         "amountTotal": 13.58,
-        "suppName": "FAZILA FOODS",
-        "orderNo": 20169
+        "suppName": "FAZILA FOODS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "STIR FRY VEGETABLES MIX    1KG    1",
+            "ItemPosition": 9,
             "ProductCode": 248016,
-            "TotalAmount": 13.58,
+            "Description": "STIR FRY VEGETABLES MIX    1KG    1",
             "Quantity": 14.0,
             "UnitPrice": 0.97,
-            "ItemPosition": 9
+            "ItemVatRate": 0.0,
+            "TotalAmount": 13.58
         }
     ]
 }

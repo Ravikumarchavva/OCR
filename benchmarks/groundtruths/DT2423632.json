@@ -2,175 +2,175 @@
     "headers": {
         "filename": "DT2423632.pdf",
         "invNo": "5997",
+        "invDate": "2024-09-05",
+        "orderNo": 47645,
         "amountNet": "11514.48",
         "amountVat": 0.0,
-        "invDate": "2024-09-05",
         "amountTotal": 11514.48,
-        "suppName": "ZAFRON FOODS LTD",
-        "orderNo": 47645
+        "suppName": "ZAFRON FOODS LTD"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "PRAWN MAYONNAISE S/FILLER   1KG    1",
+            "ItemPosition": 1,
             "ProductCode": 238028,
-            "TotalAmount": 1396.5,
+            "Description": "PRAWN MAYONNAISE S/FILLER   1KG    1",
             "Quantity": 114.0,
             "UnitPrice": 12.25,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1396.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S SPCY BF MEATBLL S/FIL   1KG    1",
+            "ItemPosition": 10,
             "ProductCode": 238011,
-            "TotalAmount": 485.28,
+            "Description": "H/S SPCY BF MEATBLL S/FIL   1KG    1",
             "Quantity": 72.0,
             "UnitPrice": 6.74,
-            "ItemPosition": 10
+            "ItemVatRate": 0.0,
+            "TotalAmount": 485.28
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "TUNA MAYONNAISE S/FILLER   1KG    1",
+            "ItemPosition": 11,
             "ProductCode": 238009,
-            "TotalAmount": 2011.5,
+            "Description": "TUNA MAYONNAISE S/FILLER   1KG    1",
             "Quantity": 270.0,
             "UnitPrice": 7.45,
-            "ItemPosition": 11
+            "ItemVatRate": 0.0,
+            "TotalAmount": 2011.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S TERIYAKI CHCKN S/FILL   1KG    1",
+            "ItemPosition": 12,
             "ProductCode": 238018,
-            "TotalAmount": 264.6,
+            "Description": "H/S TERIYAKI CHCKN S/FILL   1KG    1",
             "Quantity": 36.0,
             "UnitPrice": 7.35,
-            "ItemPosition": 12
+            "ItemVatRate": 0.0,
+            "TotalAmount": 264.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S MEXICAN CHICKEN S/FIL   1KG    1",
+            "ItemPosition": 13,
             "ProductCode": 238056,
-            "TotalAmount": 600.6,
+            "Description": "H/S MEXICAN CHICKEN S/FIL   1KG    1",
             "Quantity": 84.0,
             "UnitPrice": 7.15,
-            "ItemPosition": 13
+            "ItemVatRate": 0.0,
+            "TotalAmount": 600.6
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S CAESAR CHICK S/FILLER   1KG    1",
+            "ItemPosition": 14,
             "ProductCode": 261251,
-            "TotalAmount": 87.24,
+            "Description": "H/S CAESAR CHICK S/FILLER   1KG    1",
             "Quantity": 12.0,
             "UnitPrice": 7.27,
-            "ItemPosition": 14
+            "ItemVatRate": 0.0,
+            "TotalAmount": 87.24
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S LEM PEP CHICK S/FILLE   1KG    1",
+            "ItemPosition": 15,
             "ProductCode": 261252,
-            "TotalAmount": 41.4,
+            "Description": "H/S LEM PEP CHICK S/FILLE   1KG    1",
             "Quantity": 6.0,
             "UnitPrice": 6.9,
-            "ItemPosition": 15
+            "ItemVatRate": 0.0,
+            "TotalAmount": 41.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "COUSCOUS SALAD 1.5KG    1",
+            "ItemPosition": 16,
             "ProductCode": 482144,
-            "TotalAmount": 87.0,
+            "Description": "COUSCOUS SALAD 1.5KG    1",
             "Quantity": 18.0,
             "UnitPrice": 4.83,
-            "ItemPosition": 16
+            "ItemVatRate": 0.0,
+            "TotalAmount": 87.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "BEETROOT SALAD   2KG    1",
+            "ItemPosition": 17,
             "ProductCode": 482181,
-            "TotalAmount": 114.0,
+            "Description": "BEETROOT SALAD   2KG    1",
             "Quantity": 18.0,
             "UnitPrice": 6.33,
-            "ItemPosition": 17
+            "ItemVatRate": 0.0,
+            "TotalAmount": 114.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "ORZO PASTA SALAD 1.5KG    1",
+            "ItemPosition": 18,
             "ProductCode": 482183,
-            "TotalAmount": 102.0,
+            "Description": "ORZO PASTA SALAD 1.5KG    1",
             "Quantity": 18.0,
             "UnitPrice": 5.66,
-            "ItemPosition": 18
+            "ItemVatRate": 0.0,
+            "TotalAmount": 102.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S SWT CHILI CHCK S/FIL   1KG    1",
+            "ItemPosition": 2,
             "ProductCode": 238023,
-            "TotalAmount": 567.06,
+            "Description": "H/S SWT CHILI CHCK S/FIL   1KG    1",
             "Quantity": 78.0,
             "UnitPrice": 7.27,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 567.06
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S CHIPOLTE CHCKEN S/FIL   1KG    1",
+            "ItemPosition": 3,
             "ProductCode": 238031,
-            "TotalAmount": 630.0,
+            "Description": "H/S CHIPOLTE CHCKEN S/FIL   1KG    1",
             "Quantity": 90.0,
             "UnitPrice": 7.0,
-            "ItemPosition": 3
+            "ItemVatRate": 0.0,
+            "TotalAmount": 630.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S CHEESE & ONION S/FILL   1KG    1",
+            "ItemPosition": 4,
             "ProductCode": 238095,
-            "TotalAmount": 769.5,
+            "Description": "H/S CHEESE & ONION S/FILL   1KG    1",
             "Quantity": 114.0,
             "UnitPrice": 6.75,
-            "ItemPosition": 4
+            "ItemVatRate": 0.0,
+            "TotalAmount": 769.5
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CHICK/BACON MAYO S/FILLER   1KG    1",
+            "ItemPosition": 5,
             "ProductCode": 238015,
-            "TotalAmount": 884.4,
+            "Description": "CHICK/BACON MAYO S/FILLER   1KG    1",
             "Quantity": 132.0,
             "UnitPrice": 6.7,
-            "ItemPosition": 5
+            "ItemVatRate": 0.0,
+            "TotalAmount": 884.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CHICKEN MAYO S/FILLER   1KG    1",
+            "ItemPosition": 6,
             "ProductCode": 238016,
-            "TotalAmount": 681.36,
+            "Description": "CHICKEN MAYO S/FILLER   1KG    1",
             "Quantity": 102.0,
             "UnitPrice": 6.68,
-            "ItemPosition": 6
+            "ItemVatRate": 0.0,
+            "TotalAmount": 681.36
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "CHICK TIKKA MAYO S/FILLER   1KG    1",
+            "ItemPosition": 7,
             "ProductCode": 238014,
-            "TotalAmount": 1248.0,
+            "Description": "CHICK TIKKA MAYO S/FILLER   1KG    1",
             "Quantity": 192.0,
             "UnitPrice": 6.5,
-            "ItemPosition": 7
+            "ItemVatRate": 0.0,
+            "TotalAmount": 1248.0
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "EGG MAYO F/RANGE S/FILLER   1KG    1",
+            "ItemPosition": 8,
             "ProductCode": 238013,
-            "TotalAmount": 770.04,
+            "Description": "EGG MAYO F/RANGE S/FILLER   1KG    1",
             "Quantity": 138.0,
             "UnitPrice": 5.58,
-            "ItemPosition": 8
+            "ItemVatRate": 0.0,
+            "TotalAmount": 770.04
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "H/S PULL PORK/BBQ S/FILL   1KG    1",
+            "ItemPosition": 9,
             "ProductCode": 238012,
-            "TotalAmount": 774.0,
+            "Description": "H/S PULL PORK/BBQ S/FILL   1KG    1",
             "Quantity": 90.0,
             "UnitPrice": 8.6,
-            "ItemPosition": 9
+            "ItemVatRate": 0.0,
+            "TotalAmount": 774.0
         }
     ]
 }

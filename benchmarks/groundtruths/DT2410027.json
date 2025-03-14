@@ -2,31 +2,31 @@
     "headers": {
         "filename": "DT2410027.pdf",
         "invNo": "ARLA9009703217",
+        "invDate": "2024-05-17",
+        "orderNo": 18217,
         "amountNet": "1104.2",
         "amountVat": 0.0,
-        "invDate": "2024-05-17",
         "amountTotal": 1104.2,
-        "suppName": "SPAR UK - ARLA FOODS",
-        "orderNo": 18217
+        "suppName": "SPAR UK - ARLA FOODS"
     },
     "line_items": [
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CREAM DOUBLE 300ML    6",
+            "ItemPosition": 1,
             "ProductCode": 230305,
-            "TotalAmount": 841.4,
+            "Description": "SPAR CREAM DOUBLE 300ML    6",
             "Quantity": 140.0,
             "UnitPrice": 6.01,
-            "ItemPosition": 1
+            "ItemVatRate": 0.0,
+            "TotalAmount": 841.4
         },
         {
-            "ItemVatRate": 0.0,
-            "Description": "SPAR CREAM SINGLE 300ML    6",
+            "ItemPosition": 2,
             "ProductCode": 230306,
-            "TotalAmount": 262.8,
+            "Description": "SPAR CREAM SINGLE 300ML    6",
             "Quantity": 60.0,
             "UnitPrice": 4.38,
-            "ItemPosition": 2
+            "ItemVatRate": 0.0,
+            "TotalAmount": 262.8
         }
     ]
 }
